@@ -1,0 +1,12 @@
+.encounterLocation {
+    width: 80%;
+    font-size: 40px;
+}
+
+.encounterLocationPanel {
+    width: 100%;
+    background-color: #d3d3d36b;
+    border-radius: 16px;
+    display:grid;
+    font-size: 40px;
+}

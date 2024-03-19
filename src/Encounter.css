@@ -1,0 +1,29 @@
+.encounter {
+    background-color:#F5F3F4;
+    color: #1f2421;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.encounter button:hover {
+  background-color: #1f2421;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    background-color: initial;
+    border: none;
+}
+
+.encounter button {
+    background-color: initial;
+    border: none;
+}
+
+.selected {
+    background-color:#BA181B !important;
+}
