@@ -1,12 +1,16 @@
 .encounterLocation {
-    width: 80%;
-    font-size: 40px;
+    padding-top:2vh
 }
 
 .encounterLocationPanel {
-    width: 100%;
+    width: 50vw;
     background-color: #d3d3d36b;
     border-radius: 16px;
     display:grid;
-    font-size: 40px;
+    font-size: calc(10px + 2vh);
+}
+
+.locationName {
+    min-height: 10vh;
+    align-self: center;
 }

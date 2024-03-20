@@ -1,3 +1,4 @@
+import './CaughtEncounter.css'
 import { useEffect, useState } from 'react'
 
 function CaughtEncounter(props) {
@@ -27,7 +28,7 @@ function CaughtEncounter(props) {
     }
 
     return (
-        <div>
+        <div className="caughtEncounter">
             {props.location}
             <br />
             <img alt={props.name} src={'/sprites/' + apiData.id + '.png'}></img>

@@ -5,8 +5,8 @@ import EncounterLocation from './EncounterLocation';
 
 
 function EncounterTable(props) {
-    const encounterData = EncounterData;
-    const locations = encounterData.locations;
+    const encounterData = JSON.parse(JSON.stringify(EncounterData));
+    const locations = encounterData.locations.slice();
 
     return (
         <div key={"Table"} className="encounterTable">

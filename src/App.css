@@ -14,6 +14,11 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-bottom:2vh;
+}
+
+.App-content {
+  margin-right:5vw
 }
 
 .title {

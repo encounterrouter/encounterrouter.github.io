@@ -3,24 +3,25 @@ import './EncounterMethod.css'
 
 function EncounterMethod(props) {
     const method = props.method;
-    var encounters = method.encounters;
+    const encounters = method.encounters;
     const isWeighted = encounters.some(e => e.hasOwnProperty("weight"));
 
     if (isWeighted) {
-        encounters = encounters.filter(e => !props.caught.some(c => c.name === e.name));
+        var filteredEncounters = encounters.filter(e => !props.caught.some(c => c.name === e.name));
         var sum = 0;
-        encounters.map(e => sum += e.weight);
-        encounters.forEach(element => {
+        filteredEncounters.map(e => sum += e.weight);
+        filteredEncounters.forEach(element => {
             element.weight = (element.weight / sum) * 100;
         });
     }
 
     return (
         <div key={method.method} className="encounterMethod">
-            {method.method}
-            <br />
+            <div className="methodText">
+                {method.method}
+            </div>
             {encounters.map(encounter =>
-                <Encounter caught={props.caught} setCaught={props.setCaught} key={encounter.name} encounter={encounter} location={props.location} />
+                <Encounter caught={props.caught} setCaught={props.setCaught} key={encounter.name} encounter={encounter} method={method.method} location={props.location} />
             )}
         </div>
     )

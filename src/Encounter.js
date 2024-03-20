@@ -1,60 +1,46 @@
 import { useState, useContext, useEffect } from 'react';
 import { UserContext } from './App'
+import EncounterPopup from './EncounterPopup'
 import './Encounter.css'
-import './popup.css'
 
 function Encounter(props) {
-        const [apiData, setApiData] = useState([]);
-        const { dupeFilter, setDupeFilter } = useContext(UserContext);
-        const [popupVisible, setVisible] = useState(false);
-        const isWeighted = props.encounter.hasOwnProperty("weight");
-        const width = (isWeighted ? props.encounter.weight.toFixed(1) : "33") + "%";
-        const selected = props.encounter.name === dupeFilter;
-        const name = props.encounter.name;
+    const [apiData, setApiData] = useState([]);
+    const { dupeFilter } = useContext(UserContext);
+    const { visiblePopup, setVisiblePopup } = useContext(UserContext);
+    const isWeighted = props.encounter.hasOwnProperty("weight");
+    const name = props.encounter.name;
+    const selected = name === dupeFilter;
+    const isCaught = props.caught.some(c => c.name === name)
+    const width = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
+    const encounterId = name + props.method + props.location.location;
 
-        useEffect(() => {
-            fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
-                .then((response) => response.json())
-                .then((data) => {
-                    setApiData(data);
-                })
-                .catch((err) => {
-                    console.log(err.message);
-                });
-        }, [name]);
+    useEffect(() => {
+        fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
+            .then((response) => response.json())
+            .then((data) => {
+                setApiData(data);
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
+    }, [name]);
 
-        return (
-            <div className={selected ? "encounter selected" : "encounter"} /*style={{ width: width }}*/>
-                <div className="popup" onClick={() => setVisible(!popupVisible)}>
-                    <div className={popupVisible ? "popuptext show" : "popuptext"} id="myPopup">
-                        <div>{name}</div>
-                        <button onClick={() => {
-                            props.setCaught(props.caught.concat(
-                                {
-                                    name: name,
-                                    location: props.location
-                                }));
-                        }
-                        }>Catch</button>
-                        <button style={{ display: selected ? "none" : "inline" }} onClick={() =>
-                            setDupeFilter(name)
-                        }>
-                            Show Dupes
-                        </button>
-                        <button style={{ display: selected ? "inline" : "none" }} onClick={() =>
-                            setDupeFilter(null)
-                        }>
-                            Hide Dupes
-                        </button>
-                    </div>
+    return (
+        <div className={selected ? "encounter selected" : "encounter"} style={{border: isCaught ? "2px solid red" : "none" }}>
+            <EncounterPopup id={encounterId + "Popup"} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} />
+            <button className="encounterButton" onClick={() => {
+                if (visiblePopup !== encounterId + "Popup")
+                    setVisiblePopup(encounterId + "Popup");
+                else
+                    setVisiblePopup(null);
+            }}>
+                <img alt={name} src={'/sprites/' + apiData.id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
+                <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
+                    {isCaught ? "Dupe" : width}
                 </div>
-                <button onClick={() => setVisible(!popupVisible)}>
-                    <img alt={name} src={'/sprites/' + apiData.id + '.png'}></img>
-                    <br />
-                    <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>{width}</div>
-                </button>
-            </div>
-        )
-    }
+            </button>
+        </div>
+    )
+}
 
 export default Encounter;

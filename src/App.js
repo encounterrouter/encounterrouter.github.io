@@ -10,6 +10,7 @@ function App() {
   const [caught, setCaught] = usePersistedState('caught', []);
   const [output, setOutput] = useState(null);
   const [dupeFilter, setDupeFilter] = useState(null);
+  const [visiblePopup, setVisiblePopup] = useState(null);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -46,16 +47,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="title">Sterling Silver Encounter Router</div>
-        <form onSubmit={handleSubmit}>
+        {/* <form onSubmit={handleSubmit}>
           <input name="location"></input>
           <textarea name="data"></textarea>
           <button>Submit</button>
         </form>
-        <p>{output}</p>
+        <p>{output}</p> */}
+        <button onClick={() => setCaught([])}>Clear Encounters</button>
       </header>
-      <UserContext.Provider value={{setCaught: setCaught, dupeFilter: dupeFilter, setDupeFilter: setDupeFilter }}>
-        <EncounterTable caught={caught} setCaught={setCaught} />
-      </UserContext.Provider>
+      <div className="App-content">
+        <UserContext.Provider value={{ dupeFilter: dupeFilter, setDupeFilter: setDupeFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
+          <EncounterTable caught={caught} setCaught={setCaught} />
+        </UserContext.Provider>
+      </div>
     </div>
   );
 }

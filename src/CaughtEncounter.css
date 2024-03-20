@@ -1,0 +1,9 @@
+.caughtEncounter {
+    background-color: #d3d3d36b;
+    color: #1f2421;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-size: calc(10px + 2vh);
+    padding: 5px;
+    width: 50vw;
+}

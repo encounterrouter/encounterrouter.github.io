@@ -34,7 +34,6 @@ function EncounterLocation(props) {
                 {methods.map(method =>
                     <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.method} method={method} location={location} />
                 )}
-                <br />
             </div>
             <div style={{ minHeight: "20px" }}></div>
         </div>
