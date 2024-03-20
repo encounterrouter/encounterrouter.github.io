@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { UserContext } from './App'
 
 function EncounterPopup(props) {
-    const { setDupeFilter } = useContext(UserContext);
+    const { setEncounterFilter } = useContext(UserContext);
     const { visiblePopup, setVisiblePopup } = useContext(UserContext);
     const selected = props.selected;
     const encounterName = props.encounterName;
@@ -22,12 +22,12 @@ function EncounterPopup(props) {
                 }
                 }>Catch</button>
                 <button style={{ display: selected ? "none" : "inline" }} onClick={() =>
-                    setDupeFilter(encounterName)
+                    setEncounterFilter(encounterName)
                 }>
                     Filter Dupes
                 </button>
                 <button style={{ display: selected ? "inline" : "none" }} onClick={() =>
-                    setDupeFilter(null)
+                    setEncounterFilter(null)
                 }>
                     Unfilter Dupes
                 </button>

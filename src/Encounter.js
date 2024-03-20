@@ -5,11 +5,11 @@ import './Encounter.css'
 
 function Encounter(props) {
     const [apiData, setApiData] = useState([]);
-    const { dupeFilter } = useContext(UserContext);
+    const { encounterFilter } = useContext(UserContext);
     const { visiblePopup, setVisiblePopup } = useContext(UserContext);
     const isWeighted = props.encounter.hasOwnProperty("weight");
     const name = props.encounter.name;
-    const selected = name === dupeFilter;
+    const selected = name === encounterFilter;
     const isCaught = props.caught.some(c => c.name === name)
     const width = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
     const encounterId = name + props.method + props.location.location;

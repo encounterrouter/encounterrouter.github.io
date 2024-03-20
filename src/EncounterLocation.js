@@ -7,19 +7,19 @@ import { UserContext } from './App';
 function EncounterLocation(props) {
     const location = props.location;
     const methods = location.methods;
-    const { dupeFilter } = useContext(UserContext);
+    const { encounterFilter } = useContext(UserContext);
     const caughtHere = props.caught.some(e => e.location.location === location.location);
 
-    if (dupeFilter != null) {
+    if (encounterFilter != null) {
         var hasDupe = false;
         location.methods.forEach(method => {
-            if (method.encounters.some(e => e.name === dupeFilter)) {
+            if (method.encounters.some(e => e.name === encounterFilter)) {
                 hasDupe = true;
                 return;
             }
         });
     }
-    const show = dupeFilter == null || hasDupe
+    const show = encounterFilter == null || hasDupe
     if (caughtHere) {
         return (
             <div style={{ display: show ? "grid" : "none" }} className="encounterLocation">

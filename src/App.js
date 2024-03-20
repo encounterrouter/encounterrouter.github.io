@@ -10,7 +10,7 @@ export const UserContext = React.createContext([]);
 function App() {
   const [caught, setCaught] = usePersistedState('caught', []);
   const [output, setOutput] = useState(null);
-  const [dupeFilter, setDupeFilter] = useState(null);
+  const [encounterFilter, setEncounterFilter] = useState(null);
   const [visiblePopup, setVisiblePopup] = useState(null);
 
   function handleSubmit(e) {
@@ -56,8 +56,8 @@ function App() {
         <p>{output}</p>
       </header> */}
       <div className="App-content">
-        <UserContext.Provider value={{ dupeFilter: dupeFilter, setDupeFilter: setDupeFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
-          <Toolbar caught={caught} setCaught={setCaught} />
+        <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
+          <Toolbar caught={caught} setCaught={setCaught}/>
           <EncounterTable caught={caught} setCaught={setCaught} />
         </UserContext.Provider>
       </div>
