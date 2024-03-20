@@ -1,7 +1,7 @@
-import Info from "./data/Info";
+import Pokedex from "./data/Pokedex";
 
 function SameSpecies(left, right) {
-    return Info[left].evolutions.includes(right.toLowerCase())
+    return Pokedex[left].evolutions.includes(right.toLowerCase())
 }
 
 export default SameSpecies;

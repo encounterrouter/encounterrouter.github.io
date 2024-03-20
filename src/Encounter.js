@@ -3,7 +3,7 @@ import { UserContext } from './App'
 import EncounterPopup from './EncounterPopup'
 import './Encounter.css'
 import SameSpecies from './Utility';
-import Info from './data/Info';
+import Pokedex from './data/Pokedex';
 
 function useForceUpdate(){
     const [value, setValue] = useState(0); // integer state
@@ -47,7 +47,7 @@ function Encounter(props) {
                 else
                     setVisiblePopup(null);
             }}>
-                <img alt={name} src={'/sprites/' + Info[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
+                <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
                 <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
                     {isCaught ? "Dupe" : width}
                 </div>

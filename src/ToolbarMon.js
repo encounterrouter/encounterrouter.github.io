@@ -1,5 +1,5 @@
 // import { useEffect, useState } from 'react'
-import Info from './data/Info';
+import Pokedex from './data/Pokedex';
 
 // function useForceUpdate(){
 //     const [value, setValue] = useState(0); // integer state
@@ -28,7 +28,7 @@ function ToolbarMon(props) {
     // }, [name]);
 
     return (
-        <img alt={name} src={'/sprites/' + Info[name].id + '.png'}></img>
+        <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'}></img>
     )
 }
 

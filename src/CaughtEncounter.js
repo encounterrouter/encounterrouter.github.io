@@ -1,6 +1,6 @@
 import './CaughtEncounter.css'
 // import { useEffect, useState } from 'react'
-import Info from './data/Info';
+import Pokedex from './data/Pokedex';
 
 // function useForceUpdate(){
 //     const [value, setValue] = useState(0); // integer state
@@ -43,7 +43,7 @@ function CaughtEncounter(props) {
         <div className="caughtEncounter">
             {props.location}
             <br />
-            <img alt={props.name} src={'/sprites/' + Info[name].id + '.png'}></img>
+            <img alt={props.name} src={'/sprites/' + Pokedex[name].id + '.png'}></img>
             <br />
             <button onClick={Uncatch} >Undo</button>
         </div>
