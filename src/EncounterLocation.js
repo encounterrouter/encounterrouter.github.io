@@ -3,6 +3,7 @@ import { useContext} from 'react';
 import EncounterMethod from './EncounterMethod';
 import CaughtEncounter from './CaughtEncounter';
 import { UserContext } from './App';
+import SameSpecies from './Utility';
 
 function EncounterLocation(props) {
     const location = props.location;
@@ -13,7 +14,7 @@ function EncounterLocation(props) {
     if (encounterFilter != null) {
         var hasDupe = false;
         location.methods.forEach(method => {
-            if (method.encounters.some(e => e.name === encounterFilter)) {
+            if (method.encounters.some(e => SameSpecies(e.name, encounterFilter))) {
                 hasDupe = true;
                 return;
             }

@@ -1,5 +1,6 @@
 import Encounter from './Encounter'
 import './EncounterMethod.css'
+import SameSpecies from './Utility';
 
 function EncounterMethod(props) {
     const method = props.method;
@@ -7,7 +8,7 @@ function EncounterMethod(props) {
     const isWeighted = encounters.some(e => e.hasOwnProperty("weight"));
 
     if (isWeighted) {
-        var filteredEncounters = encounters.filter(e => !props.caught.some(c => c.name === e.name));
+        var filteredEncounters = encounters.filter(e => !props.caught.some(c => SameSpecies(c.name, e.name)));
         var sum = 0;
         filteredEncounters.forEach(fe => sum += parseInt(fe.weight));
         filteredEncounters.forEach(element => {

@@ -24,12 +24,12 @@ function EncounterPopup(props) {
                 <button style={{ display: selected ? "none" : "inline" }} onClick={() =>
                     setEncounterFilter(encounterName)
                 }>
-                    Filter Dupes
+                    Filter
                 </button>
                 <button style={{ display: selected ? "inline" : "none" }} onClick={() =>
                     setEncounterFilter(null)
                 }>
-                    Unfilter Dupes
+                    Unfilter
                 </button>
             </div>
         </div>

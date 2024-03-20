@@ -1,6 +1,6 @@
 import './EncounterTable.css';
 import { Fragment } from 'react';
-import EncounterData from './EncounterData';
+import EncounterData from './data/EncounterData';
 import EncounterLocation from './EncounterLocation';
 
 

@@ -2,7 +2,8 @@ import { useState, useContext, useEffect } from 'react';
 import { UserContext } from './App'
 import EncounterPopup from './EncounterPopup'
 import './Encounter.css'
-import Pokedex from './Pokedex';
+import SameSpecies from './Utility';
+import Info from './data/Info';
 
 function useForceUpdate(){
     const [value, setValue] = useState(0); // integer state
@@ -16,26 +17,26 @@ function Encounter(props) {
     const { visiblePopup, setVisiblePopup } = useContext(UserContext);
     const isWeighted = props.encounter.hasOwnProperty("weight");
     const name = props.encounter.name;
-    const selected = name === encounterFilter;
-    const isCaught = props.caught.some(c => c.name === name)
+    const selected = encounterFilter === null ? false : SameSpecies(name, encounterFilter);
+    const isCaught = props.caught.some(c => SameSpecies(c.name, name))
     const width = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
     const encounterId = name + props.method + props.location.location;
-    const forceUpdate = useForceUpdate();
+    // const forceUpdate = useForceUpdate();
 
-    useEffect(() => {
-        if (name in Pokedex.poks) {
-            if (!("dexNumber" in Pokedex.poks[name]))
-            fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
-                .then((response) => response.json())
-                .then((data) => {
-                    Pokedex.poks[name]["dexNumber"] = data.id;
-                    forceUpdate();
-                })
-                .catch((err) => {
-                    console.log(err.message);
-                });
-        }
-    }, [name]);
+    // useEffect(() => {
+    //     if (name in Pokedex.poks) {
+    //         if (!("dexNumber" in Pokedex.poks[name]))
+    //         fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
+    //             .then((response) => response.json())
+    //             .then((data) => {
+    //                 Pokedex.poks[name]["dexNumber"] = data.id;
+    //                 forceUpdate();
+    //             })
+    //             .catch((err) => {
+    //                 console.log(err.message);
+    //             });
+    //     }
+    // }, [name]);
 
     return (
         <div className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "none" }}>
@@ -46,7 +47,7 @@ function Encounter(props) {
                 else
                     setVisiblePopup(null);
             }}>
-                <img alt={name} src={'/sprites/' + Pokedex.poks[name]?.["dexNumber"] + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
+                <img alt={name} src={'/sprites/' + Info[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
                 <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
                     {isCaught ? "Dupe" : width}
                 </div>

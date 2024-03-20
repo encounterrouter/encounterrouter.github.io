@@ -1,32 +1,32 @@
 import './CaughtEncounter.css'
-import { useEffect, useState } from 'react'
-import Pokedex from './Pokedex';
+// import { useEffect, useState } from 'react'
+import Info from './data/Info';
 
-function useForceUpdate(){
-    const [value, setValue] = useState(0); // integer state
-    return () => setValue(value => value + 1); // update state to force render
-    // A function that increment 👆🏻 the previous state like here 
-    // is better than directly setting `setValue(value + 1)`
-}
+// function useForceUpdate(){
+//     const [value, setValue] = useState(0); // integer state
+//     return () => setValue(value => value + 1); // update state to force render
+//     // A function that increment 👆🏻 the previous state like here 
+//     // is better than directly setting `setValue(value + 1)`
+// }
 
 function CaughtEncounter(props) {
     const name = props.name;
-    const forceUpdate = useForceUpdate();
+    // const forceUpdate = useForceUpdate();
 
-    useEffect(() => {
-        if (name in Pokedex.poks) {
-            if (!("dexNumber" in Pokedex.poks[name]))
-            fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
-                .then((response) => response.json())
-                .then((data) => {
-                    Pokedex.poks[name]["dexNumber"] = data.id;
-                    forceUpdate();
-                })
-                .catch((err) => {
-                    console.log(err.message);
-                });
-        }
-    }, [name]);
+    // useEffect(() => {
+    //     if (name in Pokedex.poks) {
+    //         if (!("dexNumber" in Pokedex.poks[name]))
+    //         fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
+    //             .then((response) => response.json())
+    //             .then((data) => {
+    //                 Pokedex.poks[name]["dexNumber"] = data.id;
+    //                 forceUpdate();
+    //             })
+    //             .catch((err) => {
+    //                 console.log(err.message);
+    //             });
+    //     }
+    // }, [name]);
 
     const Uncatch = () => {
         const index = props.caught.indexOf(props.caught.find(e => e.name === props.name));
@@ -43,7 +43,7 @@ function CaughtEncounter(props) {
         <div className="caughtEncounter">
             {props.location}
             <br />
-            <img alt={props.name} src={'/sprites/' + Pokedex.poks[name]["dexNumber"] + '.png'}></img>
+            <img alt={props.name} src={'/sprites/' + Info[name].id + '.png'}></img>
             <br />
             <button onClick={Uncatch} >Undo</button>
         </div>

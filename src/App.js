@@ -2,7 +2,7 @@ import './App.css';
 import Toolbar from './Toolbar';
 import EncounterTable from './EncounterTable';
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import usePersistedState from 'use-persisted-state-hook'
 
 export const UserContext = React.createContext([]);
@@ -57,7 +57,7 @@ function App() {
       </header> */}
       <div className="App-content">
         <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
-          <Toolbar caught={caught} setCaught={setCaught}/>
+          <Toolbar caught={caught} setCaught={setCaught} />
           <EncounterTable caught={caught} setCaught={setCaught} />
         </UserContext.Provider>
       </div>
