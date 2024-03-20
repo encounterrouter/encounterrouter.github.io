@@ -1,4 +1,5 @@
 import './App.css';
+import Toolbar from './Toolbar';
 import EncounterTable from './EncounterTable';
 import React from 'react';
 import { useState } from 'react';
@@ -45,18 +46,18 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <div className="title">Sterling Silver Encounter Router</div>
-        {/* <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <input name="location"></input>
           <textarea name="data"></textarea>
           <button>Submit</button>
         </form>
-        <p>{output}</p> */}
-        <button onClick={() => setCaught([])}>Clear Encounters</button>
-      </header>
+        <p>{output}</p>
+      </header> */}
       <div className="App-content">
         <UserContext.Provider value={{ dupeFilter: dupeFilter, setDupeFilter: setDupeFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
+          <Toolbar caught={caught} setCaught={setCaught} />
           <EncounterTable caught={caught} setCaught={setCaught} />
         </UserContext.Provider>
       </div>

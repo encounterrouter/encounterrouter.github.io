@@ -1,0 +1,21 @@
+.toolbar {
+    position: fixed;
+    height: 100%;
+    width: 30vw;
+    background-color: black;
+}
+
+.toolbarBox {
+    background-color: gray;
+    border-radius: 25px;
+    min-height: 50px;
+    width: 25vw;
+    position:fixed;
+    bottom:20%;
+    left: 2.5vw;
+}
+
+.clearEncounterButton {
+    position: relative;
+    top:85%
+}
