@@ -16,7 +16,7 @@ function Encounter(props) {
     const selected = encounterFilter === null ? false : SameSpecies(name, encounterFilter);
     const isCaught = props.caught.some(c => SameSpecies(c.name, name))
     const encounterRate = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
-    const encounterId = name + props.method + props.location.location;
+    const encounterId = name + props.method + props.location.name;
 
     useEffect(() => {
        setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);

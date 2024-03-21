@@ -9,7 +9,7 @@ function EncounterLocation(props) {
     const location = props.location;
     const methods = location.methods;
     const { encounterFilter } = useContext(UserContext);
-    const caughtHere = props.caught.some(e => e.location.location === location.location);
+    const caughtHere = props.caught.some(e => e.location.name === location.name);
 
     if (encounterFilter != null) {
         var hasDupe = false;
@@ -24,14 +24,14 @@ function EncounterLocation(props) {
     if (caughtHere) {
         return (
             <div style={{ display: show ? "grid" : "none" }} className="encounterLocation">
-                <CaughtEncounter caught={props.caught} setCaught={props.setCaught} location={location.location} name={props.caught.find(e => e.location.location === location.location).name} />
+                <CaughtEncounter caught={props.caught} setCaught={props.setCaught} locationName={location.name} name={props.caught.find(e => e.location.name === location.name).name} />
             </div>
         )
     }
     return (
         <div style={{ display: show ? "flex" : "none" }} className="encounterLocation" >
             <div className="encounterLocationPanel">
-                <div className="locationName">{location.location}</div>
+                <div className="locationName">{location.name}</div>
                 {methods.map(method =>
                     <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.name} method={method} location={location} />
                 )}

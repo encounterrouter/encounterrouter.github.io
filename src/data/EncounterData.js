@@ -2,7 +2,7 @@
 const EncounterData = {
    "locations": [
       {
-         "location": "PokeWalker",
+         "name": "PokeWalker",
          "methods": [
             {
                "name": "Gift",
@@ -21,7 +21,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "New Bark Town",
+         "name": "New Bark Town",
          "methods": [
             {
                "name": "Old Rod",
@@ -60,7 +60,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Cherrygrove City",
+         "name": "Cherrygrove City",
          "methods": [
             {
                "name": "Old Rod",
@@ -103,7 +103,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 29",
+         "name": "Route 29",
          "methods": [
             {
                "name": "Grass",
@@ -161,7 +161,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 46",
+         "name": "Route 46",
          "methods": [
             {
                "name": "Grass",
@@ -219,7 +219,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 30",
+         "name": "Route 30",
          "methods": [
             {
                "name": "Grass",
@@ -287,7 +287,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 31",
+         "name": "Route 31",
          "methods": [
             {
                "name": "Grass",
@@ -359,7 +359,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Dark Cave",
+         "name": "Dark Cave",
          "methods": [
             {
                "name": "Cave [Room 1]",
@@ -447,7 +447,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Violet City",
+         "name": "Violet City",
          "methods": [
             {
                "name": "Old Rod",
@@ -478,7 +478,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Sprout Tower",
+         "name": "Sprout Tower",
          "methods": [
             {
                "name": "Floor",
@@ -524,7 +524,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Ruins of Alph",
+         "name": "Ruins of Alph",
          "methods": [
             {
                "name": "Cave [all]",
@@ -625,7 +625,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 32",
+         "name": "Route 32",
          "methods": [
             {
                "name": "Grass",
@@ -717,7 +717,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Union Cave",
+         "name": "Union Cave",
          "methods": [
             {
                "name": "Cave [both floors",
@@ -805,7 +805,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 33",
+         "name": "Route 33",
          "methods": [
             {
                "name": "Grass",
@@ -859,7 +859,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Ilex Forest",
+         "name": "Ilex Forest",
          "methods": [
             {
                "name": "Floor",
@@ -955,7 +955,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Slowpoke Well",
+         "name": "Slowpoke Well",
          "methods": [
             {
                "name": "Cave [1F]",
@@ -1039,7 +1039,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 34",
+         "name": "Route 34",
          "methods": [
             {
                "name": "Grass",
@@ -1115,7 +1115,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 35",
+         "name": "Route 35",
          "methods": [
             {
                "name": "Grass",
@@ -1199,7 +1199,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "National Park",
+         "name": "National Park",
          "methods": [
             {
                "name": "Grass",
@@ -1249,7 +1249,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 36",
+         "name": "Route 36",
          "methods": [
             {
                "name": "Grass",
@@ -1291,7 +1291,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Pokeathlon Dome",
+         "name": "Pokeathlon Dome",
          "methods": [
             {
                "name": "Grass",
@@ -1325,7 +1325,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Route 37",
+         "name": "Route 37",
          "methods": [
             {
                "name": "Grass",
@@ -1383,7 +1383,7 @@ const EncounterData = {
          ]
       },
       {
-         "location": "Ecruteak City",
+         "name": "Ecruteak City",
          "methods": [
             {
                "name": "Old Rod",
@@ -1429,7 +1429,7 @@ const EncounterData = {
             }
          ]
       },
-      { "location": "Burned Tower", "methods": [{ "name": "Floor", "encounters": [{ "name": "Solrock", "weight": "20" }, { "name": "Lunatone", "weight": "20" }, { "name": "Sunflora", "weight": "10" }, { "name": "Numel", "weight": "10" }, { "name": "Slugma", "weight": "10" }, { "name": "Houndour", "weight": "10" }, { "name": "Pineco", "weight": "10" }, { "name": "Monferno", "weight": "5" }, { "name": "Grotle", "weight": "5" }] }] },
+      { "name": "Burned Tower", "methods": [{ "name": "Floor", "encounters": [{ "name": "Solrock", "weight": "20" }, { "name": "Lunatone", "weight": "20" }, { "name": "Sunflora", "weight": "10" }, { "name": "Numel", "weight": "10" }, { "name": "Slugma", "weight": "10" }, { "name": "Houndour", "weight": "10" }, { "name": "Pineco", "weight": "10" }, { "name": "Monferno", "weight": "5" }, { "name": "Grotle", "weight": "5" }] }] },
 
    ]
 }

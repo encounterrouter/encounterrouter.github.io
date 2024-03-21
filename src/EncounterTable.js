@@ -11,8 +11,8 @@ function EncounterTable(props) {
     return (
         <div key={"Table"} className="encounterTable">
             {locations.map(location =>
-                <Fragment key={location.location}>
-                    <EncounterLocation caught={props.caught} setCaught={props.setCaught} key={location.location} location={location} openDetailView={props.openDetailView}/>
+                <Fragment key={location.name}>
+                    <EncounterLocation caught={props.caught} setCaught={props.setCaught} key={location.name} location={location} openDetailView={props.openDetailView}/>
                 </Fragment>
             )}
         </div>
