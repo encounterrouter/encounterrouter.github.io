@@ -12,7 +12,7 @@ function DetailView(props) {
             <div className='method'>
                 <div className="methodName">{props.method.name}</div>
                 {props.method.encounters.map(encounter =>
-                    <img onClick={() => setSelectedMon(encounter.name)} alt={encounter?.name} src={'/sprites/' + Pokedex[encounter?.name]?.id + '.png'} />
+                    <img style={{ outline: selectedMon === encounter.name ? "2px solid white" : "" }} onClick={() => setSelectedMon(encounter.name)} alt={encounter?.name} src={'/sprites/' + Pokedex[encounter?.name]?.id + '.png'} />
                 )}
             </div>
         )
@@ -20,6 +20,7 @@ function DetailView(props) {
 
     return (
         <div className="detailView">
+            <div className="background" onClick={() => props.setIsDetailViewOpen(false)} />
             <button className="closeButton" onClick={() => props.setIsDetailViewOpen(false)}><img src={'/sprites/201-x.png'} /></button>
             <div className="topView">
                 <div className="monDisplay">
@@ -50,13 +51,19 @@ function DetailView(props) {
                     <div className="moveLevels">
                         <div>Level</div>
                         {SsMon.learnset_info.learnset.map(move =>
-                            <div>{move[0]}</div>
+                            <div style={{ fontFamily: 'Kubasta' }}>{move[0]}</div>
                         )}
                     </div>
                     <div className="moveNames">
                         <div>Move</div>
                         {SsMon.learnset_info.learnset.map(move =>
-                            <div>{move[1]}</div>
+                            <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
+                        )}
+                    </div>
+                    <div className="tms">
+                        <div>TMs</div>
+                        {SsMon.learnset_info.tms.map(move =>
+                            <div style={{ fontFamily: 'Kubasta' }}>{move}</div>
                         )}
                     </div>
                 </div>
