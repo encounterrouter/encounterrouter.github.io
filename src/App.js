@@ -1,6 +1,7 @@
 import './App.css';
 import Toolbar from './Toolbar';
 import EncounterTable from './EncounterTable';
+import DetailView from './DetailView';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import usePersistedState from 'use-persisted-state-hook'
@@ -12,6 +13,8 @@ function App() {
   const [output, setOutput] = useState(null);
   const [encounterFilter, setEncounterFilter] = useState(null);
   const [visiblePopup, setVisiblePopup] = useState(null);
+  const [isDetailViewOpen, setIsDetailViewOpen] = useState(false);
+  const [detailViewLocation, setDetailViewLocation] = useState(null);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -44,6 +47,12 @@ function App() {
     setOutput(JSON.stringify(final));
   }
 
+  function openDetailView(location){
+    setDetailViewLocation(location);
+    setIsDetailViewOpen(true);
+    setVisiblePopup(null);
+  }
+
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -58,7 +67,8 @@ function App() {
       <div className="App-content">
         <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
           <Toolbar caught={caught} setCaught={setCaught} />
-          <EncounterTable caught={caught} setCaught={setCaught} />
+          <EncounterTable caught={caught} setCaught={setCaught} openDetailView={openDetailView} />
+          {isDetailViewOpen ? <DetailView setIsDetailViewOpen={setIsDetailViewOpen} location={detailViewLocation}/> : ""}
         </UserContext.Provider>
       </div>
     </div>

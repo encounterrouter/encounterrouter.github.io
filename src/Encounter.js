@@ -1,46 +1,31 @@
-import { useState, useContext, useEffect } from 'react';
+import { useState, useContext, useEffect, useRef } from 'react';
 import { UserContext } from './App'
 import EncounterPopup from './EncounterPopup'
 import './Encounter.css'
 import SameSpecies from './Utility';
 import Pokedex from './data/Pokedex';
 
-function useForceUpdate(){
-    const [value, setValue] = useState(0); // integer state
-    return () => setValue(value => value + 1); // update state to force render
-    // A function that increment 👆🏻 the previous state like here 
-    // is better than directly setting `setValue(value + 1)`
-}
-
 function Encounter(props) {
     const { encounterFilter } = useContext(UserContext);
     const { visiblePopup, setVisiblePopup } = useContext(UserContext);
+    const [width, setWidth] = useState(0);
+    const [height, setHeight] = useState(0);
+    const encounterObject = useRef(null);
     const isWeighted = props.encounter.hasOwnProperty("weight");
     const name = props.encounter.name;
     const selected = encounterFilter === null ? false : SameSpecies(name, encounterFilter);
     const isCaught = props.caught.some(c => SameSpecies(c.name, name))
-    const width = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
+    const encounterRate = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
     const encounterId = name + props.method + props.location.location;
-    // const forceUpdate = useForceUpdate();
 
-    // useEffect(() => {
-    //     if (name in Pokedex.poks) {
-    //         if (!("dexNumber" in Pokedex.poks[name]))
-    //         fetch('https://pokeapi.co/api/v2/pokemon/' + name.toLowerCase())
-    //             .then((response) => response.json())
-    //             .then((data) => {
-    //                 Pokedex.poks[name]["dexNumber"] = data.id;
-    //                 forceUpdate();
-    //             })
-    //             .catch((err) => {
-    //                 console.log(err.message);
-    //             });
-    //     }
-    // }, [name]);
+    useEffect(() => {
+       setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);
+       setHeight(encounterObject.current ? encounterObject.current.offsetHeight : 0)
+    }, [encounterObject.current]);
 
     return (
-        <div className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "2px solid black" }}>
-            <EncounterPopup id={encounterId + "Popup"} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} />
+        <div ref={encounterObject} className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "2px solid black" }}>
+            <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} />
             <button className="encounterButton" onClick={() => {
                 if (visiblePopup !== encounterId + "Popup")
                     setVisiblePopup(encounterId + "Popup");
@@ -49,7 +34,7 @@ function Encounter(props) {
             }}>
                 <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
                 <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
-                    {isCaught ? "Dupe" : width}
+                    {isCaught ? "Dupe" : encounterRate}
                 </div>
             </button>
         </div>

@@ -1,0 +1,91 @@
+.detailView {
+    position: fixed;
+    width: 90vw;
+    height:90vh;
+    background-color: hsla(0, 0%, 0%, 0.85);
+    left:5vw;
+    bottom: 5vh;
+    border-radius: 2vh;
+    border: 5px solid gray;
+    color: white;
+}
+
+.detailView .closeButton {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    right: 5px;
+}
+
+.detailView .topView {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.detailView .monDisplay {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    font-size:calc(10px + 1vw);
+    align-items: center;
+}
+
+.detailView .statDisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: calc(10px + 2vw);
+    margin-top: 10vh;
+}
+
+.detailView .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detailView .right {
+    align-items: flex-end;
+    margin-left: 3vw;
+}
+
+.detailView .learnsetDisplay {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    margin-left: 10%;
+    font-size: calc(5px + 1vw)
+}
+
+.detailView .monSelector {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    font-size:calc(5px + 0.75vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    justify-content: flex-end;
+}
+
+.detailView .method {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 25%;
+}
+.detailView .methodName {
+    margin-right: 1vw;
+}
+
+.monDisplay img {
+    height: 50vh;
+    width: 50vh;
+}
+
+.detailView .method img {
+    max-height: 100%;
+}

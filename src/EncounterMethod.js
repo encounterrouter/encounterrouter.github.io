@@ -17,9 +17,9 @@ function EncounterMethod(props) {
     }
 
     return (
-        <div key={method.method} className="encounterMethod">
+        <div key={method.name} className="encounterMethod">
             <div className="methodText">
-                {method.method}
+                {method.name}
             </div>
             {encounters.map(encounter =>
                 <Encounter caught={props.caught} setCaught={props.setCaught} key={encounter.name} encounter={encounter} method={method.method} location={props.location} />

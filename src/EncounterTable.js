@@ -12,7 +12,7 @@ function EncounterTable(props) {
         <div key={"Table"} className="encounterTable">
             {locations.map(location =>
                 <Fragment key={location.location}>
-                    <EncounterLocation caught={props.caught} setCaught={props.setCaught} key={location.location} location={location} />
+                    <EncounterLocation caught={props.caught} setCaught={props.setCaught} key={location.location} location={location} openDetailView={props.openDetailView}/>
                 </Fragment>
             )}
         </div>

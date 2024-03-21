@@ -5,7 +5,7 @@ const EncounterData = {
          "location": "PokeWalker",
          "methods": [
             {
-               "method": "Gift",
+               "name": "Gift",
                "encounters": [
                   {
                      "name": "Chikorita"
@@ -24,7 +24,7 @@ const EncounterData = {
          "location": "New Bark Town",
          "methods": [
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Surskit",
@@ -41,7 +41,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Krabby",
@@ -63,7 +63,7 @@ const EncounterData = {
          "location": "Cherrygrove City",
          "methods": [
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Goldeen",
@@ -84,7 +84,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Horsea",
@@ -106,7 +106,7 @@ const EncounterData = {
          "location": "Route 29",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Starly",
@@ -164,7 +164,7 @@ const EncounterData = {
          "location": "Route 46",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Geodude",
@@ -222,7 +222,7 @@ const EncounterData = {
          "location": "Route 30",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Numel",
@@ -251,7 +251,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Surskit",
@@ -268,7 +268,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Corphish",
@@ -290,7 +290,7 @@ const EncounterData = {
          "location": "Route 31",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Psyduck",
@@ -319,7 +319,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Barboach",
@@ -340,7 +340,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Carvanha",
@@ -362,7 +362,7 @@ const EncounterData = {
          "location": "Dark Cave",
          "methods": [
             {
-               "method": "Cave [Room 1]",
+               "name": "Cave [Room 1]",
                "encounters": [
                   {
                      "name": "Geodude",
@@ -407,7 +407,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Kabuto",
@@ -428,7 +428,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Remoraid",
@@ -450,7 +450,7 @@ const EncounterData = {
          "location": "Violet City",
          "methods": [
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Luvdisc",
@@ -463,7 +463,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Staryu",
@@ -481,7 +481,7 @@ const EncounterData = {
          "location": "Sprout Tower",
          "methods": [
             {
-               "method": "Floor",
+               "name": "Floor",
                "encounters": [
                   {
                      "name": "Cacnea",
@@ -527,7 +527,7 @@ const EncounterData = {
          "location": "Ruins of Alph",
          "methods": [
             {
-               "method": "Cave [all]",
+               "name": "Cave [all]",
                "encounters": [
                   {
                      "name": "Unown",
@@ -536,7 +536,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Grass *requires Surf*",
+               "name": "Grass *requires Surf*",
                "encounters": [
                   {
                      "name": "Natu",
@@ -589,7 +589,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Buizel",
@@ -610,7 +610,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Wooper",
@@ -628,7 +628,7 @@ const EncounterData = {
          "location": "Route 32",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Mareep",
@@ -681,7 +681,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Seel",
@@ -698,7 +698,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Chinchou",
@@ -720,7 +720,7 @@ const EncounterData = {
          "location": "Union Cave",
          "methods": [
             {
-               "method": "Cave [both floors",
+               "name": "Cave [both floors",
                "encounters": [
                   {
                      "name": "Geodude",
@@ -773,7 +773,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod [both floors]",
+               "name": "Old Rod [both floors]",
                "encounters": [
                   {
                      "name": "Magikarp",
@@ -790,7 +790,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Remoraid",
@@ -808,7 +808,7 @@ const EncounterData = {
          "location": "Route 33",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Hoppip",
@@ -862,7 +862,7 @@ const EncounterData = {
          "location": "Ilex Forest",
          "methods": [
             {
-               "method": "Floor",
+               "name": "Floor",
                "encounters": [
                   {
                      "name": "Kricketot",
@@ -915,7 +915,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Surskit",
@@ -936,7 +936,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Qwilfish",
@@ -958,7 +958,7 @@ const EncounterData = {
          "location": "Slowpoke Well",
          "methods": [
             {
-               "method": "Cave [1F]",
+               "name": "Cave [1F]",
                "encounters": [
                   {
                      "name": "Zubat",
@@ -1003,7 +1003,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Slowpoke",
@@ -1020,7 +1020,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Chinchou",
@@ -1042,7 +1042,7 @@ const EncounterData = {
          "location": "Route 34",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Geodude",
@@ -1087,7 +1087,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Krabby",
@@ -1100,7 +1100,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Seel",
@@ -1118,7 +1118,7 @@ const EncounterData = {
          "location": "Route 35",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Yanma",
@@ -1163,7 +1163,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Poliwag",
@@ -1176,7 +1176,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Marill",
@@ -1202,7 +1202,7 @@ const EncounterData = {
          "location": "National Park",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Trapinch",
@@ -1252,7 +1252,7 @@ const EncounterData = {
          "location": "Route 36",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Makuhita",
@@ -1294,7 +1294,7 @@ const EncounterData = {
          "location": "Pokeathlon Dome",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Krabby",
@@ -1328,7 +1328,7 @@ const EncounterData = {
          "location": "Route 37",
          "methods": [
             {
-               "method": "Grass",
+               "name": "Grass",
                "encounters": [
                   {
                      "name": "Spinda",
@@ -1386,7 +1386,7 @@ const EncounterData = {
          "location": "Ecruteak City",
          "methods": [
             {
-               "method": "Old Rod",
+               "name": "Old Rod",
                "encounters": [
                   {
                      "name": "Duskull",
@@ -1407,7 +1407,7 @@ const EncounterData = {
                ]
             },
             {
-               "method": "Surf",
+               "name": "Surf",
                "encounters": [
                   {
                      "name": "Wingull",
@@ -1429,7 +1429,7 @@ const EncounterData = {
             }
          ]
       },
-      { "location": "Burned Tower", "methods": [{ "method": "Floor", "encounters": [{ "name": "Solrock", "weight": "20" }, { "name": "Lunatone", "weight": "20" }, { "name": "Sunflora", "weight": "10" }, { "name": "Numel", "weight": "10" }, { "name": "Slugma", "weight": "10" }, { "name": "Houndour", "weight": "10" }, { "name": "Pineco", "weight": "10" }, { "name": "Monferno", "weight": "5" }, { "name": "Grotle", "weight": "5" }] }] },
+      { "location": "Burned Tower", "methods": [{ "name": "Floor", "encounters": [{ "name": "Solrock", "weight": "20" }, { "name": "Lunatone", "weight": "20" }, { "name": "Sunflora", "weight": "10" }, { "name": "Numel", "weight": "10" }, { "name": "Slugma", "weight": "10" }, { "name": "Houndour", "weight": "10" }, { "name": "Pineco", "weight": "10" }, { "name": "Monferno", "weight": "5" }, { "name": "Grotle", "weight": "5" }] }] },
 
    ]
 }
