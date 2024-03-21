@@ -2,20 +2,6 @@
 const EncounterData = {
    "locations": [
       {
-         "location": "Test Location",
-         "methods": [
-            {
-               "method": "Test Method",
-               "encounters": [
-                  {
-                     "name": "Tentacruel",
-                     "weight": 50
-                  }
-               ]
-            }
-         ]
-      },
-      {
          "location": "PokeWalker",
          "methods": [
             {

@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  font-family: 'KarenFat';
 }
 
 body {
-  background-color: #161A1D;
+  background: rgb(0,0,0);
 }
 
 .App-header {
@@ -18,7 +19,9 @@ body {
 }
 
 .App-content {
-  margin-right:5vw
+  margin-right:5vw;
+  display:flex;
+  justify-content: flex-end;
 }
 
 .title {
@@ -28,4 +31,29 @@ body {
 
 .App-link {
   color: #61dafb;
+}
+
+button {
+  font-family: 'Kubasta';
+  font-size:calc(5px + 1.5vw);
+}
+
+@font-face {
+  font-family: "Kubasta";
+  src: local("Kubasta"), url(./fonts/Kubasta.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "KarenFat";
+  src: local("KarenFat"), url(./fonts/KarenFat.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "SquareSounds";
+  src: local("SquareSounds"), url(./fonts/SquareSounds.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "CelticTime";
+  src: local("CelticTime"), url(./fonts/CelticTime.ttf) format('truetype');
 }

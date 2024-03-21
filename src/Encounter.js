@@ -39,7 +39,7 @@ function Encounter(props) {
     // }, [name]);
 
     return (
-        <div className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "none" }}>
+        <div className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "2px solid black" }}>
             <EncounterPopup id={encounterId + "Popup"} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} />
             <button className="encounterButton" onClick={() => {
                 if (visiblePopup !== encounterId + "Popup")

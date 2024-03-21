@@ -1,12 +1,13 @@
 .encounterMethod {
-    width: 100%;
-    font-size: calc(10px + 1vh);
-    padding-bottom: 2vh;
-    padding-top: 2vh;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
+    font-size: calc(15px + 1vh);
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    /* border-width: 5px;
+    border-style: dotted;
+    align-items: center;
+    border-color: black transparent transparent transparent; */
 }
 
 .methodText {
+    width: 100%;
 }

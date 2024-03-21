@@ -12,7 +12,8 @@ function EncounterPopup(props) {
     return (
         <div className="popup" onClick={() => setVisiblePopup(null)}>
             <div className={popupVisible ? "popuptext show" : "popuptext"} id="myPopup">
-                <div>{encounterName}</div>
+                <div className="popupHeader">{encounterName}</div>
+                <div className="buttonContainer">
                 <button onClick={() => {
                     props.setCaught(props.caught.concat(
                         {
@@ -31,6 +32,7 @@ function EncounterPopup(props) {
                 }>
                     Unfilter
                 </button>
+                </div>
             </div>
         </div>
     )

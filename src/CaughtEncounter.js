@@ -41,10 +41,8 @@ function CaughtEncounter(props) {
 
     return (
         <div className="caughtEncounter">
-            {props.location}
-            <br />
+            <div className="locationName">{props.location}</div>
             <img alt={props.name} src={'/sprites/' + Pokedex[name].id + '.png'}></img>
-            <br />
             <button onClick={Uncatch} >Undo</button>
         </div>
     )

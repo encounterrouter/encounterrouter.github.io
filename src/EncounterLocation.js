@@ -29,7 +29,7 @@ function EncounterLocation(props) {
         )
     }
     return (
-        <div style={{ display: show ? "initial" : "none" }} className="encounterLocation" >
+        <div style={{ display: show ? "flex" : "none" }} className="encounterLocation" >
             <div className="encounterLocationPanel">
                 <div className="locationName">{location.location}</div>
                 {methods.map(method =>

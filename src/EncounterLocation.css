@@ -1,16 +1,20 @@
 .encounterLocation {
-    padding-top:2vh
+    margin-top:1vh;
+    max-width: 60vw;
+    background-color: #555555;
+    border-radius: 5px;
+    font-size: calc(10px + 2vh);
+    flex-direction: column;
+    align-items: center;
 }
 
 .encounterLocationPanel {
-    width: 60vw;
-    background-color: #d3d3d36b;
-    border-radius: 16px;
-    display:grid;
-    font-size: calc(10px + 2vh);
 }
 
 .locationName {
-    min-height: 10vh;
-    align-self: center;
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+    margin-top: 1vh;
+    border-radius: 3px;
+    border: 4px solid black;
 }
