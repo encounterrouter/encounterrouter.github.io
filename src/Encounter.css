@@ -1,5 +1,5 @@
 .encounter {
-    background-color: rgb(226, 226, 226);
+    background-color: var(--color3);
     color: #1f2421;
     display: inline-block;
     font-size: 20px;
@@ -9,7 +9,7 @@
 }
 
 .encounter:hover {
-  background-color: #3b3b3b;
+  background-color: #424242;
 }
 
 .encounter img {
