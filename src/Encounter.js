@@ -15,7 +15,7 @@ function Encounter(props) {
     const name = props.encounter.name;
     const selected = encounterFilter === null ? false : SameSpecies(name, encounterFilter);
     const isCaught = props.caught.some(c => SameSpecies(c.name, name))
-    const encounterRate = (isWeighted ? Math.round(props.encounter.weight * 100) / 100 : "33") + "%";
+    const encounterRate = Math.round(props.encounter.customWeight * 100) / 100 + "%";
     const encounterId = name + props.method + props.location.name;
 
     useEffect(() => {

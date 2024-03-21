@@ -12,7 +12,7 @@ function EncounterMethod(props) {
         var sum = 0;
         filteredEncounters.forEach(fe => sum += parseInt(fe.weight));
         filteredEncounters.forEach(element => {
-            element.weight = (element.weight / sum) * 100;
+            element.customWeight = (element.weight / sum) * 100;
         });
     }
 
