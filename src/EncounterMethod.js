@@ -22,7 +22,7 @@ function EncounterMethod(props) {
                 {method.name}
             </div>
             {encounters.map(encounter =>
-                <Encounter caught={props.caught} setCaught={props.setCaught} key={encounter.name} encounter={encounter} method={method.method} location={props.location} />
+                <Encounter caught={props.caught} setCaught={props.setCaught} key={encounter.name} encounter={encounter} methodName={method.name} location={props.location} />
             )}
         </div>
     )

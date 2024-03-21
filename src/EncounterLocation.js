@@ -35,8 +35,8 @@ function EncounterLocation(props) {
                 {methods.map(method =>
                     <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.name} method={method} location={location} />
                 )}
+                <button onClick={() => props.openDetailView(location)}>View Details</button>
             </div>
-            <button onClick={() => props.openDetailView(location)}>View Details</button>
             <div style={{ minHeight: "20px" }}></div>
         </div>
     )
