@@ -41,6 +41,7 @@
     height: 50%;
     font-size:calc(10px + 1vw);
     align-items: center;
+    z-index: 1;
 }
 
 .detailView .statDisplay {
@@ -96,7 +97,7 @@
     margin-right: 1vw;
 }
 
-.monDisplay img {
+.monDisplay .mainImage {
     height: 50vh;
     width: 50vh;
 }

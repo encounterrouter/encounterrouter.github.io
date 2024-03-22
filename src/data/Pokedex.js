@@ -340,8 +340,7 @@ const Pokedex = {
         "name": "Qwilfish",
         "id": 211,
         "evolutions": [
-            "qwilfish",
-            "overqwil"
+            "qwilfish"
         ]
     },
     "Flygon": {
@@ -372,8 +371,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Gastly": {
@@ -397,7 +395,6 @@ const Pokedex = {
             "umbreon",
             "leafeon",
             "glaceon",
-            "sylveon"
         ]
     },
     "Nincada": {
@@ -420,8 +417,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Miltank": {
@@ -484,8 +480,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Huntail": {
@@ -794,8 +789,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Cranidos": {
@@ -1067,8 +1061,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Nidorina": {
@@ -2278,8 +2271,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Spearow": {
@@ -3737,8 +3729,7 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon",
-            "sylveon"
+            "glaceon"
         ]
     },
     "Dusknoir": {

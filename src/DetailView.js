@@ -24,10 +24,20 @@ function DetailView(props) {
             <button className="closeButton" onClick={() => props.setIsDetailViewOpen(false)}><img alt="close-button" src={'/sprites/201-x.png'} /></button>
             <div className="topView">
                 <div className="monDisplay">
-                    <img alt={selectedMon} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} />
+                    <img className="mainImage" alt={selectedMon} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} />
                     {SsMon.types.map(type =>
                         <div>{type}</div>
                     )}
+                    <div className="evoDisplay">
+                        {Pokedex[selectedMon].evolutions.map(evo =>
+                            <img
+                                alt={evo}
+                                src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'} 
+                                onClick={() => setSelectedMon(evo.charAt(0).toUpperCase() + evo.slice(1))}
+                                style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "" }} 
+                                />
+                        )}
+                    </div>
                 </div>
                 <div className="statDisplay">
                     <div className='stats' >
