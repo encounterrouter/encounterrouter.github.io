@@ -21,7 +21,7 @@ function DetailView(props) {
     return (
         <div className="detailView">
             <div className="background" onClick={() => props.setIsDetailViewOpen(false)} />
-            <button className="closeButton" onClick={() => props.setIsDetailViewOpen(false)}><img src={'/sprites/201-x.png'} /></button>
+            <button className="closeButton" onClick={() => props.setIsDetailViewOpen(false)}><img alt="close-button" src={'/sprites/201-x.png'} /></button>
             <div className="topView">
                 <div className="monDisplay">
                     <img alt={selectedMon} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} />
