@@ -19,13 +19,20 @@ function Encounter(props) {
     const encounterId = name + props.methodName + props.location.name;
 
     useEffect(() => {
-        setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);
-        setHeight(encounterObject.current ? encounterObject.current.offsetHeight : 0);
+        let encounterRef = encounterObject.current;
+        setWidth(encounterRef ? encounterRef.offsetWidth : 0);
+        setHeight(encounterRef ? encounterRef.offsetHeight : 0);
         const onResize = () => {
-            setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);
-            setHeight(encounterObject.current ? encounterObject.current.offsetHeight : 0);
+            setWidth(encounterRef ? encounterRef.offsetWidth : 0);
+            setHeight(encounterRef ? encounterRef.offsetHeight : 0);
         }
         window.addEventListener("resize", onResize);
+        return () => {
+            window.removeEventListener("resize", () => {
+                setWidth(encounterRef ? encounterRef.offsetWidth : 0);
+                setHeight(encounterRef ? encounterRef.offsetHeight : 0);
+            });
+        }
     }, [encounterObject.current]);
 
     return (
