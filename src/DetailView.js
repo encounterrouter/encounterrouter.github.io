@@ -1,11 +1,13 @@
 import './DetailView.css'
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Pokedex from './data/Pokedex';
 import SsPokedex from './data/SsPokedex';
 
 function DetailView(props) {
     const [selectedMon, setSelectedMon] = useState(props.encounter ? props.encounter : props.location.methods[0].encounters[0].name);
+    const levelObject = useRef(null);
     const SsMon = SsPokedex.poks[selectedMon];
+    const [width, setWidth] = useState(0);
 
     function DetailMethod(props) {
         return (
@@ -17,6 +19,10 @@ function DetailView(props) {
             </div>
         )
     }
+
+    useEffect(() => {
+        setWidth(levelObject.current ? levelObject.current.offsetWidth : 0);
+    }, [levelObject.current])
 
     return (
         <div className="detailView">
@@ -58,17 +64,19 @@ function DetailView(props) {
                     </div>
                 </div>
                 <div className="learnsetDisplay">
-                    <div className="moveLevels">
-                        <div>Level</div>
+                    <div className="levelUp">
+                        <div className="moveAndLevel">
+                            <div ref={levelObject} className={"level"}>Level</div>
+                            <div>Move</div>
+                        </div>
+                        <div className='noHeader'>
                         {SsMon.learnset_info.learnset.map(move =>
-                            <div style={{ fontFamily: 'Kubasta' }}>{move[0]}</div>
+                            <div className="moveAndLevel">
+                                <div className={"level"} style={{ fontFamily: 'Kubasta', width: width, boxSizing:'border-box'}}>{move[0]}</div>
+                                <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
+                            </div>
                         )}
-                    </div>
-                    <div className="moveNames">
-                        <div>Move</div>
-                        {SsMon.learnset_info.learnset.map(move =>
-                            <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
-                        )}
+                        </div>
                     </div>
                     <div className="tms">
                         <div>TMs</div>
