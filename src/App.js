@@ -30,7 +30,7 @@ function App() {
       </header>
       <div className="App-content">
         <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
-          <Toolbar caught={caught} setCaught={setCaught} />
+          <Toolbar caught={caught} setCaught={setCaught} openDetailView={openDetailView} />
           <EncounterTable caught={caught} setCaught={setCaught} openDetailView={openDetailView} />
           {isDetailViewOpen ? <DetailView setIsDetailViewOpen={setIsDetailViewOpen} location={detailViewLocation} encounter={detailViewEncounter}/> : ""}
         </UserContext.Provider>

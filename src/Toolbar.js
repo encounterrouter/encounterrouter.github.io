@@ -9,7 +9,7 @@ function Toolbar(props) {
     return (
         <div key="Toolbar" className="toolbar">
             <button onClick={() => setEncounterFilter(null)}>Clear Filters</button>
-            <ToolbarBox caught={props.caught}/>
+            <ToolbarBox caught={props.caught} openDetailView={props.openDetailView}/>
             <button className="clearEncounterButton" onClick={() => props.setCaught([])}>Clear Encounters</button>
         </div>
     )

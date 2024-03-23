@@ -28,7 +28,7 @@ function ToolbarMon(props) {
     // }, [name]);
 
     return (
-        <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'}></img>
+        <img onClick={() => props.openDetailView(props.location, props.encounter)} alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{cursor: "pointer"}}></img>
     )
 }
 

@@ -5,7 +5,7 @@ function ToolbarBox(props) {
         <div key="ToolbarBox" className="toolbarBox">
             <div>Box</div>
             {props.caught.map(element =>
-                <ToolbarMon key={element.name} name={element.name} />
+                <ToolbarMon key={element.name} name={element.name} location={element.location} openDetailView={props.openDetailView}/>
             )
             }
         </div>
