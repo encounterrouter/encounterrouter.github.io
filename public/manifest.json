@@ -1,7 +1,7 @@
 {
   "short_name": "Encounter Router",
   "name": "Encounter Router",
-  "description": "Encounter Router for Sterling Silver"
+  "description": "Encounter Router for Sterling Silver",
   "icons": [
     {
       "src": "sprites/249.png",
