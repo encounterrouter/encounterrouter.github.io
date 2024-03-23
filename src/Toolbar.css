@@ -10,13 +10,19 @@
     background-color: var(--color3);
     border-radius: 25px;
     min-height: 50px;
+    max-height: 50vh;
     width: 25vw;
     position:fixed;
     top:20%;
     left: 2.5vw;
+    overflow: auto;
 }
 
 .toolbar button {
     margin: 5px;
     margin-top: 5vh;
 }
+
+div::-webkit-scrollbar {
+    background: transparent;
+  }
