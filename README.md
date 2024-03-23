@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Encounter Router
 
 Encounter Router for Sterling Silver
