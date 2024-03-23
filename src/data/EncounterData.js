@@ -407,7 +407,7 @@ const EncounterData = {
                ]
             },
             {
-               "name":"Old Rod",
+               "name":"Old Rod [Room 1]",
                "encounters":[
                   {
                      "name":"Kabuto",
@@ -428,7 +428,7 @@ const EncounterData = {
                ]
             },
             {
-               "name":"Surf",
+               "name":"Surf [Room 1 and 2]",
                "encounters":[
                   {
                      "name":"Remoraid",
@@ -440,6 +440,27 @@ const EncounterData = {
                   },
                   {
                      "name":"Feebas",
+                     "weight":"5"
+                  }
+               ]
+            },
+            {
+               "name":"Old Rod [Room 2]",
+               "encounters":[
+                  {
+                     "name":"Carvanha",
+                     "weight":"60"
+                  },
+                  {
+                     "name":"Corphish",
+                     "weight":"30"
+                  },
+                  {
+                     "name":"Kabuto",
+                     "weight":"5"
+                  },
+                  {
+                     "name":"Omanyte",
                      "weight":"5"
                   }
                ]
@@ -492,19 +513,15 @@ const EncounterData = {
                      "weight":"20"
                   },
                   {
+                     "name":"Exeggcute",
+                     "weight":"20"
+                  },
+                  {
                      "name":"Oddish",
                      "weight":"10"
                   },
                   {
                      "name":"Tangela",
-                     "weight":"10"
-                  },
-                  {
-                     "name":"Exeggcute",
-                     "weight":"10"
-                  },
-                  {
-                     "name":"Paras",
                      "weight":"10"
                   },
                   {

@@ -8,9 +8,9 @@ import Pokedex from './data/Pokedex';
 function Encounter(props) {
     const { encounterFilter } = useContext(UserContext);
     const { visiblePopup, setVisiblePopup } = useContext(UserContext);
-    const [width, setWidth] = useState(0);
-    const [height, setHeight] = useState(0);
     const encounterObject = useRef(null);
+    const [width, setWidth] = useState(null);
+    const [height, setHeight] = useState(null);
     const isWeighted = props.encounter.hasOwnProperty("weight");
     const name = props.encounter.name;
     const selected = encounterFilter === null ? false : SameSpecies(name, encounterFilter);
@@ -19,13 +19,18 @@ function Encounter(props) {
     const encounterId = name + props.methodName + props.location.name;
 
     useEffect(() => {
-       setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);
-       setHeight(encounterObject.current ? encounterObject.current.offsetHeight : 0)
+        setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);
+        setHeight(encounterObject.current ? encounterObject.current.offsetHeight : 0);
+        const onResize = () => {
+            setWidth(encounterObject.current ? encounterObject.current.offsetWidth : 0);
+            setHeight(encounterObject.current ? encounterObject.current.offsetHeight : 0);
+        }
+        window.addEventListener("resize", onResize);
     }, [encounterObject.current]);
 
     return (
         <div ref={encounterObject} className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "2px solid black" }}>
-            <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} />
+            <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} openDetailView={props.openDetailView} />
             <button className="encounterButton" onClick={() => {
                 if (visiblePopup !== encounterId + "Popup")
                     setVisiblePopup(encounterId + "Popup");

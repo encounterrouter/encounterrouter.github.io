@@ -4,7 +4,7 @@ import Pokedex from './data/Pokedex';
 import SsPokedex from './data/SsPokedex';
 
 function DetailView(props) {
-    const [selectedMon, setSelectedMon] = useState(props.location.methods[0].encounters[0].name);
+    const [selectedMon, setSelectedMon] = useState(props.encounter ? props.encounter : props.location.methods[0].encounters[0].name);
     const SsMon = SsPokedex.poks[selectedMon];
 
     function DetailMethod(props) {
@@ -32,10 +32,10 @@ function DetailView(props) {
                         {Pokedex[selectedMon].evolutions.map(evo =>
                             <img
                                 alt={evo}
-                                src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'} 
+                                src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'}
                                 onClick={() => setSelectedMon(evo.charAt(0).toUpperCase() + evo.slice(1))}
-                                style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "" }} 
-                                />
+                                style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "" }}
+                            />
                         )}
                     </div>
                 </div>
@@ -72,15 +72,17 @@ function DetailView(props) {
                     </div>
                     <div className="tms">
                         <div>TMs</div>
-                        {SsMon.learnset_info.tms.map(move =>
-                            <div style={{ fontFamily: 'Kubasta' }}>{move}</div>
-                        )}
+                        <div className="tmList">
+                            {SsMon.learnset_info.tms.map(move =>
+                                <div style={{ fontFamily: 'Kubasta' }}>{move}</div>
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="monSelector">
                 {props.location.methods.map(method =>
-                    <DetailMethod method={method} />
+                    <DetailMethod key={"Detail View " + method.name} method={method} />
                 )}
             </div>
         </div>

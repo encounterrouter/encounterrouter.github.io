@@ -3879,7 +3879,6 @@ const Pokedex = {
         "id": 206,
         "evolutions": [
             "dunsparce",
-            "dudunsparce"
         ]
     },
     "Spheal": {

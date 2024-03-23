@@ -13,6 +13,10 @@ function EncounterPopup(props) {
 
     useEffect(() => {
         setWidth(popupText.current ? popupText.current.offsetWidth : 0);
+        const onResize = () => {
+            setWidth(popupText.current ? popupText.current.offsetWidth : 0);
+        }
+        window.addEventListener("resize", onResize);
     }, [popupText.current]);
 
     return (
@@ -37,6 +41,11 @@ function EncounterPopup(props) {
                         setEncounterFilter(null)
                     }>
                         Unfilter
+                    </button>
+                    <button onClick={() =>
+                        props.openDetailView(props.location, encounterName)
+                    }>
+                        Open
                     </button>
                 </div>
             </div>

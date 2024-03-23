@@ -14,9 +14,11 @@ function App() {
   const [visiblePopup, setVisiblePopup] = useState(null);
   const [isDetailViewOpen, setIsDetailViewOpen] = useState(false);
   const [detailViewLocation, setDetailViewLocation] = useState(null);
+  const [detailViewEncounter, setDetailViewEncounter] = useState(null);
 
-  function openDetailView(location){
+  function openDetailView(location, encounter){
     setDetailViewLocation(location);
+    setDetailViewEncounter(encounter);
     setIsDetailViewOpen(true);
     setVisiblePopup(null);
   }
@@ -30,7 +32,7 @@ function App() {
         <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup }}>
           <Toolbar caught={caught} setCaught={setCaught} />
           <EncounterTable caught={caught} setCaught={setCaught} openDetailView={openDetailView} />
-          {isDetailViewOpen ? <DetailView setIsDetailViewOpen={setIsDetailViewOpen} location={detailViewLocation}/> : ""}
+          {isDetailViewOpen ? <DetailView setIsDetailViewOpen={setIsDetailViewOpen} location={detailViewLocation} encounter={detailViewEncounter}/> : ""}
         </UserContext.Provider>
       </div>
     </div>

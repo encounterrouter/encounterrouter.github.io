@@ -33,7 +33,7 @@ function EncounterLocation(props) {
             <div className="encounterLocationPanel">
                 <div className="locationName">{location.name}</div>
                 {methods.map(method =>
-                    <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.name} method={method} location={location} />
+                    <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.name} method={method} location={location} openDetailView={props.openDetailView} />
                 )}
                 <button onClick={() => props.openDetailView(location)}>View Details</button>
             </div>
