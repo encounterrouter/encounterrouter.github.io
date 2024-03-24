@@ -17,7 +17,7 @@ function DetailView(props) {
             <div className='method'>
                 <div className="methodName">{props.method.name}</div>
                 {props.method.encounters.map(encounter =>
-                    <img style={{ outline: selectedMon === encounter.name ? "2px solid white" : "" }} onClick={() => setSelectedMon(encounter.name)} alt={encounter?.name} src={'/sprites/' + Pokedex[encounter?.name]?.id + '.png'} />
+                    <img key={encounter.name} style={{ outline: selectedMon === encounter.name ? "2px solid white" : "" }} onClick={() => setSelectedMon(encounter.name)} alt={encounter?.name} src={'/sprites/' + Pokedex[encounter?.name]?.id + '.png'} />
                 )}
             </div>
         )
@@ -35,12 +35,13 @@ function DetailView(props) {
                 <div className="monDisplay">
                     <img className="mainImage" alt={selectedMon} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} />
                     {SsMon.types.map(type =>
-                        <div>{type}</div>
+                        <div key={type}>{type}</div>
                     )}
                     <div className="evoDisplay">
                         {Pokedex[selectedMon].evolutions.map(evo =>
                             <img
                                 alt={evo}
+                                key={evo}
                                 src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'}
                                 onClick={() => setSelectedMon(evo.charAt(0).toUpperCase() + evo.slice(1))}
                                 style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "" }}
@@ -78,12 +79,12 @@ function DetailView(props) {
                         <div>{values.reduce((a, b) => a + b, 0)}</div>
                     </div>
                     <div className='abilityDisplay'>
-                        <div>
+                        <div key="abilities">
                             Abilities:
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', fontSize: '1vw'}}>
                             {SsMon.abilities.map(a =>
-                                <div>{a}</div>
+                                <div key={a}>{a}</div>
                             )}
                         </div>
                     </div>
@@ -96,7 +97,7 @@ function DetailView(props) {
                         </div>
                         <div className='noHeader'>
                             {SsMon.learnset_info.learnset.map(move =>
-                                <div className="moveAndLevel">
+                                <div key={move[1]} className="moveAndLevel">
                                     <div className={"level"} style={{ fontFamily: 'Kubasta', width: width, boxSizing: 'border-box' }}>{move[0]}</div>
                                     <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
                                 </div>
@@ -107,7 +108,7 @@ function DetailView(props) {
                         <div>TMs</div>
                         <div className="tmList">
                             {SsMon.learnset_info.tms.map(move =>
-                                <div style={{ fontFamily: 'Kubasta' }}>{move}</div>
+                                move ? <div key={move} style={{ fontFamily: 'Kubasta' }}>{move}</div> : ""
                             )}
                         </div>
                     </div>
