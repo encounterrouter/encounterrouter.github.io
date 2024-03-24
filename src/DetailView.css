@@ -38,18 +38,26 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 50%;
+    height: 50vh;
     font-size:calc(10px + 1vw);
     align-items: center;
     z-index: 1;
 }
 
-.detailView .statDisplay {
+.detailView .midPanel {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    margin-top: 10vh;
+    min-width: 15vw;
+}
+
+.detailView .abilityDisplay {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    font-size: 2.5vw;
-    margin-top: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vh;
 }
 
 .detailView .stats {

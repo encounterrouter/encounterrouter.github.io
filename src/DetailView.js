@@ -8,6 +8,9 @@ function DetailView(props) {
     const levelObject = useRef(null);
     const SsMon = SsPokedex.poks[selectedMon];
     const [width, setWidth] = useState(0);
+    var values = Object.keys(SsMon.bs).map(function (key) {
+        return SsMon.bs[key];
+    });
 
     function DetailMethod(props) {
         return (
@@ -45,22 +48,44 @@ function DetailView(props) {
                         )}
                     </div>
                 </div>
-                <div className="statDisplay">
-                    <div className='stats' >
+                <div className="midPanel">
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                         <div>HP:</div>
-                        <div>Atk:</div>
-                        <div>Def:</div>
-                        <div>SpAtk:</div>
-                        <div>SpDef:</div>
-                        <div>Spe:</div>
-                    </div>
-                    <div className='stats right'>
                         <div>{SsMon.bs.hp}</div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div>Atk:</div>
                         <div>{SsMon.bs.at}</div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div>Def:</div>
                         <div>{SsMon.bs.df}</div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div>SpAtk:</div>
+                        <div>{SsMon.bs.sa}</div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div>SpDef:</div>
                         <div>{SsMon.bs.sd}</div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div>Spe:</div>
                         <div>{SsMon.bs.sp}</div>
-                        <div>{SsMon.bs.sp}</div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div>Total:</div>
+                        <div>{values.reduce((a, b) => a + b, 0)}</div>
+                    </div>
+                    <div className='abilityDisplay'>
+                        <div>
+                            Abilities:
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', fontSize: '1vw'}}>
+                            {SsMon.abilities.map(a =>
+                                <div>{a}</div>
+                            )}
+                        </div>
                     </div>
                 </div>
                 <div className="learnsetDisplay">
@@ -70,12 +95,12 @@ function DetailView(props) {
                             <div>Move</div>
                         </div>
                         <div className='noHeader'>
-                        {SsMon.learnset_info.learnset.map(move =>
-                            <div className="moveAndLevel">
-                                <div className={"level"} style={{ fontFamily: 'Kubasta', width: width, boxSizing:'border-box'}}>{move[0]}</div>
-                                <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
-                            </div>
-                        )}
+                            {SsMon.learnset_info.learnset.map(move =>
+                                <div className="moveAndLevel">
+                                    <div className={"level"} style={{ fontFamily: 'Kubasta', width: width, boxSizing: 'border-box' }}>{move[0]}</div>
+                                    <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
+                                </div>
+                            )}
                         </div>
                     </div>
                     <div className="tms">
