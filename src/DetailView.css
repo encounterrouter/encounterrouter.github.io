@@ -144,7 +144,23 @@
     width: 50vh;
     max-height: unset;
 }
-div::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.123);
+
+div.tmList::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+div.tmList::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+div.noHeader::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+div.noHeader::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
 }
