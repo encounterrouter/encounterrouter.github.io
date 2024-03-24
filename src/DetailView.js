@@ -6,11 +6,22 @@ import SsPokedex from './data/SsPokedex';
 function DetailView(props) {
     const [selectedMon, setSelectedMon] = useState(props.encounter ? props.encounter : props.location.methods[0].encounters[0].name);
     const levelObject = useRef(null);
+    const imgObject = useRef(null);
     const SsMon = SsPokedex.poks[selectedMon];
     const [width, setWidth] = useState(0);
+    const [imgWidth, setImgWidth] = useState(0);
+    const [imgHeight, setImgHeight] = useState(0);
+
     var values = Object.keys(SsMon.bs).map(function (key) {
         return SsMon.bs[key];
     });
+
+    function onImgLoad() {
+        const img = new Image();
+        img.src = '/gifs/' + Pokedex[selectedMon]?.id + '.gif';
+        setImgWidth(img.width);
+        setImgHeight(img.height);
+    }
 
     function DetailMethod(props) {
         return (
@@ -32,11 +43,13 @@ function DetailView(props) {
             <div className="background" onClick={() => props.setIsDetailViewOpen(false)} />
             <button className="closeButton" onClick={() => props.setIsDetailViewOpen(false)}><img alt="close-button" src={'/sprites/201-x.png'} /></button>
             <div className="topView">
-                <div className="monDisplay">
-                    <img className="mainImage" alt={selectedMon} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} />
-                    {SsMon.types.map(type =>
-                        <div key={type}>{type}</div>
-                    )}
+                <div className="leftPanel">
+                    <img ref={imgObject} style={{ width: imgWidth * 3, height: imgHeight * 3 }} className="mainImage" onLoad={onImgLoad} alt={selectedMon} src={'/gifs/' + Pokedex[selectedMon]?.id + '.gif'} />
+                    <div style={{minHeight:'10vh'}}>
+                        {SsMon.types.map(type =>
+                            <div style={{marginTop:'1vh'}} key={type}>{type}</div>
+                        )}
+                    </div>
                     <div className="evoDisplay">
                         {Pokedex[selectedMon].evolutions.map(evo =>
                             <img
@@ -82,7 +95,7 @@ function DetailView(props) {
                         <div key="abilities">
                             Abilities:
                         </div>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', fontSize: '1vw'}}>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', fontSize: '1vw' }}>
                             {SsMon.abilities.map(a =>
                                 <div key={a}>{a}</div>
                             )}

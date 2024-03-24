@@ -34,14 +34,24 @@
     align-items: flex-start;
 }
 
-.detailView .monDisplay {
+.detailView .leftPanel {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 50vh;
-    font-size:calc(10px + 1vw);
     align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    height: 55vh;
+    font-size:calc(10px + 1vw);
     z-index: 1;
+    margin-top: 5vh;
+}
+
+.detailView .leftPanel div {
+    margin-top:2vh;
+}
+
+.leftPanel .mainImage {
+    max-height: unset;
 }
 
 .detailView .midPanel {
@@ -137,12 +147,6 @@
     max-height: 7vh;
     margin-left: 3px;
     margin-right: 3px;
-}
-
-.monDisplay .mainImage {
-    height: 50vh;
-    width: 50vh;
-    max-height: unset;
 }
 
 div.tmList::-webkit-scrollbar-track{
