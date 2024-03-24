@@ -1045,7 +1045,7 @@ const Pokedex = {
         "name": "Nidorino",
         "id": 33,
         "evolutions": [
-            "nidoran-m",
+            "nidoran-M",
             "nidorino",
             "nidoking"
         ]
@@ -1068,7 +1068,7 @@ const Pokedex = {
         "name": "Nidorina",
         "id": 30,
         "evolutions": [
-            "nidoran-f",
+            "nidoran-F",
             "nidorina",
             "nidoqueen"
         ]
@@ -1340,7 +1340,7 @@ const Pokedex = {
         "name": "Nidoran-M",
         "id": 32,
         "evolutions": [
-            "nidoran-m",
+            "nidoran-M",
             "nidorino",
             "nidoking"
         ]
@@ -2823,7 +2823,7 @@ const Pokedex = {
         "name": "Nidoking",
         "id": 34,
         "evolutions": [
-            "nidoran-m",
+            "nidoran-M",
             "nidorino",
             "nidoking"
         ]
@@ -3118,7 +3118,7 @@ const Pokedex = {
         "name": "Nidoran-F",
         "id": 29,
         "evolutions": [
-            "nidoran-f",
+            "nidoran-F",
             "nidorina",
             "nidoqueen"
         ]
@@ -3577,7 +3577,7 @@ const Pokedex = {
         "name": "Nidoqueen",
         "id": 31,
         "evolutions": [
-            "nidoran-f",
+            "nidoran-F",
             "nidorina",
             "nidoqueen"
         ]
