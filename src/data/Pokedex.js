@@ -985,8 +985,7 @@ const Pokedex = {
         "id": 195,
         "evolutions": [
             "wooper",
-            "quagsire",
-            "clodsire"
+            "quagsire"
         ]
     },
     "Primeape": {
@@ -2143,8 +2142,7 @@ const Pokedex = {
         "id": 194,
         "evolutions": [
             "wooper",
-            "quagsire",
-            "clodsire"
+            "quagsire"
         ]
     },
     "Butterfree": {
@@ -2658,8 +2656,7 @@ const Pokedex = {
         "id": 217,
         "evolutions": [
             "teddiursa",
-            "ursaring",
-            "ursaluna"
+            "ursaring"
         ]
     },
     "Mightyena": {
@@ -3244,8 +3241,7 @@ const Pokedex = {
         "id": 216,
         "evolutions": [
             "teddiursa",
-            "ursaring",
-            "ursaluna"
+            "ursaring"
         ]
     },
     "Weedle": {
