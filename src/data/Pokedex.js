@@ -2631,8 +2631,7 @@ const Pokedex = {
         "name": "Stantler",
         "id": 234,
         "evolutions": [
-            "stantler",
-            "wyrdeer"
+            "stantler"
         ]
     },
     "Ambipom": {
@@ -3067,8 +3066,7 @@ const Pokedex = {
         "name": "Corsola",
         "id": 222,
         "evolutions": [
-            "corsola",
-            "cursola"
+            "corsola"
         ]
     },
     "Blissey": {
