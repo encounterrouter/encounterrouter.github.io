@@ -2,6 +2,7 @@ import './BoxView.css'
 import { useState } from 'react';
 import Pokedex from './data/Pokedex';
 import Select from 'react-select';
+import SameSpecies from './Utility';
 
 function BoxView(props) {
     const [customMon, setCustomMon] = useState({});
@@ -27,6 +28,9 @@ function BoxView(props) {
         event.preventDefault();
         console.log(event);
         const temp = [...props.caught];
+        if (temp.some(e => SameSpecies(customMon, e.name)))
+            return
+
         const customEncounter = { name: customMon, location: { name: customLocation } }
         temp.push(customEncounter);
         return props.setCaught(temp);
@@ -35,9 +39,9 @@ function BoxView(props) {
     return (
         <div className="boxView">
             <div className="background" onClick={() => props.setIsBoxViewOpen(false)} />
-            <div className='leftPanel'>
+            <div className='leftPanel' style={{display:selectedMon ? "block" : "none"}}>
                 <div style={{ fontSize: 'calc(5px + 5vh)', marginTop: '5vh' }}>{selectedMon}</div>
-                <div style={{ fontSize: 'calc(5px + 2vh)', marginTop: '1vh' }}>Met Location: {props.caught.find(e => e.name === selectedMon).location.name}</div>
+                <div style={{ fontSize: 'calc(5px + 2vh)', marginTop: '1vh' }}>Met Location: {props.caught.find(e => e.name === selectedMon)?.location.name}</div>
                 <img style={{ height: '20vh', marginTop: '3vh', marginBottom: '3vh' }} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} alt={selectedMon} />
                 <div className='evolvePanel' style={{ display: (Pokedex[selectedMon]?.evolutions.length > 1) ? 'block' : 'none' }}>
                     <div>Evolve by clicking an evolution below</div>
