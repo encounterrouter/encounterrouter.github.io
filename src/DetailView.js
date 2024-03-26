@@ -128,7 +128,7 @@ function DetailView(props) {
                 </div>
             </div>
             <div className="monSelector">
-                {props.location.methods.map(method =>
+                {props.location.methods?.map(method =>
                     <DetailMethod key={"Detail View " + method.name} method={method} />
                 )}
             </div>

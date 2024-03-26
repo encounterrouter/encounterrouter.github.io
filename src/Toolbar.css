@@ -6,6 +6,10 @@
     background-color: var(--darkest);
 }
 
+.toolbar .topButtons {
+    margin-top: 5vh;
+}
+
 .toolbarBox {
     background-color: var(--color3);
     border-radius: 25px;
@@ -18,9 +22,13 @@
     overflow: auto;
 }
 
-.toolbar button {
-    margin: 5px;
-    margin-top: 5vh;
+.toolbarBox .boxButtons {
+    padding: 5px;
+}
+
+.toolbarBox .boxButtons button {
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
 }
 
 div::-webkit-scrollbar {
