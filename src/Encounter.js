@@ -44,6 +44,7 @@ function Encounter(props) {
                 else
                     setVisiblePopup(null);
             }}>
+                <div style={{color:'transparent', position:'relative',wdith:'0',height:'0px',fontSize:'calc(5px + 1vw)'}}>{name}</div>
                 <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
                 <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
                     {isCaught ? "Dupe" : encounterRate}

@@ -31,7 +31,7 @@ function ToolbarBox(props) {
                 <button onClick={exportOnClick}>Export Box</button>
                 <button onClick={importOnClick}>Import Box</button>
             </div>
-            {props.caught.map(element =>
+            {props.caught.filter(c => !(c.status && c.status === "dead")).map(element =>
                 <ToolbarMon key={element.name} name={element.name} location={element.location} openDetailView={props.openDetailView} />
             )
             }
