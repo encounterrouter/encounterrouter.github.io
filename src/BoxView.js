@@ -20,15 +20,16 @@ function BoxView(props) {
     console.log(Pokedex[selectedMon]?.evolutions.length > 1);
 
     const boxMonOnClick = (name) => {
+        const caughtMon = props.caught.find(c => c.name === name)
         setSelectedMon(name)
-        setSelectedMonCaught(props.caught.find(c => c.name === name))
+        setSelectedMonCaught(caughtMon)
+        setChecked(caughtMon.status ? (caughtMon.status === "alive" ? false : true) : false)
     }
 
     const handleChange = () => {
         setChecked(!checked);
         const temp = [...props.caught];
         temp.find(c => c.name === selectedMon).status = checked ? "alive" : "dead";
-        setSelectedMonCaught(temp.find(c => c.name === selectedMon));
         props.setCaught(temp);
     };
 
