@@ -90,7 +90,11 @@ function BoxView(props) {
                         src={'/sprites/' + Pokedex[e.name]?.id + '.png'}
                         onClick={() => boxMonOnClick(e.name)}
                         alt={e.name}
-                        style={{ outline: selectedMon === e.name ? "2px solid white" : "", filter: props.caught.find(c => c.name === e.name).status === "dead" ? 'grayscale(1)' : 'grayscale(0)' }}
+                        style={{ 
+                            outline: selectedMon === e.name ? "2px solid white" : "", 
+                            filter: props.caught.find(c => c.name === e.name).status === "dead" ? 'grayscale(1)' : 'grayscale(0)',
+                            opacity: props.caught.find(c => c.name === e.name).status === "dead" ? '40%' : '100'
+                        }}
                     />
                 )}
             </div>
