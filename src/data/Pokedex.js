@@ -2238,8 +2238,7 @@ const Pokedex = {
         "name": "Farfetchd",
         "id": 83,
         "evolutions": [
-            "farfetchd",
-            "sirfetchd"
+            "farfetchd"
         ]
     },
     "Sentret": {
@@ -2371,8 +2370,7 @@ const Pokedex = {
         "id": 263,
         "evolutions": [
             "zigzagoon",
-            "linoone",
-            "obstagoon"
+            "linoone"
         ]
     },
     "Omastar": {
@@ -2420,8 +2418,7 @@ const Pokedex = {
         "id": 264,
         "evolutions": [
             "zigzagoon",
-            "linoone",
-            "obstagoon"
+            "linoone"
         ]
     },
     "Unown": {
