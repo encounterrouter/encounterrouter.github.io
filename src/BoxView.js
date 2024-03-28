@@ -5,19 +5,17 @@ import Select from 'react-select';
 import SameSpecies from './Utility';
 
 function BoxView(props) {
-    const [customMon, setCustomMon] = useState({});
-    const [customLocation, setCustomLocation] = useState(null);
+    const [customMon, setCustomMon] = useState("");
+    const [customLocation, setCustomLocation] = useState("");
     const [selectedMon, setSelectedMon] = useState(props.caught[0]?.name);
     const [checked, setChecked] = useState(false);
     const [selectedMonCaught, setSelectedMonCaught] = useState(props.caught.find(c => c.name === selectedMon));
     const statusOptions = [{ value: "alive", label: "Alive" }, { value: "dead", label: "Dead" }];
     const pokemonOptions = [];
     Object.keys(Pokedex).sort().forEach(element => {
+        if (element && element != null )
         pokemonOptions.push({ value: element, label: element })
     });
-
-    console.log(Pokedex[selectedMon]?.evolutions.length);
-    console.log(Pokedex[selectedMon]?.evolutions.length > 1);
 
     const boxMonOnClick = (name) => {
         const caughtMon = props.caught.find(c => c.name === name)
@@ -26,12 +24,16 @@ function BoxView(props) {
         setChecked(caughtMon.status ? (caughtMon.status === "alive" ? false : true) : false)
     }
 
-    const handleChange = () => {
+    const switchOnChange = () => {
         setChecked(!checked);
         const temp = [...props.caught];
         temp.find(c => c.name === selectedMon).status = checked ? "alive" : "dead";
         props.setCaught(temp);
     };
+
+    const selectOnChange = (value) => {
+        setCustomMon(value);
+    }
 
     function evolveMon(evoFrom, evoTo) {
         var mon = props.caught.find(c => c.name === evoFrom);
@@ -67,19 +69,21 @@ function BoxView(props) {
                             src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'}
                             onClick={selectedMon === evo.charAt(0).toUpperCase() + evo.slice(1) ? () => null : () => evolveMon(selectedMon, evo.charAt(0).toUpperCase() + evo.slice(1))}
                             style={{ cursor: 'pointer'}}
+                            key={evo}
                         />
                     )}
                 </div>
                 <div style={{ paddingTop: '4vh', fontSize: 'calc(5px + 3vh)' }}>Status: </div>
                 <div className='status' style={{ paddingTop: '2vh', fontSize: 'calc(5px + 2vh)' }}>
                     <div style={{ paddingRight: '1vw' }}>Dead?</div>
-                    <label class="switch">
+                    <label className="switch">
                         <input
                             type="checkbox"
                             checked={selectedMonCaught.status ? (selectedMonCaught.status === "alive" ? false : true) : false}
-                            onChange={handleChange}
+                            onChange={switchOnChange}
+                            value=""
                         />
-                        <span class="slider round"></span>
+                        <span className="slider round"></span>
                     </label>
                     {/* <Select defaultInputValue={statusOptions[0].value} options={statusOptions}/> */}
                 </div>
@@ -87,6 +91,7 @@ function BoxView(props) {
             <div className="boxDisplay">
                 {props.caught.map(e =>
                     <img
+                        key={e.name}
                         src={'/sprites/' + Pokedex[e.name]?.id + '.png'}
                         onClick={() => boxMonOnClick(e.name)}
                         alt={e.name}
@@ -105,12 +110,12 @@ function BoxView(props) {
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
                         <div style={{ position: 'absolute', left: '10vw' }}>Pokemon</div>
                         <div style={{ paddingLeft: '15vw', width: '25vw' }}>
-                            <Select onChange={event => setCustomMon(event.value)} className='dropdown' style={{ width: '50%' }} options={pokemonOptions} />
+                            <Select onChange={event => selectOnChange(event.value)} className='dropdown' style={{ width: '50%' }} options={pokemonOptions} />
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', paddingTop: '3vh' }}>
                         <div style={{ position: 'absolute', left: '10vw' }}>Location</div>
-                        <input style={{ width: '25vw', position: 'absolute', left: '18.75vw' }} value={customLocation} onChange={event => setCustomLocation(event.target.value)}></input>
+                        <input style={{ width: '25vw', position: 'absolute', left: '18.75vw' }} value={customLocation} onChange={event => setCustomLocation(event.target.value)}/>
                     </div>
                     <button style={{ marginTop: '3vh' }} disabled={customLocation && customMon ? false : true}>Add</button>
                 </form>

@@ -36,20 +36,26 @@ function Encounter(props) {
     }, [encounterObject.current]);
 
     return (
-        <div ref={encounterObject} className={selected ? "encounter selected" : "encounter"} style={{ border: isCaught ? "2px solid red" : "2px solid black" }}>
-            <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} openDetailView={props.openDetailView} />
-            <button className="encounterButton" onClick={() => {
-                if (visiblePopup !== encounterId + "Popup")
-                    setVisiblePopup(encounterId + "Popup");
-                else
-                    setVisiblePopup(null);
+        <div className={selected ? "encounter selected" : "encounter"} >
+            <div style={{ color: 'transparent', position: 'relative', height: '0px', fontSize: 'calc(5px + 1vw)' }}>{name}</div>
+            <div  className="encounterInner" ref={encounterObject} style={{
+                backgroundColor: selected ? 'green' : 'var(--color3)',
+                borderRadius: '10px',
+                border: isCaught ? "2px solid red" : "2px solid black",
             }}>
-                <div style={{color:'transparent', position:'relative',wdith:'0',height:'0px',fontSize:'calc(5px + 1vw)'}}>{name}</div>
-                <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
-                <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
-                    {isCaught ? "Dupe" : encounterRate}
-                </div>
-            </button>
+                <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} selected={selected} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} openDetailView={props.openDetailView} />
+                <button className="encounterButton" onClick={() => {
+                    if (visiblePopup !== encounterId + "Popup")
+                        setVisiblePopup(encounterId + "Popup");
+                    else
+                        setVisiblePopup(null);
+                }}>
+                    <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
+                    <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
+                        {isCaught ? "Dupe" : encounterRate}
+                    </div>
+                </button>
+            </div>
         </div>
     )
 }

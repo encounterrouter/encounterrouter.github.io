@@ -110,7 +110,7 @@ function DetailView(props) {
                         </div>
                         <div className='noHeader'>
                             {SsMon.learnset_info.learnset.map(move =>
-                                <div key={move[1]} className="moveAndLevel">
+                                <div key={move[1] + move[0]} className="moveAndLevel">
                                     <div className={"level"} style={{ fontFamily: 'Kubasta', width: width, boxSizing: 'border-box' }}>{move[0]}</div>
                                     <div style={{ fontFamily: 'Kubasta' }}>{move[1]}</div>
                                 </div>

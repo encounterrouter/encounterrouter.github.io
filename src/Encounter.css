@@ -1,15 +1,13 @@
 .encounter {
-    background-color: var(--color3);
     color: #1f2421;
     display: inline-block;
     font-size: 20px;
     margin: 5px;
     box-sizing: border-box;
-    border-radius: 5px;
 }
 
-.encounter:hover {
-  background-color: #424242;
+.encounterInner:hover {
+  background-color: #424242 !important;
 }
 
 .encounter img {
@@ -21,10 +19,6 @@
 .encounterButton {
     background-color: initial;
     border: none;
-}
-
-.selected {
-    background-color:green !important;
 }
 
 .percent {
