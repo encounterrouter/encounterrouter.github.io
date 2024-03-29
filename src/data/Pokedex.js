@@ -457,8 +457,7 @@ const Pokedex = {
         "id": 53,
         "evolutions": [
             "meowth",
-            "persian",
-            "perrserker"
+            "persian"
         ]
     },
     "Marowak": {
@@ -1618,8 +1617,7 @@ const Pokedex = {
         "id": 52,
         "evolutions": [
             "meowth",
-            "persian",
-            "perrserker"
+            "persian"
         ]
     },
     "Cascoon": {

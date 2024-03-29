@@ -2,6 +2,7 @@ import './DetailView.css'
 import { useState, useRef, useEffect } from 'react';
 import Pokedex from './data/Pokedex';
 import SsPokedex from './data/SsPokedex';
+import EvoData from './data/EvoData';
 
 function DetailView(props) {
     const [selectedMon, setSelectedMon] = useState(props.encounter ? props.encounter : props.location.methods[0].encounters[0].name);
@@ -45,20 +46,22 @@ function DetailView(props) {
             <div className="topView">
                 <div className="leftPanel">
                     <img ref={imgObject} style={{ width: imgWidth * 3, height: imgHeight * 3 }} className="mainImage" onLoad={onImgLoad} alt={selectedMon} src={'/gifs/' + Pokedex[selectedMon]?.id + '.gif'} />
-                    <div style={{minHeight:'10vh'}}>
+                    <div style={{ minHeight: '10vh' }}>
                         {SsMon.types.map(type =>
-                            <div style={{marginTop:'1vh'}} key={type}>{type}</div>
+                            <div style={{ marginTop: '1vh' }} key={type}>{type}</div>
                         )}
                     </div>
                     <div className="evoDisplay">
                         {Pokedex[selectedMon].evolutions.map(evo =>
-                            <img
-                                alt={evo}
-                                key={evo}
-                                src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'}
-                                onClick={() => setSelectedMon(evo.charAt(0).toUpperCase() + evo.slice(1))}
-                                style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "" }}
-                            />
+                            <div style={{fontSize:"calc(3px + .85vw)", display:'flex',flexDirection:'column',justifyContent:'flex-end',alignItems:'center'}}>
+                                <div>{EvoData[evo.charAt(0).toUpperCase() + evo.slice(1)]?.required}</div>
+                                <img
+                                    alt={evo}
+                                    key={evo}
+                                    src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'}
+                                    onClick={() => setSelectedMon(evo.charAt(0).toUpperCase() + evo.slice(1))}
+                                    style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "", display:'block', maxWidth: '10vw',height:'auto', width:'auto' }} />
+                            </div>
                         )}
                     </div>
                 </div>

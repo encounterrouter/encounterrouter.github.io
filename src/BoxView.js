@@ -10,7 +10,6 @@ function BoxView(props) {
     const [selectedMon, setSelectedMon] = useState(props.caught[0]?.name);
     const [checked, setChecked] = useState(false);
     const [selectedMonCaught, setSelectedMonCaught] = useState(props.caught.find(c => c.name === selectedMon));
-    const statusOptions = [{ value: "alive", label: "Alive" }, { value: "dead", label: "Dead" }];
     const pokemonOptions = [];
     Object.keys(Pokedex).sort().forEach(element => {
         if (element && element != null )
@@ -70,6 +69,7 @@ function BoxView(props) {
                             onClick={selectedMon === evo.charAt(0).toUpperCase() + evo.slice(1) ? () => null : () => evolveMon(selectedMon, evo.charAt(0).toUpperCase() + evo.slice(1))}
                             style={{ cursor: 'pointer'}}
                             key={evo}
+                            alt={evo}
                         />
                     )}
                 </div>
