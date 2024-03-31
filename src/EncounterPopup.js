@@ -5,7 +5,7 @@ import { UserContext } from './App'
 function EncounterPopup(props) {
     const { setEncounterFilter } = useContext(UserContext);
     const { visiblePopup, setVisiblePopup } = useContext(UserContext);
-    const selected = props.selected;
+    const selected = props.filtered;
     const encounterName = props.encounterName;
     const popupVisible = visiblePopup === props.id;
     const popupText = useRef(null);
