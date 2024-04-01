@@ -70,11 +70,11 @@ const EncounterData = {
                      "weight":60
                   },
                   {
-                     "name":"Magikarp",
+                     "name":"Poliwag",
                      "weight":30
                   },
                   {
-                     "name":"Poliwag",
+                     "name":"Magikarp",
                      "weight":5
                   },
                   {
@@ -179,11 +179,11 @@ const EncounterData = {
                      "weight":"10"
                   },
                   {
-                     "name":"Pidgey",
+                     "name":"Caterpie",
                      "weight":"10"
                   },
                   {
-                     "name":"Rattata",
+                     "name":"Weedle",
                      "weight":"10"
                   },
                   {
@@ -191,11 +191,11 @@ const EncounterData = {
                      "weight":"10"
                   },
                   {
-                     "name":"Caterpie",
+                     "name":"Pidgey",
                      "weight":"5"
                   },
                   {
-                     "name":"Weedle",
+                     "name":"Rattata",
                      "weight":"5"
                   },
                   {
