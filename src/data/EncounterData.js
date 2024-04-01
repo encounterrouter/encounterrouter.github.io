@@ -1836,16 +1836,16 @@ const EncounterData = {
                "name":"Old Rod",
                "encounters":[
                   {
-                     "name":"Staryu",
+                     "name":"Pikachu",
                      "weight":"60"
                   },
                   {
                      "name":"Koffing",
-                     "weight":"20"
+                     "weight":"30"
                   },
                   {
-                     "name":"Pikachu",
-                     "weight":"20"
+                     "name":"Staryu",
+                     "weight":"10"
                   }
                ]
             },
