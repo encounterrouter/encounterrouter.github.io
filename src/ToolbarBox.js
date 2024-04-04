@@ -11,8 +11,12 @@ function ToolbarBox(props) {
     }
 
     function importOnClick() {
-        navigator.clipboard.readText().then(text =>
-            props.setCaught(JSON.parse(text))
+        navigator.clipboard.readText().then(text => {
+            const caught = JSON.parse(text);
+            if (window.confirm("Import encounters from clipboard? This will overwrite all current encounters."))
+            {
+                props.setCaught(caught)
+            }}
         ).catch(error =>
             openNotificationPopup("Import failed - please copy a valid encounter list to your clipboard and try again.")
         )
