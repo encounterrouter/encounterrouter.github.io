@@ -2,8 +2,8 @@ import { useState, useContext, useEffect, useRef } from 'react';
 import { UserContext } from './App'
 import EncounterPopup from './EncounterPopup'
 import './Encounter.css'
-import SameSpecies from './Utility';
-import Pokedex from './data/Pokedex';
+import Utility from './Utility';
+import DataManager from './data/DataManager';
 
 function Encounter(props) {
     const { encounterFilter } = useContext(UserContext);
@@ -13,9 +13,9 @@ function Encounter(props) {
     const [height, setHeight] = useState(null);
     const isWeighted = props.encounter.hasOwnProperty("weight");
     const name = props.encounter.name;
-    const filtered = encounterFilter === null ? false : SameSpecies(name, encounterFilter);
+    const filtered = encounterFilter === null ? false : Utility.SameSpecies(name, encounterFilter);
     const highlighted = filtered || props.abilityFilter;
-    const isCaught = props.caught.some(c => SameSpecies(c.name, name))
+    const isCaught = props.caught.some(c => Utility.SameSpecies(c.name, name))
     const encounterRate = Math.round(props.encounter.customWeight * 100) / 100 + "%";
     const encounterId = name + props.methodName + props.location.name;
 
@@ -51,7 +51,7 @@ function Encounter(props) {
                     else
                         setVisiblePopup(null);
                 }}>
-                    <img alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
+                    <img alt={name} src={'/sprites/' + DataManager.GetId(name) + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
                     <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
                         {isCaught ? "Dupe" : encounterRate}
                     </div>

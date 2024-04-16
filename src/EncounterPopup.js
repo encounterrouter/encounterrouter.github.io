@@ -55,6 +55,7 @@ function EncounterPopup(props) {
                     </button>
                     <button onClick={() =>
                         props.openDetailView(props.location, encounterName)
+                        //window.open("https://www.dex.runandbun.com/pokemon/" + encounterName.toLowerCase(), '_blank').focus()
                     }>
                         Open
                     </button>

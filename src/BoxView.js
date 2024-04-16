@@ -1,8 +1,8 @@
 import './BoxView.css'
 import { useState } from 'react';
-import Pokedex from './data/Pokedex';
 import Select from 'react-select';
-import SameSpecies from './Utility';
+import Utility from './Utility';
+import DataManager from './data/DataManager';
 
 function BoxView(props) {
     const [customMon, setCustomMon] = useState("");
@@ -11,7 +11,7 @@ function BoxView(props) {
     const [checked, setChecked] = useState(false);
     const [selectedMonCaught, setSelectedMonCaught] = useState(props.caught.find(c => c.name === selectedMon));
     const pokemonOptions = [];
-    Object.keys(Pokedex).sort().forEach(element => {
+    DataManager.GetPokemonList().forEach(element => {
         if (element && element != null )
         pokemonOptions.push({ value: element, label: element })
     });
@@ -46,7 +46,7 @@ function BoxView(props) {
         event.preventDefault();
         console.log(event);
         const temp = [...props.caught];
-        if (temp.some(e => SameSpecies(customMon, e.name)))
+        if (temp.some(e => Utility.SameSpecies(customMon, e.name)))
             return
 
         const customEncounter = { name: customMon, location: { name: customLocation } }
@@ -60,12 +60,12 @@ function BoxView(props) {
             <div className='leftPanel' style={{ display: selectedMon ? "block" : "none" }}>
                 <div style={{ fontSize: 'calc(5px + 5vh)', marginTop: '5vh' }}>{selectedMon}</div>
                 <div style={{ fontSize: 'calc(5px + 2vh)', marginTop: '1vh' }}>Met Location: {props.caught.find(e => e.name === selectedMon)?.location.name}</div>
-                <img style={{ height: '20vh', marginTop: '3vh', marginBottom: '3vh' }} src={'/sprites/' + Pokedex[selectedMon]?.id + '.png'} alt={selectedMon} />
-                <div className='evolvePanel' style={{ display: (Pokedex[selectedMon]?.evolutions.length > 1) ? 'block' : 'none' }}>
+                <img style={{ height: '20vh', marginTop: '3vh', marginBottom: '3vh' }} src={'/sprites/' + DataManager.GetId(selectedMon) + '.png'} alt={selectedMon} />
+                <div className='evolvePanel' style={{ display: (DataManager.GetEvolutions(selectedMon)?.length > 1) ? 'block' : 'none' }}>
                     <div>Evolve by clicking an evolution below</div>
-                    {Pokedex[selectedMon]?.evolutions.map(evo =>
+                    {DataManager.GetEvolutions(selectedMon).map(evo =>
                         <img
-                            src={'/sprites/' + Pokedex[evo.charAt(0).toUpperCase() + evo.slice(1)]?.id + '.png'}
+                            src={'/sprites/' + DataManager.GetId(evo.charAt(0).toUpperCase() + evo.slice(1)) + '.png'}
                             onClick={selectedMon === evo.charAt(0).toUpperCase() + evo.slice(1) ? () => null : () => evolveMon(selectedMon, evo.charAt(0).toUpperCase() + evo.slice(1))}
                             style={{ cursor: 'pointer'}}
                             key={evo}
@@ -92,7 +92,7 @@ function BoxView(props) {
                 {props.caught.map(e =>
                     <img
                         key={e.name}
-                        src={'/sprites/' + Pokedex[e.name]?.id + '.png'}
+                        src={'/sprites/' + DataManager.GetId(e.name) + '.png'}
                         onClick={() => boxMonOnClick(e.name)}
                         alt={e.name}
                         style={{ 

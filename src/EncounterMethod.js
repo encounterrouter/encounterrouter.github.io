@@ -1,7 +1,7 @@
 import Encounter from './Encounter'
 import './EncounterMethod.css'
-import SameSpecies from './Utility';
-import SsPokedex from './data/SsPokedex';
+import Utility from './Utility';
+import DataManager from './data/DataManager';
 
 function EncounterMethod(props) {
     const method = props.method;
@@ -15,7 +15,7 @@ function EncounterMethod(props) {
             encounter.customWeight = normalWeight;
         }
         else if (props.ability === "mpull") {
-            if (SsPokedex.poks[encounter.name].types.includes("Steel")) {
+            if (DataManager.GetTypes(encounter.name).includes("Steel")) {
                 const steelWeight = (encounter.weight / sums.steel) * 100;
 
                 encounter.customWeight = (normalWeight * 0.5) + (steelWeight * 0.5);
@@ -25,7 +25,7 @@ function EncounterMethod(props) {
             }
         }
         else if (props.ability === "static") {
-            if (SsPokedex.poks[encounter.name].types.includes("Electric")) {
+            if (DataManager.GetTypes(encounter.name).includes("Electric")) {
                 const electricWeight = (encounter.weight / sums.electric) * 100;
 
                 encounter.customWeight = (normalWeight * 0.5) + (electricWeight * 0.5);
@@ -40,9 +40,9 @@ function EncounterMethod(props) {
     }
 
     if (isWeighted) {
-        var filteredEncounters = encounters.filter(e => !props.caught.some(c => SameSpecies(c.name, e.name)));
-        const hasSteel = filteredEncounters.some(e => SsPokedex.poks[e.name].types.includes("Steel"));
-        const hasElectric = filteredEncounters.some(e => SsPokedex.poks[e.name].types.includes("Electric"));
+        var filteredEncounters = encounters.filter(e => !props.caught.some(c => Utility.SameSpecies(c.name, e.name)));
+        const hasSteel = filteredEncounters.some(e => DataManager.GetTypes(e.name)?.includes("Steel"));
+        const hasElectric = filteredEncounters.some(e => DataManager.GetTypes(e.name)?.includes("Electric"));
 
         var sums = {
             "all": 0,
@@ -52,9 +52,9 @@ function EncounterMethod(props) {
 
         filteredEncounters.forEach(fe => {
             sums.all += parseInt(fe.weight);
-            if (SsPokedex.poks[fe.name].types.includes("Steel"))
+            if (DataManager.GetMon(fe.name)?.types?.includes("Steel"))
                 sums.steel += parseInt(fe.weight);
-            if (SsPokedex.poks[fe.name].types.includes("Electric"))
+            if (DataManager.GetMon(fe.name)?.types?.includes("Electric"))
                 sums.electric += parseInt(fe.weight);
         });
 
@@ -78,8 +78,8 @@ function EncounterMethod(props) {
                     location={props.location}
                     openDetailView={props.openDetailView}
                     abilityFilter={
-                        props.ability === "mpull" && SsPokedex.poks[encounter.name].types.includes("Steel") ||
-                        props.ability === "static" && SsPokedex.poks[encounter.name].types.includes("Electric")
+                        props.ability === "mpull" && DataManager.GetMon(encounter.name).types?.includes("Steel") ||
+                        props.ability === "static" && DataManager.GetMon(encounter.name).types?.includes("Electric")
                     }
                 />
             )}

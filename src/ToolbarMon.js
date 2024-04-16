@@ -1,5 +1,5 @@
 // import { useEffect, useState } from 'react'
-import Pokedex from './data/Pokedex';
+import DataManager from "./data/DataManager";
 
 // function useForceUpdate(){
 //     const [value, setValue] = useState(0); // integer state
@@ -28,7 +28,22 @@ function ToolbarMon(props) {
     // }, [name]);
 
     return (
-        <img onClick={() => props.openDetailView(props.location, name)} alt={name} src={'/sprites/' + Pokedex[name].id + '.png'} style={{cursor: "pointer"}}></img>
+        <img
+            onClick=
+            {() => {
+                switch (DataManager.game) {
+                    case DataManager.GAMES.RUNANDBUN:
+                        window.open("https://dex.runandbun.com/pokemon/" + name)
+                        break;
+                    case DataManager.GAMES.STERLINGSILVER:
+                        props.openDetailView(props.location, name)
+                        break;
+                }
+            }}
+            alt={name}
+            src={'/sprites/' + DataManager.GetId(name) + '.png'}
+            style={{ cursor: "pointer" }}>
+        </img>
     )
 }
 

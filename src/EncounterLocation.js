@@ -3,8 +3,8 @@ import { useContext, useState } from 'react';
 import EncounterMethod from './EncounterMethod';
 import CaughtEncounter from './CaughtEncounter';
 import { UserContext } from './App';
-import SameSpecies from './Utility';
-import SsPokedex from './data/SsPokedex';
+import Utility from './Utility';
+import DataManager from './data/DataManager';
 
 function EncounterLocation(props) {
     const location = props.location;
@@ -12,8 +12,8 @@ function EncounterLocation(props) {
     const { encounterFilter } = useContext(UserContext);
     const [radioVal, setRadioVal] = useState("none");
     const caughtHere = props.caught.some(e => e.location.name === location.name);
-    const locationHasSteel = location.methods.some(m => m.encounters.some(e => SsPokedex.poks[e.name].types.includes("Steel")));
-    const locationHasElectric = location.methods.some(m => m.encounters.some(e => SsPokedex.poks[e.name].types.includes("Electric")));
+    const locationHasSteel = location.methods.some(m => m.encounters.some(e => DataManager.GetMon(e.name)?.types.includes("Steel")));
+    const locationHasElectric = location.methods.some(m => m.encounters.some(e => DataManager.GetMon(e.name)?.types.includes("Electric")));
 
     const onRadioChange = (event) => {
         setRadioVal(event.target.value);
@@ -53,7 +53,7 @@ function EncounterLocation(props) {
     if (encounterFilter != null) {
         var hasDupe = false;
         location.methods.forEach(method => {
-            if (method.encounters.some(e => SameSpecies(e.name, encounterFilter))) {
+            if (method.encounters.some(e => Utility.SameSpecies(e.name, encounterFilter))) {
                 hasDupe = true;
                 return;
             }

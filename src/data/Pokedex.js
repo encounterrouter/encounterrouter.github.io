@@ -4,6 +4,9 @@ const Pokedex = {
         "id": 151,
         "evolutions": [
             "mew"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Muk": {
@@ -12,6 +15,17 @@ const Pokedex = {
         "evolutions": [
             "grimer",
             "muk"
+        ],
+        "types": [
+            "Poison"
+        ]
+    },
+    "Muk-A": {
+        "name": "Muk-A",
+        "id": 10113,
+        "types": [
+            "Poison",
+            "Dark"
         ]
     },
     "Abra": {
@@ -21,6 +35,9 @@ const Pokedex = {
             "abra",
             "kadabra",
             "alakazam"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Aron": {
@@ -30,6 +47,10 @@ const Pokedex = {
             "aron",
             "lairon",
             "aggron"
+        ],
+        "types": [
+            "Steel",
+            "Rock"
         ]
     },
     "Jynx": {
@@ -38,6 +59,10 @@ const Pokedex = {
         "evolutions": [
             "smoochum",
             "jynx"
+        ],
+        "types": [
+            "Ice",
+            "Psychic"
         ]
     },
     "Natu": {
@@ -46,6 +71,10 @@ const Pokedex = {
         "evolutions": [
             "natu",
             "xatu"
+        ],
+        "types": [
+            "Psychic",
+            "Flying"
         ]
     },
     "Onix": {
@@ -54,6 +83,10 @@ const Pokedex = {
         "evolutions": [
             "onix",
             "steelix"
+        ],
+        "types": [
+            "Rock",
+            "Ground"
         ]
     },
     "Seel": {
@@ -62,6 +95,9 @@ const Pokedex = {
         "evolutions": [
             "seel",
             "dewgong"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Uxie": {
@@ -69,6 +105,9 @@ const Pokedex = {
         "id": 480,
         "evolutions": [
             "uxie"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Chimchar": {
@@ -78,6 +117,9 @@ const Pokedex = {
             "chimchar",
             "monferno",
             "infernape"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Dialga": {
@@ -85,6 +127,10 @@ const Pokedex = {
         "id": 483,
         "evolutions": [
             "dialga"
+        ],
+        "types": [
+            "Steel",
+            "Dragon"
         ]
     },
     "Voltorb": {
@@ -93,6 +139,9 @@ const Pokedex = {
         "evolutions": [
             "voltorb",
             "electrode"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Buizel": {
@@ -101,6 +150,9 @@ const Pokedex = {
         "evolutions": [
             "buizel",
             "floatzel"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Magby": {
@@ -110,6 +162,9 @@ const Pokedex = {
             "magby",
             "magmar",
             "magmortar"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Roselia": {
@@ -119,6 +174,10 @@ const Pokedex = {
             "budew",
             "roselia",
             "roserade"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Blaziken": {
@@ -128,6 +187,10 @@ const Pokedex = {
             "torchic",
             "combusken",
             "blaziken"
+        ],
+        "types": [
+            "Fire",
+            "Fighting"
         ]
     },
     "Ampharos": {
@@ -137,6 +200,9 @@ const Pokedex = {
             "mareep",
             "flaaffy",
             "ampharos"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Feebas": {
@@ -145,6 +211,9 @@ const Pokedex = {
         "evolutions": [
             "feebas",
             "milotic"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Zubat": {
@@ -154,6 +223,10 @@ const Pokedex = {
             "zubat",
             "golbat",
             "crobat"
+        ],
+        "types": [
+            "Poison",
+            "Flying"
         ]
     },
     "Wailord": {
@@ -162,6 +235,9 @@ const Pokedex = {
         "evolutions": [
             "wailmer",
             "wailord"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Bronzong": {
@@ -170,6 +246,10 @@ const Pokedex = {
         "evolutions": [
             "bronzor",
             "bronzong"
+        ],
+        "types": [
+            "Steel",
+            "Psychic"
         ]
     },
     "Castform": {
@@ -177,6 +257,9 @@ const Pokedex = {
         "id": 351,
         "evolutions": [
             "castform"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Fearow": {
@@ -185,6 +268,10 @@ const Pokedex = {
         "evolutions": [
             "spearow",
             "fearow"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Barboach": {
@@ -193,6 +280,10 @@ const Pokedex = {
         "evolutions": [
             "barboach",
             "whiscash"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Togetic": {
@@ -202,6 +293,10 @@ const Pokedex = {
             "togepi",
             "togetic",
             "togekiss"
+        ],
+        "types": [
+            "Fairy",
+            "Flying"
         ]
     },
     "Xatu": {
@@ -210,6 +305,10 @@ const Pokedex = {
         "evolutions": [
             "natu",
             "xatu"
+        ],
+        "types": [
+            "Psychic",
+            "Flying"
         ]
     },
     "Yanmega": {
@@ -218,6 +317,10 @@ const Pokedex = {
         "evolutions": [
             "yanma",
             "yanmega"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Whismur": {
@@ -227,6 +330,9 @@ const Pokedex = {
             "whismur",
             "loudred",
             "exploud"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Chatot": {
@@ -234,6 +340,10 @@ const Pokedex = {
         "id": 441,
         "evolutions": [
             "chatot"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Aggron": {
@@ -243,6 +353,10 @@ const Pokedex = {
             "aron",
             "lairon",
             "aggron"
+        ],
+        "types": [
+            "Steel",
+            "Rock"
         ]
     },
     "Carvanha": {
@@ -251,6 +365,10 @@ const Pokedex = {
         "evolutions": [
             "carvanha",
             "sharpedo"
+        ],
+        "types": [
+            "Water",
+            "Dark"
         ]
     },
     "Camerupt": {
@@ -259,6 +377,10 @@ const Pokedex = {
         "evolutions": [
             "numel",
             "camerupt"
+        ],
+        "types": [
+            "Fire",
+            "Ground"
         ]
     },
     "Torkoal": {
@@ -266,6 +388,9 @@ const Pokedex = {
         "id": 324,
         "evolutions": [
             "torkoal"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Happiny": {
@@ -275,6 +400,9 @@ const Pokedex = {
             "happiny",
             "chansey",
             "blissey"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Taillow": {
@@ -283,6 +411,10 @@ const Pokedex = {
         "evolutions": [
             "taillow",
             "swellow"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Tyrogue": {
@@ -293,6 +425,9 @@ const Pokedex = {
             "hitmonlee",
             "hitmonchan",
             "hitmontop"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Regirock": {
@@ -300,6 +435,9 @@ const Pokedex = {
         "id": 377,
         "evolutions": [
             "regirock"
+        ],
+        "types": [
+            "Rock"
         ]
     },
     "Torchic": {
@@ -309,6 +447,9 @@ const Pokedex = {
             "torchic",
             "combusken",
             "blaziken"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Purugly": {
@@ -317,6 +458,9 @@ const Pokedex = {
         "evolutions": [
             "glameow",
             "purugly"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Sceptile": {
@@ -326,6 +470,9 @@ const Pokedex = {
             "treecko",
             "grovyle",
             "sceptile"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Tangela": {
@@ -334,6 +481,9 @@ const Pokedex = {
         "evolutions": [
             "tangela",
             "tangrowth"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Qwilfish": {
@@ -341,6 +491,18 @@ const Pokedex = {
         "id": 211,
         "evolutions": [
             "qwilfish"
+        ],
+        "types": [
+            "Water",
+            "Poison"
+        ]
+    },
+    "Qwilfish-H": {
+        "name": "Qwilfish-H",
+        "id": 10234,
+        "types": [
+            "Dark",
+            "Poison"
         ]
     },
     "Flygon": {
@@ -350,6 +512,10 @@ const Pokedex = {
             "trapinch",
             "vibrava",
             "flygon"
+        ],
+        "types": [
+            "Ground",
+            "Dragon"
         ]
     },
     "Arcanine": {
@@ -358,6 +524,9 @@ const Pokedex = {
         "evolutions": [
             "growlithe",
             "arcanine"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Eevee": {
@@ -371,7 +540,28 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Normal"
+        ]
+    },
+    "Sylveon": {
+        "id": 700,
+        "types": [
+            "Fairy"
+        ],
+        "evolutions": [
+            "eevee",
+            "vaporeon",
+            "jolteon",
+            "flareon",
+            "espeon",
+            "umbreon",
+            "leafeon",
+            "glaceon",
+            "sylveon"
         ]
     },
     "Gastly": {
@@ -381,6 +571,10 @@ const Pokedex = {
             "gastly",
             "haunter",
             "gengar"
+        ],
+        "types": [
+            "Ghost",
+            "Poison"
         ]
     },
     "Flareon": {
@@ -395,6 +589,10 @@ const Pokedex = {
             "umbreon",
             "leafeon",
             "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Nincada": {
@@ -404,6 +602,10 @@ const Pokedex = {
             "nincada",
             "ninjask",
             "shedinja"
+        ],
+        "types": [
+            "Bug",
+            "Ground"
         ]
     },
     "Glaceon": {
@@ -417,7 +619,11 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Ice"
         ]
     },
     "Miltank": {
@@ -425,6 +631,9 @@ const Pokedex = {
         "id": 241,
         "evolutions": [
             "miltank"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Machamp": {
@@ -434,6 +643,9 @@ const Pokedex = {
             "machop",
             "machoke",
             "machamp"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Aipom": {
@@ -442,6 +654,9 @@ const Pokedex = {
         "evolutions": [
             "aipom",
             "ambipom"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Shieldon": {
@@ -450,6 +665,10 @@ const Pokedex = {
         "evolutions": [
             "shieldon",
             "bastiodon"
+        ],
+        "types": [
+            "Rock",
+            "Steel"
         ]
     },
     "Persian": {
@@ -458,6 +677,9 @@ const Pokedex = {
         "evolutions": [
             "meowth",
             "persian"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Marowak": {
@@ -466,6 +688,9 @@ const Pokedex = {
         "evolutions": [
             "cubone",
             "marowak"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Leafeon": {
@@ -479,7 +704,11 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Huntail": {
@@ -489,6 +718,9 @@ const Pokedex = {
             "clamperl",
             "huntail",
             "gorebyss"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Glameow": {
@@ -497,6 +729,9 @@ const Pokedex = {
         "evolutions": [
             "glameow",
             "purugly"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Rattata": {
@@ -505,6 +740,9 @@ const Pokedex = {
         "evolutions": [
             "rattata",
             "raticate"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Parasect": {
@@ -513,6 +751,10 @@ const Pokedex = {
         "evolutions": [
             "paras",
             "parasect"
+        ],
+        "types": [
+            "Bug",
+            "Grass"
         ]
     },
     "Raticate": {
@@ -521,6 +763,9 @@ const Pokedex = {
         "evolutions": [
             "rattata",
             "raticate"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Togepi": {
@@ -530,6 +775,9 @@ const Pokedex = {
             "togepi",
             "togetic",
             "togekiss"
+        ],
+        "types": [
+            "Fairy"
         ]
     },
     "Geodude": {
@@ -539,6 +787,18 @@ const Pokedex = {
             "geodude",
             "graveler",
             "golem"
+        ],
+        "types": [
+            "Rock",
+            "Ground"
+        ]
+    },
+    "Geodude-A": {
+        "name": "Geodude-A",
+        "id": 10109,
+        "types": [
+            "Rock",
+            "Electric"
         ]
     },
     "Skiploom": {
@@ -548,6 +808,10 @@ const Pokedex = {
             "hoppip",
             "skiploom",
             "jumpluff"
+        ],
+        "types": [
+            "Grass",
+            "Flying"
         ]
     },
     "Sharpedo": {
@@ -556,6 +820,10 @@ const Pokedex = {
         "evolutions": [
             "carvanha",
             "sharpedo"
+        ],
+        "types": [
+            "Water",
+            "Dark"
         ]
     },
     "Glalie": {
@@ -565,6 +833,9 @@ const Pokedex = {
             "snorunt",
             "glalie",
             "froslass"
+        ],
+        "types": [
+            "Ice"
         ]
     },
     "Exploud": {
@@ -574,6 +845,9 @@ const Pokedex = {
             "whismur",
             "loudred",
             "exploud"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Prinplup": {
@@ -583,6 +857,9 @@ const Pokedex = {
             "piplup",
             "prinplup",
             "empoleon"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Gligar": {
@@ -591,6 +868,10 @@ const Pokedex = {
         "evolutions": [
             "gligar",
             "gliscor"
+        ],
+        "types": [
+            "Ground",
+            "Flying"
         ]
     },
     "Anorith": {
@@ -599,6 +880,10 @@ const Pokedex = {
         "evolutions": [
             "anorith",
             "armaldo"
+        ],
+        "types": [
+            "Rock",
+            "Bug"
         ]
     },
     "Volbeat": {
@@ -606,6 +891,9 @@ const Pokedex = {
         "id": 313,
         "evolutions": [
             "volbeat"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Sunflora": {
@@ -614,6 +902,9 @@ const Pokedex = {
         "evolutions": [
             "sunkern",
             "sunflora"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Quilava": {
@@ -623,6 +914,9 @@ const Pokedex = {
             "cyndaquil",
             "quilava",
             "typhlosion"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Articuno": {
@@ -630,6 +924,10 @@ const Pokedex = {
         "id": 144,
         "evolutions": [
             "articuno"
+        ],
+        "types": [
+            "Ice",
+            "Flying"
         ]
     },
     "Celebi": {
@@ -637,6 +935,10 @@ const Pokedex = {
         "id": 251,
         "evolutions": [
             "celebi"
+        ],
+        "types": [
+            "Psychic",
+            "Grass"
         ]
     },
     "Crobat": {
@@ -646,6 +948,10 @@ const Pokedex = {
             "zubat",
             "golbat",
             "crobat"
+        ],
+        "types": [
+            "Poison",
+            "Flying"
         ]
     },
     "Tauros": {
@@ -653,6 +959,9 @@ const Pokedex = {
         "id": 128,
         "evolutions": [
             "tauros"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Dusclops": {
@@ -662,6 +971,9 @@ const Pokedex = {
             "duskull",
             "dusclops",
             "dusknoir"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Luxray": {
@@ -671,6 +983,9 @@ const Pokedex = {
             "shinx",
             "luxio",
             "luxray"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Weavile": {
@@ -680,6 +995,10 @@ const Pokedex = {
             "sneasel",
             "weavile",
             "sneasler"
+        ],
+        "types": [
+            "Dark",
+            "Ice"
         ]
     },
     "Cacturne": {
@@ -688,6 +1007,10 @@ const Pokedex = {
         "evolutions": [
             "cacnea",
             "cacturne"
+        ],
+        "types": [
+            "Grass",
+            "Dark"
         ]
     },
     "Alakazam": {
@@ -697,6 +1020,9 @@ const Pokedex = {
             "abra",
             "kadabra",
             "alakazam"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Skarmory": {
@@ -704,6 +1030,10 @@ const Pokedex = {
         "id": 227,
         "evolutions": [
             "skarmory"
+        ],
+        "types": [
+            "Steel",
+            "Flying"
         ]
     },
     "Cleffa": {
@@ -713,6 +1043,9 @@ const Pokedex = {
             "cleffa",
             "clefairy",
             "clefable"
+        ],
+        "types": [
+            "Fairy"
         ]
     },
     "Caterpie": {
@@ -722,6 +1055,9 @@ const Pokedex = {
             "caterpie",
             "metapod",
             "butterfree"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Elekid": {
@@ -731,6 +1067,9 @@ const Pokedex = {
             "elekid",
             "electabuzz",
             "electivire"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Floatzel": {
@@ -739,6 +1078,9 @@ const Pokedex = {
         "evolutions": [
             "buizel",
             "floatzel"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Swalot": {
@@ -747,6 +1089,9 @@ const Pokedex = {
         "evolutions": [
             "gulpin",
             "swalot"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Wurmple": {
@@ -758,6 +1103,9 @@ const Pokedex = {
             "beautifly",
             "cascoon",
             "dustox"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Wingull": {
@@ -766,6 +1114,10 @@ const Pokedex = {
         "evolutions": [
             "wingull",
             "pelipper"
+        ],
+        "types": [
+            "Water",
+            "Flying"
         ]
     },
     "Turtwig": {
@@ -775,6 +1127,9 @@ const Pokedex = {
             "turtwig",
             "grotle",
             "torterra"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Espeon": {
@@ -788,7 +1143,11 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Cranidos": {
@@ -797,6 +1156,9 @@ const Pokedex = {
         "evolutions": [
             "cranidos",
             "rampardos"
+        ],
+        "types": [
+            "Rock"
         ]
     },
     "Venonat": {
@@ -805,6 +1167,10 @@ const Pokedex = {
         "evolutions": [
             "venonat",
             "venomoth"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Gallade": {
@@ -815,6 +1181,10 @@ const Pokedex = {
             "kirlia",
             "gardevoir",
             "gallade"
+        ],
+        "types": [
+            "Psychic",
+            "Fighting"
         ]
     },
     "Dustox": {
@@ -826,6 +1196,10 @@ const Pokedex = {
             "beautifly",
             "cascoon",
             "dustox"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Gengar": {
@@ -835,6 +1209,10 @@ const Pokedex = {
             "gastly",
             "haunter",
             "gengar"
+        ],
+        "types": [
+            "Ghost",
+            "Poison"
         ]
     },
     "Rapidash": {
@@ -843,6 +1221,9 @@ const Pokedex = {
         "evolutions": [
             "ponyta",
             "rapidash"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Sunkern": {
@@ -851,6 +1232,9 @@ const Pokedex = {
         "evolutions": [
             "sunkern",
             "sunflora"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Gloom": {
@@ -861,6 +1245,10 @@ const Pokedex = {
             "gloom",
             "vileplume",
             "bellossom"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Vibrava": {
@@ -870,6 +1258,10 @@ const Pokedex = {
             "trapinch",
             "vibrava",
             "flygon"
+        ],
+        "types": [
+            "Ground",
+            "Dragon"
         ]
     },
     "Tropius": {
@@ -877,6 +1269,10 @@ const Pokedex = {
         "id": 357,
         "evolutions": [
             "tropius"
+        ],
+        "types": [
+            "Grass",
+            "Flying"
         ]
     },
     "Goldeen": {
@@ -885,6 +1281,9 @@ const Pokedex = {
         "evolutions": [
             "goldeen",
             "seaking"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Weezing": {
@@ -893,6 +1292,9 @@ const Pokedex = {
         "evolutions": [
             "koffing",
             "weezing"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Beedrill": {
@@ -902,6 +1304,10 @@ const Pokedex = {
             "weedle",
             "kakuna",
             "beedrill"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Totodile": {
@@ -911,6 +1317,9 @@ const Pokedex = {
             "totodile",
             "croconaw",
             "feraligatr"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Wailmer": {
@@ -919,6 +1328,9 @@ const Pokedex = {
         "evolutions": [
             "wailmer",
             "wailord"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Froslass": {
@@ -928,6 +1340,10 @@ const Pokedex = {
             "snorunt",
             "glalie",
             "froslass"
+        ],
+        "types": [
+            "Ice",
+            "Ghost"
         ]
     },
     "Ninjask": {
@@ -937,6 +1353,10 @@ const Pokedex = {
             "nincada",
             "ninjask",
             "shedinja"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Rayquaza": {
@@ -944,6 +1364,10 @@ const Pokedex = {
         "id": 384,
         "evolutions": [
             "rayquaza"
+        ],
+        "types": [
+            "Dragon",
+            "Flying"
         ]
     },
     "Nosepass": {
@@ -952,6 +1376,9 @@ const Pokedex = {
         "evolutions": [
             "nosepass",
             "probopass"
+        ],
+        "types": [
+            "Rock"
         ]
     },
     "Psyduck": {
@@ -960,6 +1387,9 @@ const Pokedex = {
         "evolutions": [
             "psyduck",
             "golduck"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Mantine": {
@@ -968,6 +1398,10 @@ const Pokedex = {
         "evolutions": [
             "mantyke",
             "mantine"
+        ],
+        "types": [
+            "Water",
+            "Flying"
         ]
     },
     "Machoke": {
@@ -977,6 +1411,9 @@ const Pokedex = {
             "machop",
             "machoke",
             "machamp"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Quagsire": {
@@ -985,6 +1422,10 @@ const Pokedex = {
         "evolutions": [
             "wooper",
             "quagsire"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Primeape": {
@@ -994,6 +1435,9 @@ const Pokedex = {
             "mankey",
             "primeape",
             "annihilape"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Nuzleaf": {
@@ -1003,6 +1447,10 @@ const Pokedex = {
             "seedot",
             "nuzleaf",
             "shiftry"
+        ],
+        "types": [
+            "Grass",
+            "Dark"
         ]
     },
     "Pelipper": {
@@ -1011,6 +1459,10 @@ const Pokedex = {
         "evolutions": [
             "wingull",
             "pelipper"
+        ],
+        "types": [
+            "Water",
+            "Flying"
         ]
     },
     "Drifloon": {
@@ -1019,6 +1471,10 @@ const Pokedex = {
         "evolutions": [
             "drifloon",
             "drifblim"
+        ],
+        "types": [
+            "Ghost",
+            "Flying"
         ]
     },
     "Gorebyss": {
@@ -1028,6 +1484,9 @@ const Pokedex = {
             "clamperl",
             "huntail",
             "gorebyss"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Raichu": {
@@ -1037,6 +1496,9 @@ const Pokedex = {
             "pichu",
             "pikachu",
             "raichu"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Nidorino": {
@@ -1046,6 +1508,9 @@ const Pokedex = {
             "nidoran-M",
             "nidorino",
             "nidoking"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Umbreon": {
@@ -1059,7 +1524,11 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Dark"
         ]
     },
     "Nidorina": {
@@ -1069,6 +1538,9 @@ const Pokedex = {
             "nidoran-F",
             "nidorina",
             "nidoqueen"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Pidgeot": {
@@ -1078,6 +1550,10 @@ const Pokedex = {
             "pidgey",
             "pidgeotto",
             "pidgeot"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Haunter": {
@@ -1087,6 +1563,10 @@ const Pokedex = {
             "gastly",
             "haunter",
             "gengar"
+        ],
+        "types": [
+            "Ghost",
+            "Poison"
         ]
     },
     "Mudkip": {
@@ -1096,6 +1576,9 @@ const Pokedex = {
             "mudkip",
             "marshtomp",
             "swampert"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Mesprit": {
@@ -1103,6 +1586,9 @@ const Pokedex = {
         "id": 481,
         "evolutions": [
             "mesprit"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Mantyke": {
@@ -1111,6 +1597,10 @@ const Pokedex = {
         "evolutions": [
             "mantyke",
             "mantine"
+        ],
+        "types": [
+            "Water",
+            "Flying"
         ]
     },
     "Hoothoot": {
@@ -1119,6 +1609,10 @@ const Pokedex = {
         "evolutions": [
             "hoothoot",
             "noctowl"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Noctowl": {
@@ -1127,6 +1621,10 @@ const Pokedex = {
         "evolutions": [
             "hoothoot",
             "noctowl"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Rhyhorn": {
@@ -1136,6 +1634,10 @@ const Pokedex = {
             "rhyhorn",
             "rhydon",
             "rhyperior"
+        ],
+        "types": [
+            "Ground",
+            "Rock"
         ]
     },
     "Murkrow": {
@@ -1144,6 +1646,10 @@ const Pokedex = {
         "evolutions": [
             "murkrow",
             "honchkrow"
+        ],
+        "types": [
+            "Dark",
+            "Flying"
         ]
     },
     "Graveler": {
@@ -1153,6 +1659,18 @@ const Pokedex = {
             "geodude",
             "graveler",
             "golem"
+        ],
+        "types": [
+            "Rock",
+            "Ground"
+        ]
+    },
+    "Graveler-A": {
+        "name": "Graveler-A",
+        "id": 10110,
+        "types": [
+            "Rock",
+            "Electric"
         ]
     },
     "Moltres": {
@@ -1160,6 +1678,10 @@ const Pokedex = {
         "id": 146,
         "evolutions": [
             "moltres"
+        ],
+        "types": [
+            "Fire",
+            "Flying"
         ]
     },
     "Wynaut": {
@@ -1168,6 +1690,9 @@ const Pokedex = {
         "evolutions": [
             "wynaut",
             "wobbuffet"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Politoed": {
@@ -1178,6 +1703,9 @@ const Pokedex = {
             "poliwhirl",
             "poliwrath",
             "politoed"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Mankey": {
@@ -1187,6 +1715,9 @@ const Pokedex = {
             "mankey",
             "primeape",
             "annihilape"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Poliwag": {
@@ -1197,6 +1728,9 @@ const Pokedex = {
             "poliwhirl",
             "poliwrath",
             "politoed"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Cradily": {
@@ -1205,6 +1739,10 @@ const Pokedex = {
         "evolutions": [
             "lileep",
             "cradily"
+        ],
+        "types": [
+            "Rock",
+            "Grass"
         ]
     },
     "Walrein": {
@@ -1214,6 +1752,10 @@ const Pokedex = {
             "spheal",
             "sealeo",
             "walrein"
+        ],
+        "types": [
+            "Ice",
+            "Water"
         ]
     },
     "Ditto": {
@@ -1221,6 +1763,9 @@ const Pokedex = {
         "id": 132,
         "evolutions": [
             "ditto"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Bronzor": {
@@ -1229,6 +1774,10 @@ const Pokedex = {
         "evolutions": [
             "bronzor",
             "bronzong"
+        ],
+        "types": [
+            "Steel",
+            "Psychic"
         ]
     },
     "Ekans": {
@@ -1237,6 +1786,9 @@ const Pokedex = {
         "evolutions": [
             "ekans",
             "arbok"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Makuhita": {
@@ -1245,6 +1797,9 @@ const Pokedex = {
         "evolutions": [
             "makuhita",
             "hariyama"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Pikachu": {
@@ -1254,6 +1809,9 @@ const Pokedex = {
             "pichu",
             "pikachu",
             "raichu"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Whiscash": {
@@ -1262,6 +1820,10 @@ const Pokedex = {
         "evolutions": [
             "barboach",
             "whiscash"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Gible": {
@@ -1271,6 +1833,10 @@ const Pokedex = {
             "gible",
             "gabite",
             "garchomp"
+        ],
+        "types": [
+            "Dragon",
+            "Ground"
         ]
     },
     "Manaphy": {
@@ -1279,6 +1845,9 @@ const Pokedex = {
         "evolutions": [
             "phione",
             "manaphy"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Deoxys": {
@@ -1286,6 +1855,9 @@ const Pokedex = {
         "id": 386,
         "evolutions": [
             "deoxys"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Meganium": {
@@ -1295,6 +1867,9 @@ const Pokedex = {
             "chikorita",
             "bayleef",
             "meganium"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Chikorita": {
@@ -1304,6 +1879,9 @@ const Pokedex = {
             "chikorita",
             "bayleef",
             "meganium"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Kricketot": {
@@ -1312,6 +1890,9 @@ const Pokedex = {
         "evolutions": [
             "kricketot",
             "kricketune"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Beautifly": {
@@ -1323,6 +1904,10 @@ const Pokedex = {
             "beautifly",
             "cascoon",
             "dustox"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Piloswine": {
@@ -1332,6 +1917,10 @@ const Pokedex = {
             "swinub",
             "piloswine",
             "mamoswine"
+        ],
+        "types": [
+            "Ice",
+            "Ground"
         ]
     },
     "Nidoran-M": {
@@ -1341,6 +1930,9 @@ const Pokedex = {
             "nidoran-M",
             "nidorino",
             "nidoking"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Altaria": {
@@ -1349,6 +1941,10 @@ const Pokedex = {
         "evolutions": [
             "swablu",
             "altaria"
+        ],
+        "types": [
+            "Dragon",
+            "Flying"
         ]
     },
     "Pidgeotto": {
@@ -1358,6 +1954,10 @@ const Pokedex = {
             "pidgey",
             "pidgeotto",
             "pidgeot"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Snubbull": {
@@ -1366,6 +1966,9 @@ const Pokedex = {
         "evolutions": [
             "snubbull",
             "granbull"
+        ],
+        "types": [
+            "Fairy"
         ]
     },
     "Ariados": {
@@ -1374,6 +1977,10 @@ const Pokedex = {
         "evolutions": [
             "spinarak",
             "ariados"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Shedinja": {
@@ -1383,6 +1990,10 @@ const Pokedex = {
             "nincada",
             "ninjask",
             "shedinja"
+        ],
+        "types": [
+            "Bug",
+            "Ghost"
         ]
     },
     "Empoleon": {
@@ -1392,6 +2003,10 @@ const Pokedex = {
             "piplup",
             "prinplup",
             "empoleon"
+        ],
+        "types": [
+            "Water",
+            "Steel"
         ]
     },
     "Rampardos": {
@@ -1400,6 +2015,9 @@ const Pokedex = {
         "evolutions": [
             "cranidos",
             "rampardos"
+        ],
+        "types": [
+            "Rock"
         ]
     },
     "Smeargle": {
@@ -1407,6 +2025,9 @@ const Pokedex = {
         "id": 235,
         "evolutions": [
             "smeargle"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Corphish": {
@@ -1415,6 +2036,9 @@ const Pokedex = {
         "evolutions": [
             "corphish",
             "crawdaunt"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Marill": {
@@ -1424,6 +2048,10 @@ const Pokedex = {
             "azurill",
             "marill",
             "azumarill"
+        ],
+        "types": [
+            "Water",
+            "Fairy"
         ]
     },
     "Bellsprout": {
@@ -1433,6 +2061,10 @@ const Pokedex = {
             "bellsprout",
             "weepinbell",
             "victreebel"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Krabby": {
@@ -1441,6 +2073,9 @@ const Pokedex = {
         "evolutions": [
             "krabby",
             "kingler"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Metang": {
@@ -1450,6 +2085,10 @@ const Pokedex = {
             "beldum",
             "metang",
             "metagross"
+        ],
+        "types": [
+            "Steel",
+            "Psychic"
         ]
     },
     "Porygon2": {
@@ -1459,6 +2098,9 @@ const Pokedex = {
             "porygon",
             "porygon2",
             "porygon-z"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Latios": {
@@ -1466,6 +2108,10 @@ const Pokedex = {
         "id": 381,
         "evolutions": [
             "latios"
+        ],
+        "types": [
+            "Dragon",
+            "Psychic"
         ]
     },
     "Lapras": {
@@ -1473,6 +2119,10 @@ const Pokedex = {
         "id": 131,
         "evolutions": [
             "lapras"
+        ],
+        "types": [
+            "Water",
+            "Ice"
         ]
     },
     "Kricketune": {
@@ -1481,6 +2131,9 @@ const Pokedex = {
         "evolutions": [
             "kricketot",
             "kricketune"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Porygon": {
@@ -1490,6 +2143,9 @@ const Pokedex = {
             "porygon",
             "porygon2",
             "porygon-z"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Mewtwo": {
@@ -1497,6 +2153,9 @@ const Pokedex = {
         "id": 150,
         "evolutions": [
             "mewtwo"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Ledian": {
@@ -1505,6 +2164,10 @@ const Pokedex = {
         "evolutions": [
             "ledyba",
             "ledian"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Hippopotas": {
@@ -1513,6 +2176,9 @@ const Pokedex = {
         "evolutions": [
             "hippopotas",
             "hippowdon"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Weepinbell": {
@@ -1522,6 +2188,10 @@ const Pokedex = {
             "bellsprout",
             "weepinbell",
             "victreebel"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Lileep": {
@@ -1530,6 +2200,10 @@ const Pokedex = {
         "evolutions": [
             "lileep",
             "cradily"
+        ],
+        "types": [
+            "Rock",
+            "Grass"
         ]
     },
     "Kangaskhan": {
@@ -1537,6 +2211,9 @@ const Pokedex = {
         "id": 115,
         "evolutions": [
             "kangaskhan"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Mime-Jr": {
@@ -1546,6 +2223,10 @@ const Pokedex = {
             "mime-jr",
             "mr-mime",
             "mr-rime"
+        ],
+        "types": [
+            "Psychic",
+            "Fairy"
         ]
     },
     "Lopunny": {
@@ -1554,6 +2235,9 @@ const Pokedex = {
         "evolutions": [
             "buneary",
             "lopunny"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Lombre": {
@@ -1563,6 +2247,10 @@ const Pokedex = {
             "lotad",
             "lombre",
             "ludicolo"
+        ],
+        "types": [
+            "Water",
+            "Grass"
         ]
     },
     "Ledyba": {
@@ -1571,6 +2259,10 @@ const Pokedex = {
         "evolutions": [
             "ledyba",
             "ledian"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Pinsir": {
@@ -1578,6 +2270,9 @@ const Pokedex = {
         "id": 127,
         "evolutions": [
             "pinsir"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Mawile": {
@@ -1585,6 +2280,10 @@ const Pokedex = {
         "id": 303,
         "evolutions": [
             "mawile"
+        ],
+        "types": [
+            "Steel",
+            "Fairy"
         ]
     },
     "Milotic": {
@@ -1593,6 +2292,9 @@ const Pokedex = {
         "evolutions": [
             "feebas",
             "milotic"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Pupitar": {
@@ -1602,6 +2304,10 @@ const Pokedex = {
             "larvitar",
             "pupitar",
             "tyranitar"
+        ],
+        "types": [
+            "Rock",
+            "Ground"
         ]
     },
     "Meditite": {
@@ -1610,6 +2316,10 @@ const Pokedex = {
         "evolutions": [
             "meditite",
             "medicham"
+        ],
+        "types": [
+            "Fighting",
+            "Psychic"
         ]
     },
     "Meowth": {
@@ -1618,6 +2328,19 @@ const Pokedex = {
         "evolutions": [
             "meowth",
             "persian"
+        ],
+        "types": [
+            "Normal"
+        ]
+    },
+    "Meowth-G": {
+        "name": "Meowth-G",
+        "id": 10161,
+        "evolutions": [
+            "meowth-g"
+        ],
+        "types": [
+            "Steel"
         ]
     },
     "Cascoon": {
@@ -1629,6 +2352,9 @@ const Pokedex = {
             "beautifly",
             "cascoon",
             "dustox"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Donphan": {
@@ -1637,6 +2363,9 @@ const Pokedex = {
         "evolutions": [
             "phanpy",
             "donphan"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Kecleon": {
@@ -1644,6 +2373,9 @@ const Pokedex = {
         "id": 352,
         "evolutions": [
             "kecleon"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Golem": {
@@ -1653,6 +2385,10 @@ const Pokedex = {
             "geodude",
             "graveler",
             "golem"
+        ],
+        "types": [
+            "Rock",
+            "Ground"
         ]
     },
     "Jirachi": {
@@ -1660,6 +2396,10 @@ const Pokedex = {
         "id": 385,
         "evolutions": [
             "jirachi"
+        ],
+        "types": [
+            "Steel",
+            "Psychic"
         ]
     },
     "Bellossom": {
@@ -1670,6 +2410,9 @@ const Pokedex = {
             "gloom",
             "vileplume",
             "bellossom"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Burmy": {
@@ -1679,6 +2422,9 @@ const Pokedex = {
             "burmy",
             "wormadam",
             "mothim"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Magneton": {
@@ -1688,6 +2434,10 @@ const Pokedex = {
             "magnemite",
             "magneton",
             "magnezone"
+        ],
+        "types": [
+            "Electric",
+            "Steel"
         ]
     },
     "Bagon": {
@@ -1697,6 +2447,9 @@ const Pokedex = {
             "bagon",
             "shelgon",
             "salamence"
+        ],
+        "types": [
+            "Dragon"
         ]
     },
     "Darkrai": {
@@ -1704,6 +2457,9 @@ const Pokedex = {
         "id": 491,
         "evolutions": [
             "darkrai"
+        ],
+        "types": [
+            "Dark"
         ]
     },
     "Azelf": {
@@ -1711,6 +2467,9 @@ const Pokedex = {
         "id": 482,
         "evolutions": [
             "azelf"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Grovyle": {
@@ -1720,6 +2479,9 @@ const Pokedex = {
             "treecko",
             "grovyle",
             "sceptile"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Combee": {
@@ -1728,6 +2490,10 @@ const Pokedex = {
         "evolutions": [
             "combee",
             "vespiquen"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Venusaur": {
@@ -1737,6 +2503,10 @@ const Pokedex = {
             "bulbasaur",
             "ivysaur",
             "venusaur"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Bastiodon": {
@@ -1745,6 +2515,10 @@ const Pokedex = {
         "evolutions": [
             "shieldon",
             "bastiodon"
+        ],
+        "types": [
+            "Rock",
+            "Steel"
         ]
     },
     "Yanma": {
@@ -1753,6 +2527,10 @@ const Pokedex = {
         "evolutions": [
             "yanma",
             "yanmega"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Loudred": {
@@ -1762,6 +2540,9 @@ const Pokedex = {
             "whismur",
             "loudred",
             "exploud"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Mr-Mime": {
@@ -1771,6 +2552,10 @@ const Pokedex = {
             "mime-jr",
             "mr-mime",
             "mr-rime"
+        ],
+        "types": [
+            "Psychic",
+            "Fairy"
         ]
     },
     "Shinx": {
@@ -1780,6 +2565,9 @@ const Pokedex = {
             "shinx",
             "luxio",
             "luxray"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Venomoth": {
@@ -1788,6 +2576,10 @@ const Pokedex = {
         "evolutions": [
             "venonat",
             "venomoth"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Magmortar": {
@@ -1797,6 +2589,9 @@ const Pokedex = {
             "magby",
             "magmar",
             "magmortar"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Dragonair": {
@@ -1806,6 +2601,9 @@ const Pokedex = {
             "dratini",
             "dragonair",
             "dragonite"
+        ],
+        "types": [
+            "Dragon"
         ]
     },
     "Dodrio": {
@@ -1814,6 +2612,10 @@ const Pokedex = {
         "evolutions": [
             "doduo",
             "dodrio"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Crawdaunt": {
@@ -1822,6 +2624,10 @@ const Pokedex = {
         "evolutions": [
             "corphish",
             "crawdaunt"
+        ],
+        "types": [
+            "Water",
+            "Dark"
         ]
     },
     "Blastoise": {
@@ -1831,6 +2637,9 @@ const Pokedex = {
             "squirtle",
             "wartortle",
             "blastoise"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Combusken": {
@@ -1840,6 +2649,10 @@ const Pokedex = {
             "torchic",
             "combusken",
             "blaziken"
+        ],
+        "types": [
+            "Fire",
+            "Fighting"
         ]
     },
     "Diglett": {
@@ -1848,6 +2661,9 @@ const Pokedex = {
         "evolutions": [
             "diglett",
             "dugtrio"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Vigoroth": {
@@ -1857,6 +2673,9 @@ const Pokedex = {
             "slakoth",
             "vigoroth",
             "slaking"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Ninetales": {
@@ -1865,6 +2684,9 @@ const Pokedex = {
         "evolutions": [
             "vulpix",
             "ninetales"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Cyndaquil": {
@@ -1874,6 +2696,9 @@ const Pokedex = {
             "cyndaquil",
             "quilava",
             "typhlosion"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Pachirisu": {
@@ -1881,6 +2706,9 @@ const Pokedex = {
         "id": 417,
         "evolutions": [
             "pachirisu"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Cubone": {
@@ -1889,6 +2717,9 @@ const Pokedex = {
         "evolutions": [
             "cubone",
             "marowak"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Luvdisc": {
@@ -1896,6 +2727,9 @@ const Pokedex = {
         "id": 370,
         "evolutions": [
             "luvdisc"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Infernape": {
@@ -1905,6 +2739,10 @@ const Pokedex = {
             "chimchar",
             "monferno",
             "infernape"
+        ],
+        "types": [
+            "Fire",
+            "Fighting"
         ]
     },
     "Poliwhirl": {
@@ -1915,6 +2753,9 @@ const Pokedex = {
             "poliwhirl",
             "poliwrath",
             "politoed"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Registeel": {
@@ -1922,6 +2763,9 @@ const Pokedex = {
         "id": 379,
         "evolutions": [
             "registeel"
+        ],
+        "types": [
+            "Steel"
         ]
     },
     "Probopass": {
@@ -1930,6 +2774,10 @@ const Pokedex = {
         "evolutions": [
             "nosepass",
             "probopass"
+        ],
+        "types": [
+            "Rock",
+            "Steel"
         ]
     },
     "Seviper": {
@@ -1937,6 +2785,9 @@ const Pokedex = {
         "id": 336,
         "evolutions": [
             "seviper"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Cresselia": {
@@ -1944,6 +2795,9 @@ const Pokedex = {
         "id": 488,
         "evolutions": [
             "cresselia"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Wormadam": {
@@ -1953,6 +2807,10 @@ const Pokedex = {
             "burmy",
             "wormadam",
             "mothim"
+        ],
+        "types": [
+            "Bug",
+            "Grass"
         ]
     },
     "Omanyte": {
@@ -1961,6 +2819,10 @@ const Pokedex = {
         "evolutions": [
             "omanyte",
             "omastar"
+        ],
+        "types": [
+            "Rock",
+            "Water"
         ]
     },
     "Scyther": {
@@ -1970,6 +2832,10 @@ const Pokedex = {
             "scyther",
             "scizor",
             "kleavor"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Chingling": {
@@ -1978,6 +2844,9 @@ const Pokedex = {
         "evolutions": [
             "chingling",
             "chimecho"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Igglybuff": {
@@ -1987,6 +2856,10 @@ const Pokedex = {
             "igglybuff",
             "jigglypuff",
             "wigglytuff"
+        ],
+        "types": [
+            "Normal",
+            "Fairy"
         ]
     },
     "Lickitung": {
@@ -1995,6 +2868,9 @@ const Pokedex = {
         "evolutions": [
             "lickitung",
             "lickilicky"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Regigigas": {
@@ -2002,6 +2878,9 @@ const Pokedex = {
         "id": 486,
         "evolutions": [
             "regigigas"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Slowpoke": {
@@ -2011,6 +2890,10 @@ const Pokedex = {
             "slowpoke",
             "slowbro",
             "slowking"
+        ],
+        "types": [
+            "Water",
+            "Psychic"
         ]
     },
     "Delcatty": {
@@ -2019,6 +2902,9 @@ const Pokedex = {
         "evolutions": [
             "skitty",
             "delcatty"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Giratina": {
@@ -2026,6 +2912,10 @@ const Pokedex = {
         "id": 487,
         "evolutions": [
             "giratina"
+        ],
+        "types": [
+            "Ghost",
+            "Dragon"
         ]
     },
     "Zapdos": {
@@ -2033,6 +2923,10 @@ const Pokedex = {
         "id": 145,
         "evolutions": [
             "zapdos"
+        ],
+        "types": [
+            "Electric",
+            "Flying"
         ]
     },
     "Cloyster": {
@@ -2041,6 +2935,10 @@ const Pokedex = {
         "evolutions": [
             "shellder",
             "cloyster"
+        ],
+        "types": [
+            "Water",
+            "Ice"
         ]
     },
     "Shellder": {
@@ -2049,6 +2947,9 @@ const Pokedex = {
         "evolutions": [
             "shellder",
             "cloyster"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Furret": {
@@ -2057,6 +2958,9 @@ const Pokedex = {
         "evolutions": [
             "sentret",
             "furret"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Wartortle": {
@@ -2066,6 +2970,9 @@ const Pokedex = {
             "squirtle",
             "wartortle",
             "blastoise"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Pineco": {
@@ -2074,6 +2981,9 @@ const Pokedex = {
         "evolutions": [
             "pineco",
             "forretress"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Kyogre": {
@@ -2081,6 +2991,9 @@ const Pokedex = {
         "id": 382,
         "evolutions": [
             "kyogre"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Aerodactyl": {
@@ -2088,6 +3001,10 @@ const Pokedex = {
         "id": 142,
         "evolutions": [
             "aerodactyl"
+        ],
+        "types": [
+            "Rock",
+            "Flying"
         ]
     },
     "Staravia": {
@@ -2097,6 +3014,10 @@ const Pokedex = {
             "starly",
             "staravia",
             "staraptor"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Starly": {
@@ -2106,6 +3027,10 @@ const Pokedex = {
             "starly",
             "staravia",
             "staraptor"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Togekiss": {
@@ -2115,6 +3040,10 @@ const Pokedex = {
             "togepi",
             "togetic",
             "togekiss"
+        ],
+        "types": [
+            "Fairy",
+            "Flying"
         ]
     },
     "Electabuzz": {
@@ -2124,6 +3053,9 @@ const Pokedex = {
             "elekid",
             "electabuzz",
             "electivire"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Charmander": {
@@ -2133,6 +3065,9 @@ const Pokedex = {
             "charmander",
             "charmeleon",
             "charizard"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Wooper": {
@@ -2141,6 +3076,10 @@ const Pokedex = {
         "evolutions": [
             "wooper",
             "quagsire"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Butterfree": {
@@ -2150,6 +3089,10 @@ const Pokedex = {
             "caterpie",
             "metapod",
             "butterfree"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Groudon": {
@@ -2157,6 +3100,9 @@ const Pokedex = {
         "id": 383,
         "evolutions": [
             "groudon"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Jigglypuff": {
@@ -2166,6 +3112,10 @@ const Pokedex = {
             "igglybuff",
             "jigglypuff",
             "wigglytuff"
+        ],
+        "types": [
+            "Normal",
+            "Fairy"
         ]
     },
     "Charmeleon": {
@@ -2175,6 +3125,9 @@ const Pokedex = {
             "charmander",
             "charmeleon",
             "charizard"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Raikou": {
@@ -2182,6 +3135,9 @@ const Pokedex = {
         "id": 243,
         "evolutions": [
             "raikou"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Plusle": {
@@ -2189,6 +3145,9 @@ const Pokedex = {
         "id": 311,
         "evolutions": [
             "plusle"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Scizor": {
@@ -2198,6 +3157,10 @@ const Pokedex = {
             "scyther",
             "scizor",
             "kleavor"
+        ],
+        "types": [
+            "Bug",
+            "Steel"
         ]
     },
     "Snover": {
@@ -2206,6 +3169,10 @@ const Pokedex = {
         "evolutions": [
             "snover",
             "abomasnow"
+        ],
+        "types": [
+            "Grass",
+            "Ice"
         ]
     },
     "Wigglytuff": {
@@ -2215,6 +3182,10 @@ const Pokedex = {
             "igglybuff",
             "jigglypuff",
             "wigglytuff"
+        ],
+        "types": [
+            "Normal",
+            "Fairy"
         ]
     },
     "Masquerain": {
@@ -2223,6 +3194,10 @@ const Pokedex = {
         "evolutions": [
             "surskit",
             "masquerain"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Solrock": {
@@ -2230,13 +3205,29 @@ const Pokedex = {
         "id": 338,
         "evolutions": [
             "solrock"
+        ],
+        "types": [
+            "Rock",
+            "Psychic"
         ]
     },
     "Farfetchd": {
         "name": "Farfetchd",
         "id": 83,
         "evolutions": [
-            "farfetchd"
+            "farfetchd",
+            "sirfetchd"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
+        ]
+    },
+    "Farfetch'd-G": {
+        "name": "Farfetch'd-G",
+        "id": 10166,
+        "types": [
+            "Fighting"
         ]
     },
     "Sentret": {
@@ -2245,6 +3236,9 @@ const Pokedex = {
         "evolutions": [
             "sentret",
             "furret"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Grumpig": {
@@ -2253,6 +3247,9 @@ const Pokedex = {
         "evolutions": [
             "spoink",
             "grumpig"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Jolteon": {
@@ -2266,7 +3263,11 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Spearow": {
@@ -2275,6 +3276,10 @@ const Pokedex = {
         "evolutions": [
             "spearow",
             "fearow"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Toxicroak": {
@@ -2283,6 +3288,10 @@ const Pokedex = {
         "evolutions": [
             "croagunk",
             "toxicroak"
+        ],
+        "types": [
+            "Poison",
+            "Fighting"
         ]
     },
     "Vileplume": {
@@ -2293,6 +3302,10 @@ const Pokedex = {
             "gloom",
             "vileplume",
             "bellossom"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Tyranitar": {
@@ -2302,6 +3315,10 @@ const Pokedex = {
             "larvitar",
             "pupitar",
             "tyranitar"
+        ],
+        "types": [
+            "Rock",
+            "Dark"
         ]
     },
     "Porygon-Z": {
@@ -2311,6 +3328,9 @@ const Pokedex = {
             "porygon",
             "porygon2",
             "porygon-z"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Grimer": {
@@ -2319,6 +3339,17 @@ const Pokedex = {
         "evolutions": [
             "grimer",
             "muk"
+        ],
+        "types": [
+            "Poison"
+        ]
+    },
+    "Grimer-A": {
+        "name": "Grimer-A",
+        "id": 10112,
+        "types": [
+            "Poison",
+            "Dark"
         ]
     },
     "Shiftry": {
@@ -2328,6 +3359,10 @@ const Pokedex = {
             "seedot",
             "nuzleaf",
             "shiftry"
+        ],
+        "types": [
+            "Grass",
+            "Dark"
         ]
     },
     "Rotom": {
@@ -2335,6 +3370,10 @@ const Pokedex = {
         "id": 479,
         "evolutions": [
             "rotom"
+        ],
+        "types": [
+            "Electric",
+            "Ghost"
         ]
     },
     "Paras": {
@@ -2343,6 +3382,10 @@ const Pokedex = {
         "evolutions": [
             "paras",
             "parasect"
+        ],
+        "types": [
+            "Bug",
+            "Grass"
         ]
     },
     "Hitmonchan": {
@@ -2353,6 +3396,9 @@ const Pokedex = {
             "hitmonlee",
             "hitmonchan",
             "hitmontop"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Numel": {
@@ -2361,6 +3407,10 @@ const Pokedex = {
         "evolutions": [
             "numel",
             "camerupt"
+        ],
+        "types": [
+            "Fire",
+            "Ground"
         ]
     },
     "Zigzagoon": {
@@ -2369,6 +3419,17 @@ const Pokedex = {
         "evolutions": [
             "zigzagoon",
             "linoone"
+        ],
+        "types": [
+            "Normal"
+        ]
+    },
+    "Zigzagoon-G": {
+        "name": "Zigzagoon-G",
+        "id": 10174,
+        "types": [
+            "Normal",
+            "Dark"
         ]
     },
     "Omastar": {
@@ -2377,6 +3438,10 @@ const Pokedex = {
         "evolutions": [
             "omanyte",
             "omastar"
+        ],
+        "types": [
+            "Rock",
+            "Water"
         ]
     },
     "Golduck": {
@@ -2385,6 +3450,9 @@ const Pokedex = {
         "evolutions": [
             "psyduck",
             "golduck"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Lanturn": {
@@ -2393,6 +3461,10 @@ const Pokedex = {
         "evolutions": [
             "chinchou",
             "lanturn"
+        ],
+        "types": [
+            "Water",
+            "Electric"
         ]
     },
     "Kabutops": {
@@ -2401,6 +3473,10 @@ const Pokedex = {
         "evolutions": [
             "kabuto",
             "kabutops"
+        ],
+        "types": [
+            "Rock",
+            "Water"
         ]
     },
     "Drapion": {
@@ -2409,6 +3485,10 @@ const Pokedex = {
         "evolutions": [
             "skorupi",
             "drapion"
+        ],
+        "types": [
+            "Poison",
+            "Dark"
         ]
     },
     "Linoone": {
@@ -2417,6 +3497,9 @@ const Pokedex = {
         "evolutions": [
             "zigzagoon",
             "linoone"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Unown": {
@@ -2424,6 +3507,9 @@ const Pokedex = {
         "id": 201,
         "evolutions": [
             "unown"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Misdreavus": {
@@ -2432,6 +3518,9 @@ const Pokedex = {
         "evolutions": [
             "misdreavus",
             "mismagius"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Kadabra": {
@@ -2441,6 +3530,9 @@ const Pokedex = {
             "abra",
             "kadabra",
             "alakazam"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Lickilicky": {
@@ -2449,6 +3541,9 @@ const Pokedex = {
         "evolutions": [
             "lickitung",
             "lickilicky"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Magmar": {
@@ -2458,6 +3553,9 @@ const Pokedex = {
             "magby",
             "magmar",
             "magmortar"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Pichu": {
@@ -2467,6 +3565,9 @@ const Pokedex = {
             "pichu",
             "pikachu",
             "raichu"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Entei": {
@@ -2474,6 +3575,9 @@ const Pokedex = {
         "id": 244,
         "evolutions": [
             "entei"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Kirlia": {
@@ -2484,6 +3588,10 @@ const Pokedex = {
             "kirlia",
             "gardevoir",
             "gallade"
+        ],
+        "types": [
+            "Psychic",
+            "Fairy"
         ]
     },
     "Gulpin": {
@@ -2492,6 +3600,9 @@ const Pokedex = {
         "evolutions": [
             "gulpin",
             "swalot"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Metapod": {
@@ -2501,6 +3612,9 @@ const Pokedex = {
             "caterpie",
             "metapod",
             "butterfree"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Kakuna": {
@@ -2510,6 +3624,10 @@ const Pokedex = {
             "weedle",
             "kakuna",
             "beedrill"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Gabite": {
@@ -2519,6 +3637,10 @@ const Pokedex = {
             "gible",
             "gabite",
             "garchomp"
+        ],
+        "types": [
+            "Dragon",
+            "Ground"
         ]
     },
     "Latias": {
@@ -2526,6 +3648,10 @@ const Pokedex = {
         "id": 380,
         "evolutions": [
             "latias"
+        ],
+        "types": [
+            "Dragon",
+            "Psychic"
         ]
     },
     "Dratini": {
@@ -2535,6 +3661,9 @@ const Pokedex = {
             "dratini",
             "dragonair",
             "dragonite"
+        ],
+        "types": [
+            "Dragon"
         ]
     },
     "Bibarel": {
@@ -2543,6 +3672,10 @@ const Pokedex = {
         "evolutions": [
             "bidoof",
             "bibarel"
+        ],
+        "types": [
+            "Normal",
+            "Water"
         ]
     },
     "Horsea": {
@@ -2552,6 +3685,9 @@ const Pokedex = {
             "horsea",
             "seadra",
             "kingdra"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Golbat": {
@@ -2561,6 +3697,10 @@ const Pokedex = {
             "zubat",
             "golbat",
             "crobat"
+        ],
+        "types": [
+            "Poison",
+            "Flying"
         ]
     },
     "Grotle": {
@@ -2570,6 +3710,9 @@ const Pokedex = {
             "turtwig",
             "grotle",
             "torterra"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Azurill": {
@@ -2579,6 +3722,10 @@ const Pokedex = {
             "azurill",
             "marill",
             "azumarill"
+        ],
+        "types": [
+            "Normal",
+            "Fairy"
         ]
     },
     "Budew": {
@@ -2588,6 +3735,10 @@ const Pokedex = {
             "budew",
             "roselia",
             "roserade"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Gastrodon": {
@@ -2596,6 +3747,10 @@ const Pokedex = {
         "evolutions": [
             "shellos",
             "gastrodon"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Minun": {
@@ -2603,6 +3758,9 @@ const Pokedex = {
         "id": 312,
         "evolutions": [
             "minun"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Trapinch": {
@@ -2612,6 +3770,9 @@ const Pokedex = {
             "trapinch",
             "vibrava",
             "flygon"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Exeggutor": {
@@ -2620,6 +3781,18 @@ const Pokedex = {
         "evolutions": [
             "exeggcute",
             "exeggutor"
+        ],
+        "types": [
+            "Grass",
+            "Psychic"
+        ]
+    },
+    "Exeggutor-A": {
+        "name": "Exeggutor-A",
+        "id": 10114,
+        "types": [
+            "Grass",
+            "Dragon"
         ]
     },
     "Stantler": {
@@ -2627,6 +3800,9 @@ const Pokedex = {
         "id": 234,
         "evolutions": [
             "stantler"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Ambipom": {
@@ -2635,6 +3811,9 @@ const Pokedex = {
         "evolutions": [
             "aipom",
             "ambipom"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Skuntank": {
@@ -2643,6 +3822,10 @@ const Pokedex = {
         "evolutions": [
             "stunky",
             "skuntank"
+        ],
+        "types": [
+            "Poison",
+            "Dark"
         ]
     },
     "Ursaring": {
@@ -2651,6 +3834,9 @@ const Pokedex = {
         "evolutions": [
             "teddiursa",
             "ursaring"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Mightyena": {
@@ -2659,6 +3845,9 @@ const Pokedex = {
         "evolutions": [
             "poochyena",
             "mightyena"
+        ],
+        "types": [
+            "Dark"
         ]
     },
     "Marshtomp": {
@@ -2668,6 +3857,10 @@ const Pokedex = {
             "mudkip",
             "marshtomp",
             "swampert"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Slowking": {
@@ -2677,6 +3870,10 @@ const Pokedex = {
             "slowpoke",
             "slowbro",
             "slowking"
+        ],
+        "types": [
+            "Water",
+            "Psychic"
         ]
     },
     "Torterra": {
@@ -2686,6 +3883,10 @@ const Pokedex = {
             "turtwig",
             "grotle",
             "torterra"
+        ],
+        "types": [
+            "Grass",
+            "Ground"
         ]
     },
     "Smoochum": {
@@ -2694,6 +3895,10 @@ const Pokedex = {
         "evolutions": [
             "smoochum",
             "jynx"
+        ],
+        "types": [
+            "Ice",
+            "Psychic"
         ]
     },
     "Shellos": {
@@ -2702,6 +3907,9 @@ const Pokedex = {
         "evolutions": [
             "shellos",
             "gastrodon"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Octillery": {
@@ -2710,6 +3918,9 @@ const Pokedex = {
         "evolutions": [
             "remoraid",
             "octillery"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Skitty": {
@@ -2718,6 +3929,9 @@ const Pokedex = {
         "evolutions": [
             "skitty",
             "delcatty"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Skorupi": {
@@ -2726,6 +3940,10 @@ const Pokedex = {
         "evolutions": [
             "skorupi",
             "drapion"
+        ],
+        "types": [
+            "Poison",
+            "Bug"
         ]
     },
     "Munchlax": {
@@ -2734,6 +3952,9 @@ const Pokedex = {
         "evolutions": [
             "munchlax",
             "snorlax"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Metagross": {
@@ -2743,6 +3964,10 @@ const Pokedex = {
             "beldum",
             "metang",
             "metagross"
+        ],
+        "types": [
+            "Steel",
+            "Psychic"
         ]
     },
     "Snorlax": {
@@ -2751,6 +3976,9 @@ const Pokedex = {
         "evolutions": [
             "munchlax",
             "snorlax"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Seadra": {
@@ -2760,6 +3988,9 @@ const Pokedex = {
             "horsea",
             "seadra",
             "kingdra"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Shelgon": {
@@ -2769,6 +4000,9 @@ const Pokedex = {
             "bagon",
             "shelgon",
             "salamence"
+        ],
+        "types": [
+            "Dragon"
         ]
     },
     "Illumise": {
@@ -2776,6 +4010,9 @@ const Pokedex = {
         "id": 314,
         "evolutions": [
             "illumise"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Snorunt": {
@@ -2785,6 +4022,9 @@ const Pokedex = {
             "snorunt",
             "glalie",
             "froslass"
+        ],
+        "types": [
+            "Ice"
         ]
     },
     "Baltoy": {
@@ -2793,13 +4033,23 @@ const Pokedex = {
         "evolutions": [
             "baltoy",
             "claydol"
+        ],
+        "types": [
+            "Ground",
+            "Psychic"
         ]
     },
     "Ho-Oh": {
         "name": "Ho-Oh",
         "id": 250,
         "evolutions": [
-            "ho-oh"
+            "jangmo-o",
+            "hakamo-o",
+            "kommo-o"
+        ],
+        "types": [
+            "Fire",
+            "Flying"
         ]
     },
     "Poochyena": {
@@ -2808,6 +4058,9 @@ const Pokedex = {
         "evolutions": [
             "poochyena",
             "mightyena"
+        ],
+        "types": [
+            "Dark"
         ]
     },
     "Nidoking": {
@@ -2817,6 +4070,10 @@ const Pokedex = {
             "nidoran-M",
             "nidorino",
             "nidoking"
+        ],
+        "types": [
+            "Poison",
+            "Ground"
         ]
     },
     "Bayleef": {
@@ -2826,6 +4083,9 @@ const Pokedex = {
             "chikorita",
             "bayleef",
             "meganium"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Hariyama": {
@@ -2834,6 +4094,9 @@ const Pokedex = {
         "evolutions": [
             "makuhita",
             "hariyama"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Hypno": {
@@ -2842,6 +4105,9 @@ const Pokedex = {
         "evolutions": [
             "drowzee",
             "hypno"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Suicune": {
@@ -2849,6 +4115,9 @@ const Pokedex = {
         "id": 245,
         "evolutions": [
             "suicune"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Gliscor": {
@@ -2857,6 +4126,10 @@ const Pokedex = {
         "evolutions": [
             "gligar",
             "gliscor"
+        ],
+        "types": [
+            "Ground",
+            "Flying"
         ]
     },
     "Silcoon": {
@@ -2868,6 +4141,9 @@ const Pokedex = {
             "beautifly",
             "cascoon",
             "dustox"
+        ],
+        "types": [
+            "Bug"
         ]
     },
     "Koffing": {
@@ -2876,6 +4152,9 @@ const Pokedex = {
         "evolutions": [
             "koffing",
             "weezing"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Drowzee": {
@@ -2884,6 +4163,9 @@ const Pokedex = {
         "evolutions": [
             "drowzee",
             "hypno"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Banette": {
@@ -2892,6 +4174,9 @@ const Pokedex = {
         "evolutions": [
             "shuppet",
             "banette"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Houndoom": {
@@ -2900,6 +4185,10 @@ const Pokedex = {
         "evolutions": [
             "houndour",
             "houndoom"
+        ],
+        "types": [
+            "Dark",
+            "Fire"
         ]
     },
     "Typhlosion": {
@@ -2909,6 +4198,9 @@ const Pokedex = {
             "cyndaquil",
             "quilava",
             "typhlosion"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Clefairy": {
@@ -2918,6 +4210,9 @@ const Pokedex = {
             "cleffa",
             "clefairy",
             "clefable"
+        ],
+        "types": [
+            "Fairy"
         ]
     },
     "Swablu": {
@@ -2926,6 +4221,10 @@ const Pokedex = {
         "evolutions": [
             "swablu",
             "altaria"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Finneon": {
@@ -2934,6 +4233,9 @@ const Pokedex = {
         "evolutions": [
             "finneon",
             "lumineon"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Houndour": {
@@ -2942,6 +4244,10 @@ const Pokedex = {
         "evolutions": [
             "houndour",
             "houndoom"
+        ],
+        "types": [
+            "Dark",
+            "Fire"
         ]
     },
     "Gyarados": {
@@ -2950,6 +4256,10 @@ const Pokedex = {
         "evolutions": [
             "magikarp",
             "gyarados"
+        ],
+        "types": [
+            "Water",
+            "Flying"
         ]
     },
     "Spinda": {
@@ -2957,6 +4267,9 @@ const Pokedex = {
         "id": 327,
         "evolutions": [
             "spinda"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Pidgey": {
@@ -2966,6 +4279,10 @@ const Pokedex = {
             "pidgey",
             "pidgeotto",
             "pidgeot"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Lugia": {
@@ -2973,6 +4290,10 @@ const Pokedex = {
         "id": 249,
         "evolutions": [
             "lugia"
+        ],
+        "types": [
+            "Psychic",
+            "Flying"
         ]
     },
     "Spoink": {
@@ -2981,6 +4302,9 @@ const Pokedex = {
         "evolutions": [
             "spoink",
             "grumpig"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Swellow": {
@@ -2989,6 +4313,10 @@ const Pokedex = {
         "evolutions": [
             "taillow",
             "swellow"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Seaking": {
@@ -2997,6 +4325,9 @@ const Pokedex = {
         "evolutions": [
             "goldeen",
             "seaking"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Duskull": {
@@ -3006,6 +4337,9 @@ const Pokedex = {
             "duskull",
             "dusclops",
             "dusknoir"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Regice": {
@@ -3013,6 +4347,9 @@ const Pokedex = {
         "id": 378,
         "evolutions": [
             "regice"
+        ],
+        "types": [
+            "Ice"
         ]
     },
     "Dewgong": {
@@ -3021,6 +4358,10 @@ const Pokedex = {
         "evolutions": [
             "seel",
             "dewgong"
+        ],
+        "types": [
+            "Water",
+            "Ice"
         ]
     },
     "Monferno": {
@@ -3030,6 +4371,10 @@ const Pokedex = {
             "chimchar",
             "monferno",
             "infernape"
+        ],
+        "types": [
+            "Fire",
+            "Fighting"
         ]
     },
     "Larvitar": {
@@ -3039,6 +4384,10 @@ const Pokedex = {
             "larvitar",
             "pupitar",
             "tyranitar"
+        ],
+        "types": [
+            "Rock",
+            "Ground"
         ]
     },
     "Lunatone": {
@@ -3046,6 +4395,10 @@ const Pokedex = {
         "id": 337,
         "evolutions": [
             "lunatone"
+        ],
+        "types": [
+            "Rock",
+            "Psychic"
         ]
     },
     "Sneasel": {
@@ -3055,13 +4408,41 @@ const Pokedex = {
             "sneasel",
             "weavile",
             "sneasler"
+        ],
+        "types": [
+            "Dark",
+            "Ice"
+        ]
+    },
+    "Sneasel-H": {
+        "name": "Sneasel-H",
+        "id": 10235,
+        "types": [
+            "Fighting",
+            "Poison"
+        ]
+    },
+    "Cursola": {
+        "name": "Cursola",
+        "id": 864,
+        "evolutions": [
+            "corsola",
+            "cursola"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Corsola": {
         "name": "Corsola",
         "id": 222,
         "evolutions": [
-            "corsola"
+            "corsola",
+            "cursola"
+        ],
+        "types": [
+            "Water",
+            "Rock"
         ]
     },
     "Blissey": {
@@ -3071,6 +4452,9 @@ const Pokedex = {
             "happiny",
             "chansey",
             "blissey"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Buneary": {
@@ -3079,6 +4463,9 @@ const Pokedex = {
         "evolutions": [
             "buneary",
             "lopunny"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Exeggcute": {
@@ -3087,6 +4474,10 @@ const Pokedex = {
         "evolutions": [
             "exeggcute",
             "exeggutor"
+        ],
+        "types": [
+            "Grass",
+            "Psychic"
         ]
     },
     "Spiritomb": {
@@ -3094,6 +4485,10 @@ const Pokedex = {
         "id": 442,
         "evolutions": [
             "spiritomb"
+        ],
+        "types": [
+            "Ghost",
+            "Dark"
         ]
     },
     "Arbok": {
@@ -3102,6 +4497,9 @@ const Pokedex = {
         "evolutions": [
             "ekans",
             "arbok"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Nidoran-F": {
@@ -3111,11 +4509,30 @@ const Pokedex = {
             "nidoran-F",
             "nidorina",
             "nidoqueen"
+        ],
+        "types": [
+            "Poison"
         ]
     },
     "Girafarig": {
         "name": "Girafarig",
         "id": 203,
+        "evolutions": [
+            "girafarig",
+            "farigiraf"
+        ],
+        "types": [
+            "Normal",
+            "Psychic"
+        ]
+    },
+    "Farigiraf": {
+        "name": "Farigiraf",
+        "id": 981,
+        "types": [
+            "Normal",
+            "Psychic"
+        ],
         "evolutions": [
             "girafarig",
             "farigiraf"
@@ -3127,6 +4544,20 @@ const Pokedex = {
         "evolutions": [
             "sandshrew",
             "sandslash"
+        ],
+        "types": [
+            "Ground"
+        ]
+    },
+    "Sandshrew-A": {
+        "name": "Sandshrew-A",
+        "id": 10101,
+        "evolutions": [
+            "sandshrew"
+        ],
+        "types": [
+            "Ice",
+            "Steel"
         ]
     },
     "Doduo": {
@@ -3135,6 +4566,21 @@ const Pokedex = {
         "evolutions": [
             "doduo",
             "dodrio"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
+        ]
+    },
+    "Basculin": {
+        "name": "Basculin",
+        "id": 550,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "basculin",
+            "basculegion"
         ]
     },
     "Salamence": {
@@ -3144,6 +4590,10 @@ const Pokedex = {
             "bagon",
             "shelgon",
             "salamence"
+        ],
+        "types": [
+            "Dragon",
+            "Flying"
         ]
     },
     "Starmie": {
@@ -3152,6 +4602,10 @@ const Pokedex = {
         "evolutions": [
             "staryu",
             "starmie"
+        ],
+        "types": [
+            "Water",
+            "Psychic"
         ]
     },
     "Slowbro": {
@@ -3161,6 +4615,10 @@ const Pokedex = {
             "slowpoke",
             "slowbro",
             "slowking"
+        ],
+        "types": [
+            "Water",
+            "Psychic"
         ]
     },
     "Medicham": {
@@ -3169,6 +4627,10 @@ const Pokedex = {
         "evolutions": [
             "meditite",
             "medicham"
+        ],
+        "types": [
+            "Fighting",
+            "Psychic"
         ]
     },
     "Rhyperior": {
@@ -3178,6 +4640,10 @@ const Pokedex = {
             "rhyhorn",
             "rhydon",
             "rhyperior"
+        ],
+        "types": [
+            "Ground",
+            "Rock"
         ]
     },
     "Lucario": {
@@ -3186,6 +4652,10 @@ const Pokedex = {
         "evolutions": [
             "riolu",
             "lucario"
+        ],
+        "types": [
+            "Fighting",
+            "Steel"
         ]
     },
     "Wobbuffet": {
@@ -3194,6 +4664,9 @@ const Pokedex = {
         "evolutions": [
             "wynaut",
             "wobbuffet"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Victreebel": {
@@ -3203,6 +4676,10 @@ const Pokedex = {
             "bellsprout",
             "weepinbell",
             "victreebel"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Chimecho": {
@@ -3211,6 +4688,9 @@ const Pokedex = {
         "evolutions": [
             "chingling",
             "chimecho"
+        ],
+        "types": [
+            "Psychic"
         ]
     },
     "Spinarak": {
@@ -3219,6 +4699,10 @@ const Pokedex = {
         "evolutions": [
             "spinarak",
             "ariados"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Kingler": {
@@ -3227,6 +4711,9 @@ const Pokedex = {
         "evolutions": [
             "krabby",
             "kingler"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Teddiursa": {
@@ -3235,6 +4722,9 @@ const Pokedex = {
         "evolutions": [
             "teddiursa",
             "ursaring"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Weedle": {
@@ -3244,6 +4734,10 @@ const Pokedex = {
             "weedle",
             "kakuna",
             "beedrill"
+        ],
+        "types": [
+            "Bug",
+            "Poison"
         ]
     },
     "Tentacruel": {
@@ -3252,6 +4746,10 @@ const Pokedex = {
         "evolutions": [
             "tentacool",
             "tentacruel"
+        ],
+        "types": [
+            "Water",
+            "Poison"
         ]
     },
     "Beldum": {
@@ -3261,6 +4759,10 @@ const Pokedex = {
             "beldum",
             "metang",
             "metagross"
+        ],
+        "types": [
+            "Steel",
+            "Psychic"
         ]
     },
     "Lumineon": {
@@ -3269,6 +4771,9 @@ const Pokedex = {
         "evolutions": [
             "finneon",
             "lumineon"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Slaking": {
@@ -3278,6 +4783,9 @@ const Pokedex = {
             "slakoth",
             "vigoroth",
             "slaking"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Slakoth": {
@@ -3287,6 +4795,9 @@ const Pokedex = {
             "slakoth",
             "vigoroth",
             "slaking"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Hitmonlee": {
@@ -3297,6 +4808,9 @@ const Pokedex = {
             "hitmonlee",
             "hitmonchan",
             "hitmontop"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Slugma": {
@@ -3305,6 +4819,9 @@ const Pokedex = {
         "evolutions": [
             "slugma",
             "magcargo"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Riolu": {
@@ -3313,6 +4830,9 @@ const Pokedex = {
         "evolutions": [
             "riolu",
             "lucario"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Electrike": {
@@ -3321,6 +4841,9 @@ const Pokedex = {
         "evolutions": [
             "electrike",
             "manectric"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Sandslash": {
@@ -3329,6 +4852,21 @@ const Pokedex = {
         "evolutions": [
             "sandshrew",
             "sandslash"
+        ],
+        "types": [
+            "Ground"
+        ]
+    },
+    "Sandslash-A": {
+        "name": "Sandslash-A",
+        "id": 10102,
+        "evolutions": [
+            "sandshrew-a",
+            "sandslash-a"
+        ],
+        "types": [
+            "Ice",
+            "Steel"
         ]
     },
     "Remoraid": {
@@ -3337,6 +4875,9 @@ const Pokedex = {
         "evolutions": [
             "remoraid",
             "octillery"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Staraptor": {
@@ -3346,6 +4887,10 @@ const Pokedex = {
             "starly",
             "staravia",
             "staraptor"
+        ],
+        "types": [
+            "Normal",
+            "Flying"
         ]
     },
     "Rhydon": {
@@ -3355,6 +4900,10 @@ const Pokedex = {
             "rhyhorn",
             "rhydon",
             "rhyperior"
+        ],
+        "types": [
+            "Ground",
+            "Rock"
         ]
     },
     "Croagunk": {
@@ -3363,6 +4912,10 @@ const Pokedex = {
         "evolutions": [
             "croagunk",
             "toxicroak"
+        ],
+        "types": [
+            "Poison",
+            "Fighting"
         ]
     },
     "Swinub": {
@@ -3372,6 +4925,10 @@ const Pokedex = {
             "swinub",
             "piloswine",
             "mamoswine"
+        ],
+        "types": [
+            "Ice",
+            "Ground"
         ]
     },
     "Garchomp": {
@@ -3381,6 +4938,10 @@ const Pokedex = {
             "gible",
             "gabite",
             "garchomp"
+        ],
+        "types": [
+            "Dragon",
+            "Ground"
         ]
     },
     "Charizard": {
@@ -3390,6 +4951,10 @@ const Pokedex = {
             "charmander",
             "charmeleon",
             "charizard"
+        ],
+        "types": [
+            "Fire",
+            "Flying"
         ]
     },
     "Croconaw": {
@@ -3399,6 +4964,9 @@ const Pokedex = {
             "totodile",
             "croconaw",
             "feraligatr"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Cherubi": {
@@ -3407,6 +4975,9 @@ const Pokedex = {
         "evolutions": [
             "cherubi",
             "cherrim"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Shroomish": {
@@ -3415,6 +4986,9 @@ const Pokedex = {
         "evolutions": [
             "shroomish",
             "breloom"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Shuppet": {
@@ -3423,6 +4997,9 @@ const Pokedex = {
         "evolutions": [
             "shuppet",
             "banette"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Mothim": {
@@ -3432,6 +5009,10 @@ const Pokedex = {
             "burmy",
             "wormadam",
             "mothim"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Azumarill": {
@@ -3441,6 +5022,10 @@ const Pokedex = {
             "azurill",
             "marill",
             "azumarill"
+        ],
+        "types": [
+            "Water",
+            "Fairy"
         ]
     },
     "Clamperl": {
@@ -3450,6 +5035,9 @@ const Pokedex = {
             "clamperl",
             "huntail",
             "gorebyss"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Magnemite": {
@@ -3459,6 +5047,10 @@ const Pokedex = {
             "magnemite",
             "magneton",
             "magnezone"
+        ],
+        "types": [
+            "Electric",
+            "Steel"
         ]
     },
     "Sableye": {
@@ -3466,6 +5058,10 @@ const Pokedex = {
         "id": 302,
         "evolutions": [
             "sableye"
+        ],
+        "types": [
+            "Dark",
+            "Ghost"
         ]
     },
     "Ponyta": {
@@ -3474,6 +5070,9 @@ const Pokedex = {
         "evolutions": [
             "ponyta",
             "rapidash"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Arceus": {
@@ -3481,6 +5080,9 @@ const Pokedex = {
         "id": 493,
         "evolutions": [
             "arceus"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Stunky": {
@@ -3489,6 +5091,10 @@ const Pokedex = {
         "evolutions": [
             "stunky",
             "skuntank"
+        ],
+        "types": [
+            "Poison",
+            "Dark"
         ]
     },
     "Hitmontop": {
@@ -3499,6 +5105,9 @@ const Pokedex = {
             "hitmonlee",
             "hitmonchan",
             "hitmontop"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Shuckle": {
@@ -3506,6 +5115,10 @@ const Pokedex = {
         "id": 213,
         "evolutions": [
             "shuckle"
+        ],
+        "types": [
+            "Bug",
+            "Rock"
         ]
     },
     "Roserade": {
@@ -3515,6 +5128,10 @@ const Pokedex = {
             "budew",
             "roselia",
             "roserade"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Ralts": {
@@ -3525,6 +5142,10 @@ const Pokedex = {
             "kirlia",
             "gardevoir",
             "gallade"
+        ],
+        "types": [
+            "Psychic",
+            "Fairy"
         ]
     },
     "Oddish": {
@@ -3535,6 +5156,10 @@ const Pokedex = {
             "gloom",
             "vileplume",
             "bellossom"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Magcargo": {
@@ -3543,6 +5168,10 @@ const Pokedex = {
         "evolutions": [
             "slugma",
             "magcargo"
+        ],
+        "types": [
+            "Fire",
+            "Rock"
         ]
     },
     "Vespiquen": {
@@ -3551,6 +5180,10 @@ const Pokedex = {
         "evolutions": [
             "combee",
             "vespiquen"
+        ],
+        "types": [
+            "Bug",
+            "Flying"
         ]
     },
     "Mamoswine": {
@@ -3560,6 +5193,10 @@ const Pokedex = {
             "swinub",
             "piloswine",
             "mamoswine"
+        ],
+        "types": [
+            "Ice",
+            "Ground"
         ]
     },
     "Nidoqueen": {
@@ -3569,6 +5206,10 @@ const Pokedex = {
             "nidoran-F",
             "nidorina",
             "nidoqueen"
+        ],
+        "types": [
+            "Poison",
+            "Ground"
         ]
     },
     "Magnezone": {
@@ -3578,6 +5219,10 @@ const Pokedex = {
             "magnemite",
             "magneton",
             "magnezone"
+        ],
+        "types": [
+            "Electric",
+            "Steel"
         ]
     },
     "Phione": {
@@ -3586,6 +5231,9 @@ const Pokedex = {
         "evolutions": [
             "phione",
             "manaphy"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Chansey": {
@@ -3595,6 +5243,9 @@ const Pokedex = {
             "happiny",
             "chansey",
             "blissey"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Heracross": {
@@ -3602,6 +5253,10 @@ const Pokedex = {
         "id": 214,
         "evolutions": [
             "heracross"
+        ],
+        "types": [
+            "Bug",
+            "Fighting"
         ]
     },
     "Flaaffy": {
@@ -3611,6 +5266,9 @@ const Pokedex = {
             "mareep",
             "flaaffy",
             "ampharos"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Absol": {
@@ -3618,6 +5276,9 @@ const Pokedex = {
         "id": 359,
         "evolutions": [
             "absol"
+        ],
+        "types": [
+            "Dark"
         ]
     },
     "Gardevoir": {
@@ -3628,6 +5289,10 @@ const Pokedex = {
             "kirlia",
             "gardevoir",
             "gallade"
+        ],
+        "types": [
+            "Psychic",
+            "Fairy"
         ]
     },
     "Electrode": {
@@ -3636,6 +5301,17 @@ const Pokedex = {
         "evolutions": [
             "voltorb",
             "electrode"
+        ],
+        "types": [
+            "Electric"
+        ]
+    },
+    "Electrode-H": {
+        "name": "Electrode-H",
+        "id": 10232,
+        "types": [
+            "Electric",
+            "Grass"
         ]
     },
     "Bulbasaur": {
@@ -3645,6 +5321,10 @@ const Pokedex = {
             "bulbasaur",
             "ivysaur",
             "venusaur"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Machop": {
@@ -3654,6 +5334,9 @@ const Pokedex = {
             "machop",
             "machoke",
             "machamp"
+        ],
+        "types": [
+            "Fighting"
         ]
     },
     "Luxio": {
@@ -3663,6 +5346,9 @@ const Pokedex = {
             "shinx",
             "luxio",
             "luxray"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Lotad": {
@@ -3672,6 +5358,10 @@ const Pokedex = {
             "lotad",
             "lombre",
             "ludicolo"
+        ],
+        "types": [
+            "Water",
+            "Grass"
         ]
     },
     "Abomasnow": {
@@ -3680,6 +5370,10 @@ const Pokedex = {
         "evolutions": [
             "snover",
             "abomasnow"
+        ],
+        "types": [
+            "Grass",
+            "Ice"
         ]
     },
     "Mismagius": {
@@ -3688,6 +5382,9 @@ const Pokedex = {
         "evolutions": [
             "misdreavus",
             "mismagius"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Relicanth": {
@@ -3695,6 +5392,10 @@ const Pokedex = {
         "id": 369,
         "evolutions": [
             "relicanth"
+        ],
+        "types": [
+            "Water",
+            "Rock"
         ]
     },
     "Poliwrath": {
@@ -3705,6 +5406,10 @@ const Pokedex = {
             "poliwhirl",
             "poliwrath",
             "politoed"
+        ],
+        "types": [
+            "Water",
+            "Fighting"
         ]
     },
     "Vaporeon": {
@@ -3718,7 +5423,11 @@ const Pokedex = {
             "espeon",
             "umbreon",
             "leafeon",
-            "glaceon"
+            "glaceon",
+            "sylveon"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Dusknoir": {
@@ -3728,6 +5437,9 @@ const Pokedex = {
             "duskull",
             "dusclops",
             "dusknoir"
+        ],
+        "types": [
+            "Ghost"
         ]
     },
     "Shaymin": {
@@ -3735,6 +5447,9 @@ const Pokedex = {
         "id": 492,
         "evolutions": [
             "shaymin"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Tentacool": {
@@ -3743,6 +5458,10 @@ const Pokedex = {
         "evolutions": [
             "tentacool",
             "tentacruel"
+        ],
+        "types": [
+            "Water",
+            "Poison"
         ]
     },
     "Zangoose": {
@@ -3750,6 +5469,9 @@ const Pokedex = {
         "id": 335,
         "evolutions": [
             "zangoose"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Surskit": {
@@ -3758,6 +5480,10 @@ const Pokedex = {
         "evolutions": [
             "surskit",
             "masquerain"
+        ],
+        "types": [
+            "Bug",
+            "Water"
         ]
     },
     "Seedot": {
@@ -3767,6 +5493,9 @@ const Pokedex = {
             "seedot",
             "nuzleaf",
             "shiftry"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Feraligatr": {
@@ -3776,6 +5505,9 @@ const Pokedex = {
             "totodile",
             "croconaw",
             "feraligatr"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Ivysaur": {
@@ -3785,6 +5517,10 @@ const Pokedex = {
             "bulbasaur",
             "ivysaur",
             "venusaur"
+        ],
+        "types": [
+            "Grass",
+            "Poison"
         ]
     },
     "Mareep": {
@@ -3794,6 +5530,9 @@ const Pokedex = {
             "mareep",
             "flaaffy",
             "ampharos"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Ludicolo": {
@@ -3803,6 +5542,10 @@ const Pokedex = {
             "lotad",
             "lombre",
             "ludicolo"
+        ],
+        "types": [
+            "Water",
+            "Grass"
         ]
     },
     "Kabuto": {
@@ -3811,6 +5554,10 @@ const Pokedex = {
         "evolutions": [
             "kabuto",
             "kabutops"
+        ],
+        "types": [
+            "Rock",
+            "Water"
         ]
     },
     "Kingdra": {
@@ -3820,6 +5567,10 @@ const Pokedex = {
             "horsea",
             "seadra",
             "kingdra"
+        ],
+        "types": [
+            "Water",
+            "Dragon"
         ]
     },
     "Growlithe": {
@@ -3828,6 +5579,9 @@ const Pokedex = {
         "evolutions": [
             "growlithe",
             "arcanine"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Carnivine": {
@@ -3835,6 +5589,9 @@ const Pokedex = {
         "id": 455,
         "evolutions": [
             "carnivine"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Sudowoodo": {
@@ -3843,6 +5600,9 @@ const Pokedex = {
         "evolutions": [
             "bonsly",
             "sudowoodo"
+        ],
+        "types": [
+            "Rock"
         ]
     },
     "Lairon": {
@@ -3852,6 +5612,10 @@ const Pokedex = {
             "aron",
             "lairon",
             "aggron"
+        ],
+        "types": [
+            "Steel",
+            "Rock"
         ]
     },
     "Squirtle": {
@@ -3861,6 +5625,9 @@ const Pokedex = {
             "squirtle",
             "wartortle",
             "blastoise"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Dunsparce": {
@@ -3868,6 +5635,21 @@ const Pokedex = {
         "id": 206,
         "evolutions": [
             "dunsparce",
+            "dudunsparce"
+        ],
+        "types": [
+            "Normal"
+        ]
+    },
+    "Dudunsparce": {
+        "name": "Dudunsparce",
+        "id": 982,
+        "evolutions": [
+            "dunsparce",
+            "dudunsparce"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Spheal": {
@@ -3877,6 +5659,10 @@ const Pokedex = {
             "spheal",
             "sealeo",
             "walrein"
+        ],
+        "types": [
+            "Ice",
+            "Water"
         ]
     },
     "Clefable": {
@@ -3886,6 +5672,9 @@ const Pokedex = {
             "cleffa",
             "clefairy",
             "clefable"
+        ],
+        "types": [
+            "Fairy"
         ]
     },
     "Chinchou": {
@@ -3894,6 +5683,10 @@ const Pokedex = {
         "evolutions": [
             "chinchou",
             "lanturn"
+        ],
+        "types": [
+            "Water",
+            "Electric"
         ]
     },
     "Bonsly": {
@@ -3902,6 +5695,9 @@ const Pokedex = {
         "evolutions": [
             "bonsly",
             "sudowoodo"
+        ],
+        "types": [
+            "Rock"
         ]
     },
     "Drifblim": {
@@ -3910,6 +5706,10 @@ const Pokedex = {
         "evolutions": [
             "drifloon",
             "drifblim"
+        ],
+        "types": [
+            "Ghost",
+            "Flying"
         ]
     },
     "Honchkrow": {
@@ -3918,6 +5718,10 @@ const Pokedex = {
         "evolutions": [
             "murkrow",
             "honchkrow"
+        ],
+        "types": [
+            "Dark",
+            "Flying"
         ]
     },
     "Tangrowth": {
@@ -3926,6 +5730,9 @@ const Pokedex = {
         "evolutions": [
             "tangela",
             "tangrowth"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Heatran": {
@@ -3933,6 +5740,10 @@ const Pokedex = {
         "id": 485,
         "evolutions": [
             "heatran"
+        ],
+        "types": [
+            "Fire",
+            "Steel"
         ]
     },
     "Delibird": {
@@ -3940,6 +5751,10 @@ const Pokedex = {
         "id": 225,
         "evolutions": [
             "delibird"
+        ],
+        "types": [
+            "Ice",
+            "Flying"
         ]
     },
     "Swampert": {
@@ -3949,6 +5764,10 @@ const Pokedex = {
             "mudkip",
             "marshtomp",
             "swampert"
+        ],
+        "types": [
+            "Water",
+            "Ground"
         ]
     },
     "Vulpix": {
@@ -3957,6 +5776,9 @@ const Pokedex = {
         "evolutions": [
             "vulpix",
             "ninetales"
+        ],
+        "types": [
+            "Fire"
         ]
     },
     "Granbull": {
@@ -3965,6 +5787,9 @@ const Pokedex = {
         "evolutions": [
             "snubbull",
             "granbull"
+        ],
+        "types": [
+            "Fairy"
         ]
     },
     "Breloom": {
@@ -3973,6 +5798,10 @@ const Pokedex = {
         "evolutions": [
             "shroomish",
             "breloom"
+        ],
+        "types": [
+            "Grass",
+            "Fighting"
         ]
     },
     "Cherrim": {
@@ -3981,6 +5810,9 @@ const Pokedex = {
         "evolutions": [
             "cherubi",
             "cherrim"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Palkia": {
@@ -3988,6 +5820,10 @@ const Pokedex = {
         "id": 484,
         "evolutions": [
             "palkia"
+        ],
+        "types": [
+            "Water",
+            "Dragon"
         ]
     },
     "Magikarp": {
@@ -3996,6 +5832,9 @@ const Pokedex = {
         "evolutions": [
             "magikarp",
             "gyarados"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Dragonite": {
@@ -4005,6 +5844,10 @@ const Pokedex = {
             "dratini",
             "dragonair",
             "dragonite"
+        ],
+        "types": [
+            "Dragon",
+            "Flying"
         ]
     },
     "Forretress": {
@@ -4013,6 +5856,10 @@ const Pokedex = {
         "evolutions": [
             "pineco",
             "forretress"
+        ],
+        "types": [
+            "Bug",
+            "Steel"
         ]
     },
     "Hippowdon": {
@@ -4021,6 +5868,9 @@ const Pokedex = {
         "evolutions": [
             "hippopotas",
             "hippowdon"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Piplup": {
@@ -4030,6 +5880,9 @@ const Pokedex = {
             "piplup",
             "prinplup",
             "empoleon"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Sealeo": {
@@ -4039,6 +5892,10 @@ const Pokedex = {
             "spheal",
             "sealeo",
             "walrein"
+        ],
+        "types": [
+            "Ice",
+            "Water"
         ]
     },
     "Manectric": {
@@ -4047,6 +5904,9 @@ const Pokedex = {
         "evolutions": [
             "electrike",
             "manectric"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Treecko": {
@@ -4056,6 +5916,9 @@ const Pokedex = {
             "treecko",
             "grovyle",
             "sceptile"
+        ],
+        "types": [
+            "Grass"
         ]
     },
     "Staryu": {
@@ -4064,6 +5927,9 @@ const Pokedex = {
         "evolutions": [
             "staryu",
             "starmie"
+        ],
+        "types": [
+            "Water"
         ]
     },
     "Jumpluff": {
@@ -4073,6 +5939,10 @@ const Pokedex = {
             "hoppip",
             "skiploom",
             "jumpluff"
+        ],
+        "types": [
+            "Grass",
+            "Flying"
         ]
     },
     "Steelix": {
@@ -4081,6 +5951,10 @@ const Pokedex = {
         "evolutions": [
             "onix",
             "steelix"
+        ],
+        "types": [
+            "Steel",
+            "Ground"
         ]
     },
     "Bidoof": {
@@ -4089,6 +5963,9 @@ const Pokedex = {
         "evolutions": [
             "bidoof",
             "bibarel"
+        ],
+        "types": [
+            "Normal"
         ]
     },
     "Armaldo": {
@@ -4097,6 +5974,10 @@ const Pokedex = {
         "evolutions": [
             "anorith",
             "armaldo"
+        ],
+        "types": [
+            "Rock",
+            "Bug"
         ]
     },
     "Electivire": {
@@ -4106,6 +5987,9 @@ const Pokedex = {
             "elekid",
             "electabuzz",
             "electivire"
+        ],
+        "types": [
+            "Electric"
         ]
     },
     "Claydol": {
@@ -4114,6 +5998,10 @@ const Pokedex = {
         "evolutions": [
             "baltoy",
             "claydol"
+        ],
+        "types": [
+            "Ground",
+            "Psychic"
         ]
     },
     "Dugtrio": {
@@ -4122,6 +6010,9 @@ const Pokedex = {
         "evolutions": [
             "diglett",
             "dugtrio"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Phanpy": {
@@ -4130,6 +6021,9 @@ const Pokedex = {
         "evolutions": [
             "phanpy",
             "donphan"
+        ],
+        "types": [
+            "Ground"
         ]
     },
     "Hoppip": {
@@ -4139,6 +6033,10 @@ const Pokedex = {
             "hoppip",
             "skiploom",
             "jumpluff"
+        ],
+        "types": [
+            "Grass",
+            "Flying"
         ]
     },
     "Cacnea": {
@@ -4147,6 +6045,2270 @@ const Pokedex = {
         "evolutions": [
             "cacnea",
             "cacturne"
+        ],
+        "types": [
+            "Grass"
+        ]
+    },
+    "Zweilous": {
+        "name": "Zweilous",
+        "id": 634,
+        "types": [
+            "Dark",
+            "Dragon"
+        ],
+        "evolutions": [
+            "deino",
+            "zweilous",
+            "hydreigon"
+        ]
+    },
+    "Braixen": {
+        "name": "Braixen",
+        "id": 654,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "fennekin",
+            "braixen",
+            "delphox"
+        ]
+    },
+    "Mudbray": {
+        "name": "Mudbray",
+        "id": 749,
+        "types": [
+            "Ground"
+        ]
+    },
+    "Jellicent": {
+        "name": "Jellicent",
+        "id": 593,
+        "types": [
+            "Water",
+            "Ghost"
+        ],
+        "evolutions": [
+            "frillish",
+            "jellicent"
+        ]
+    },
+    "Talonflame": {
+        "name": "Talonflame",
+        "id": 663,
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "evolutions": [
+            "fletchling",
+            "fletchinder",
+            "talonflame"
+        ]
+    },
+    "Greninja": {
+        "name": "Greninja",
+        "id": 658,
+        "types": [
+            "Water",
+            "Dark"
+        ],
+        "evolutions": [
+            "froakie",
+            "frogadier",
+            "greninja"
+        ]
+    },
+    "Vivillon": {
+        "name": "Vivillon",
+        "id": 666,
+        "types": [
+            "Bug",
+            "Flying"
+        ]
+    },
+    "Spewpa": {
+        "name": "Spewpa",
+        "id": 665,
+        "types": [
+            "Bug"
+        ]
+    },
+    "Dottler": {
+        "name": "Dottler",
+        "id": 825,
+        "types": [
+            "Bug",
+            "Psychic"
+        ],
+        "evolutions": [
+            "blipbug",
+            "dottler",
+            "orbeetle"
+        ]
+    },
+    "Timburr": {
+        "name": "Timburr",
+        "id": 532,
+        "types": [
+            "Fighting"
+        ],
+        "evolutions": [
+            "timburr",
+            "gurdurr",
+            "conkeldurr"
+        ]
+    },
+    "Chespin": {
+        "name": "Chespin",
+        "id": 650,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "chespin",
+            "quilladin",
+            "chesnaught"
+        ]
+    },
+    "Duosion": {
+        "name": "Duosion",
+        "id": 578,
+        "types": [
+            "Psychic"
+        ],
+        "evolutions": [
+            "solosis",
+            "duosion",
+            "reuniclus"
+        ]
+    },
+    "Crustle": {
+        "name": "Crustle",
+        "id": 558,
+        "types": [
+            "Bug",
+            "Rock"
+        ],
+        "evolutions": [
+            "dwebble",
+            "crustle"
+        ]
+    },
+    "Zorua": {
+        "name": "Zorua",
+        "id": 570,
+        "types": [
+            "Dark"
+        ]
+    },
+    "Zorua-H": {
+        "name": "Zorua-H",
+        "id": 10238,
+        "types": [
+            "Normal",
+            "Ghost"
+        ]
+    },
+    "Sigilyph": {
+        "name": "Sigilyph",
+        "id": 561,
+        "types": [
+            "Psychic",
+            "Flying"
+        ]
+    },
+    "Reuniclus": {
+        "name": "Reuniclus",
+        "id": 579,
+        "types": [
+            "Psychic"
+        ],
+        "evolutions": [
+            "solosis",
+            "duosion",
+            "reuniclus"
+        ]
+    },
+    "Oshawott": {
+        "name": "Oshawott",
+        "id": 501,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "oshawott",
+            "dewott",
+            "samurott"
+        ]
+    },
+    "Boldore": {
+        "name": "Boldore",
+        "id": 525,
+        "types": [
+            "Rock"
+        ],
+        "evolutions": [
+            "roggenrola",
+            "boldore",
+            "gigalith"
+        ]
+    },
+    "Fennekin": {
+        "name": "Fennekin",
+        "id": 653,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "fennekin",
+            "braixen",
+            "delphox"
+        ]
+    },
+    "Munna": {
+        "name": "Munna",
+        "id": 517,
+        "types": [
+            "Psychic"
+        ]
+    },
+    "Samurott": {
+        "name": "Samurott",
+        "id": 503,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "oshawott",
+            "dewott",
+            "samurott"
+        ]
+    },
+    "Samurott-H": {
+        "name": "Samurott-H",
+        "id": 10236,
+        "types": [
+            "Water",
+            "Dark"
+        ]
+    },
+    "Gurdurr": {
+        "name": "Gurdurr",
+        "id": 533,
+        "types": [
+            "Fighting"
+        ],
+        "evolutions": [
+            "timburr",
+            "gurdurr",
+            "conkeldurr"
+        ]
+    },
+    "Eldegoss": {
+        "name": "Eldegoss",
+        "id": 830,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "gossifleur",
+            "eldegoss"
+        ]
+    },
+    "Orbeetle": {
+        "name": "Orbeetle",
+        "id": 826,
+        "types": [
+            "Bug",
+            "Psychic"
+        ],
+        "evolutions": [
+            "blipbug",
+            "dottler",
+            "orbeetle"
+        ]
+    },
+    "Sandile": {
+        "name": "Sandile",
+        "id": 551,
+        "types": [
+            "Ground",
+            "Dark"
+        ]
+    },
+    "Carracosta": {
+        "name": "Carracosta",
+        "id": 565,
+        "types": [
+            "Water",
+            "Rock"
+        ],
+        "evolutions": [
+            "tirtouga",
+            "carracosta"
+        ]
+    },
+    "Zoroark": {
+        "name": "Zoroark",
+        "id": 571,
+        "types": [
+            "Dark"
+        ]
+    },
+    "Zoroark-H": {
+        "name": "Zoroark-H",
+        "id": 571,
+        "types": [
+            "Normal",
+            "Ghost"
+        ]
+    },
+    "Emboar": {
+        "name": "Emboar",
+        "id": 500,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "evolutions": [
+            "tepig",
+            "pignite",
+            "emboar"
+        ]
+    },
+    "Herdier": {
+        "name": "Herdier",
+        "id": 507,
+        "types": [
+            "Normal"
+        ],
+        "evolutions": [
+            "lillipup",
+            "herdier",
+            "stoutland"
+        ]
+    },
+    "Snivy": {
+        "name": "Snivy",
+        "id": 495,
+        "types": [
+            "Grass"
+        ]
+    },
+    "Lilligant": {
+        "name": "Lilligant",
+        "id": 549,
+        "types": [
+            "Grass"
+        ]
+    },
+    "Tirtouga": {
+        "name": "Tirtouga",
+        "id": 564,
+        "types": [
+            "Water",
+            "Rock"
+        ],
+        "evolutions": [
+            "tirtouga",
+            "carracosta"
+        ]
+    },
+    "Cinderace": {
+        "name": "Cinderace",
+        "id": 815,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "scorbunny",
+            "raboot",
+            "cinderace"
+        ]
+    },
+    "Stufful": {
+        "name": "Stufful",
+        "id": 759,
+        "types": [
+            "Normal",
+            "Fighting"
+        ],
+        "evolutions": [
+            "stufful",
+            "bewear"
+        ]
+    },
+    "Maractus": {
+        "name": "Maractus",
+        "id": 556,
+        "types": [
+            "Grass"
+        ]
+    },
+    "Salandit": {
+        "name": "Salandit",
+        "id": 757,
+        "types": [
+            "Poison",
+            "Fire"
+        ]
+    },
+    "Chewtle": {
+        "name": "Chewtle",
+        "id": 833,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "chewtle",
+            "drednaw"
+        ]
+    },
+    "Galvantula": {
+        "name": "Galvantula",
+        "id": 596,
+        "types": [
+            "Bug",
+            "Electric"
+        ],
+        "evolutions": [
+            "joltik",
+            "galvantula"
+        ]
+    },
+    "Durant": {
+        "name": "Durant",
+        "id": 632,
+        "types": [
+            "Bug",
+            "Steel"
+        ],
+        "evolutions": [
+            "durant"
+        ]
+    },
+    "Frillish": {
+        "name": "Frillish",
+        "id": 592,
+        "types": [
+            "Water",
+            "Ghost"
+        ],
+        "evolutions": [
+            "frillish",
+            "jellicent"
+        ]
+    },
+    "Stunfisk": {
+        "name": "Stunfisk",
+        "id": 618,
+        "types": [
+            "Ground",
+            "Electric"
+        ]
+    },
+    "Lampent": {
+        "name": "Lampent",
+        "id": 608,
+        "types": [
+            "Ghost",
+            "Fire"
+        ],
+        "evolutions": [
+            "litwick",
+            "lampent",
+            "chandelure"
+        ]
+    },
+    "Mienshao": {
+        "name": "Mienshao",
+        "id": 620,
+        "types": [
+            "Fighting"
+        ]
+    },
+    "Mienfoo": {
+        "name": "Mienfoo",
+        "id": 619,
+        "types": [
+            "Fighting"
+        ]
+    },
+    "Chandelure": {
+        "name": "Chandelure",
+        "id": 609,
+        "types": [
+            "Ghost",
+            "Fire"
+        ],
+        "evolutions": [
+            "litwick",
+            "lampent",
+            "chandelure"
+        ]
+    },
+    "Deino": {
+        "name": "Deino",
+        "id": 633,
+        "types": [
+            "Dark",
+            "Dragon"
+        ],
+        "evolutions": [
+            "deino",
+            "zweilous",
+            "hydreigon"
+        ]
+    },
+    "Hydreigon": {
+        "name": "Hydreigon",
+        "id": 635,
+        "types": [
+            "Dark",
+            "Dragon"
+        ],
+        "evolutions": [
+            "deino",
+            "zweilous",
+            "hydreigon"
+        ]
+    },
+    "Druddigon": {
+        "name": "Druddigon",
+        "id": 621,
+        "types": [
+            "Dragon"
+        ],
+        "evolutions": [
+            "druddigon"
+        ]
+    },
+    "Scatterbug": {
+        "name": "Scatterbug",
+        "id": 664,
+        "types": [
+            "Bug"
+        ]
+    },
+    "Amoonguss": {
+        "name": "Amoonguss",
+        "id": 591,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "evolutions": [
+            "foongus",
+            "amoonguss"
+        ]
+    },
+    "Ferroseed": {
+        "name": "Ferroseed",
+        "id": 597,
+        "types": [
+            "Grass",
+            "Steel"
+        ],
+        "evolutions": [
+            "ferroseed",
+            "ferrothorn"
+        ]
+    },
+    "Pignite": {
+        "name": "Pignite",
+        "id": 499,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "evolutions": [
+            "tepig",
+            "pignite",
+            "emboar"
+        ]
+    },
+    "Tepig": {
+        "name": "Tepig",
+        "id": 498,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "tepig",
+            "pignite",
+            "emboar"
+        ]
+    },
+    "Kleavor": {
+        "name": "Kleavor",
+        "id": 900,
+        "types": [
+            "Bug",
+            "Rock"
+        ]
+    },
+    "Delphox": {
+        "name": "Delphox",
+        "id": 655,
+        "types": [
+            "Fire",
+            "Psychic"
+        ],
+        "evolutions": [
+            "fennekin",
+            "braixen",
+            "delphox"
+        ]
+    },
+    "Sirfetchd": {
+        "name": "Sirfetchd",
+        "id": 865,
+        "types": [
+            "Fighting"
+        ],
+        "evolutions": [
+            "farfetchd",
+            "sirfetchd"
+        ]
+    },
+    "Sizzlipede": {
+        "name": "Sizzlipede",
+        "id": 850,
+        "types": [
+            "Fire",
+            "Bug"
+        ],
+        "evolutions": [
+            "sizzlipede",
+            "centiskorch"
+        ]
+    },
+    "Fletchinder": {
+        "name": "Fletchinder",
+        "id": 662,
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "evolutions": [
+            "fletchling",
+            "fletchinder",
+            "talonflame"
+        ]
+    },
+    "Barraskewda": {
+        "name": "Barraskewda",
+        "id": 847,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "arrokuda",
+            "barraskewda"
+        ]
+    },
+    "Ursaluna": {
+        "name": "Ursaluna",
+        "id": 901,
+        "types": [
+            "Ground",
+            "Normal"
+        ]
+    },
+    "Yamper": {
+        "name": "Yamper",
+        "id": 835,
+        "types": [
+            "Electric"
+        ],
+        "evolutions": [
+            "yamper",
+            "boltund"
+        ]
+    },
+    "Salazzle": {
+        "name": "Salazzle",
+        "id": 758,
+        "types": [
+            "Poison",
+            "Fire"
+        ]
+    },
+    "Sawsbuck": {
+        "name": "Sawsbuck",
+        "id": 586,
+        "types": [
+            "Normal",
+            "Grass"
+        ],
+        "evolutions": [
+            "deerling",
+            "sawsbuck"
+        ]
+    },
+    "Victini": {
+        "name": "Victini",
+        "id": 494,
+        "types": [
+            "Psychic",
+            "Fire"
+        ]
+    },
+    "Whirlipede": {
+        "name": "Whirlipede",
+        "id": 544,
+        "types": [
+            "Bug",
+            "Poison"
+        ]
+    },
+    "Cryogonal": {
+        "name": "Cryogonal",
+        "id": 615,
+        "types": [
+            "Ice"
+        ],
+        "evolutions": [
+            "cryogonal"
+        ]
+    },
+    "Tympole": {
+        "name": "Tympole",
+        "id": 535,
+        "types": [
+            "Water"
+        ]
+    },
+    "Turtonator": {
+        "name": "Turtonator",
+        "id": 776,
+        "types": [
+            "Fire",
+            "Dragon"
+        ]
+    },
+    "Diggersby": {
+        "name": "Diggersby",
+        "id": 660,
+        "types": [
+            "Normal",
+            "Ground"
+        ],
+        "evolutions": [
+            "bunnelby",
+            "diggersby"
+        ]
+    },
+    "Morgrem": {
+        "name": "Morgrem",
+        "id": 860,
+        "types": [
+            "Dark",
+            "Fairy"
+        ],
+        "evolutions": [
+            "impidimp",
+            "morgrem",
+            "grimmsnarl"
+        ]
+    },
+    "Dhelmise": {
+        "name": "Dhelmise",
+        "id": 781,
+        "types": [
+            "Ghost",
+            "Grass"
+        ],
+        "evolutions": [
+            "dhelmise"
+        ]
+    },
+    "Cufant": {
+        "name": "Cufant",
+        "id": 878,
+        "types": [
+            "Steel"
+        ],
+        "evolutions": [
+            "cufant",
+            "copperajah"
+        ]
+    },
+    "Larvesta": {
+        "name": "Larvesta",
+        "id": 636,
+        "types": [
+            "Bug",
+            "Fire"
+        ]
+    },
+    "Frogadier": {
+        "name": "Frogadier",
+        "id": 657,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "froakie",
+            "frogadier",
+            "greninja"
+        ]
+    },
+    "Froakie": {
+        "name": "Froakie",
+        "id": 656,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "froakie",
+            "frogadier",
+            "greninja"
+        ]
+    },
+    "Fletchling": {
+        "name": "Fletchling",
+        "id": 661,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "evolutions": [
+            "fletchling",
+            "fletchinder",
+            "talonflame"
+        ]
+    },
+    "Quilladin": {
+        "name": "Quilladin",
+        "id": 651,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "chespin",
+            "quilladin",
+            "chesnaught"
+        ]
+    },
+    "Dwebble": {
+        "name": "Dwebble",
+        "id": 557,
+        "types": [
+            "Bug",
+            "Rock"
+        ],
+        "evolutions": [
+            "dwebble",
+            "crustle"
+        ]
+    },
+    "Torracat": {
+        "name": "Torracat",
+        "id": 726,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "litten",
+            "torracat",
+            "incineroar"
+        ]
+    },
+    "Eelektrik": {
+        "name": "Eelektrik",
+        "id": 603,
+        "types": [
+            "Electric"
+        ],
+        "evolutions": [
+            "tynamo",
+            "eelektrik",
+            "eelektross"
+        ]
+    },
+    "Archeops": {
+        "name": "Archeops",
+        "id": 567,
+        "types": [
+            "Rock",
+            "Flying"
+        ],
+        "evolutions": [
+            "archen",
+            "archeops"
+        ]
+    },
+    "Corvisquire": {
+        "name": "Corvisquire",
+        "id": 822,
+        "types": [
+            "Flying"
+        ],
+        "evolutions": [
+            "rookidee",
+            "corvisquire",
+            "corviknight"
+        ]
+    },
+    "Chesnaught": {
+        "name": "Chesnaught",
+        "id": 652,
+        "types": [
+            "Grass",
+            "Fighting"
+        ],
+        "evolutions": [
+            "chespin",
+            "quilladin",
+            "chesnaught"
+        ]
+    },
+    "Aurorus": {
+        "name": "Aurorus",
+        "id": 699,
+        "types": [
+            "Rock",
+            "Ice"
+        ],
+        "evolutions": [
+            "amaura",
+            "aurorus"
+        ]
+    },
+    "Krokorok": {
+        "name": "Krokorok",
+        "id": 552,
+        "types": [
+            "Ground",
+            "Dark"
+        ]
+    },
+    "Copperajah": {
+        "name": "Copperajah",
+        "id": 879,
+        "types": [
+            "Steel"
+        ],
+        "evolutions": [
+            "cufant",
+            "copperajah"
+        ]
+    },
+    "Volcarona": {
+        "name": "Volcarona",
+        "id": 637,
+        "types": [
+            "Bug",
+            "Fire"
+        ]
+    },
+    "Raboot": {
+        "name": "Raboot",
+        "id": 814,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "scorbunny",
+            "raboot",
+            "cinderace"
+        ]
+    },
+    "Bunnelby": {
+        "name": "Bunnelby",
+        "id": 659,
+        "types": [
+            "Normal"
+        ],
+        "evolutions": [
+            "bunnelby",
+            "diggersby"
+        ]
+    },
+    "Shelmet": {
+        "name": "Shelmet",
+        "id": 616,
+        "types": [
+            "Bug"
+        ],
+        "evolutions": [
+            "shelmet",
+            "accelgor"
+        ]
+    },
+    "Petilil": {
+        "name": "Petilil",
+        "id": 548,
+        "types": [
+            "Grass"
+        ]
+    },
+    "Ferrothorn": {
+        "name": "Ferrothorn",
+        "id": 598,
+        "types": [
+            "Grass",
+            "Steel"
+        ],
+        "evolutions": [
+            "ferroseed",
+            "ferrothorn"
+        ]
+    },
+    "Deerling": {
+        "name": "Deerling",
+        "id": 585,
+        "types": [
+            "Normal",
+            "Grass"
+        ],
+        "evolutions": [
+            "deerling",
+            "sawsbuck"
+        ]
+    },
+    "Tynamo": {
+        "name": "Tynamo",
+        "id": 602,
+        "types": [
+            "Electric"
+        ],
+        "evolutions": [
+            "tynamo",
+            "eelektrik",
+            "eelektross"
+        ]
+    },
+    "Foongus": {
+        "name": "Foongus",
+        "id": 590,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "evolutions": [
+            "foongus",
+            "amoonguss"
+        ]
+    },
+    "Escavalier": {
+        "name": "Escavalier",
+        "id": 589,
+        "types": [
+            "Bug",
+            "Steel"
+        ],
+        "evolutions": [
+            "karrablast",
+            "escavalier"
+        ]
+    },
+    "Litleo": {
+        "name": "Litleo",
+        "id": 667,
+        "types": [
+            "Fire",
+            "Normal"
+        ]
+    },
+    "Dewpider": {
+        "name": "Dewpider",
+        "id": 751,
+        "types": [
+            "Water",
+            "Bug"
+        ],
+        "evolutions": [
+            "dewpider",
+            "araquanid"
+        ]
+    },
+    "Scolipede": {
+        "name": "Scolipede",
+        "id": 545,
+        "types": [
+            "Bug",
+            "Poison"
+        ]
+    },
+    "Solosis": {
+        "name": "Solosis",
+        "id": 577,
+        "types": [
+            "Psychic"
+        ],
+        "evolutions": [
+            "solosis",
+            "duosion",
+            "reuniclus"
+        ]
+    },
+    "Accelgor": {
+        "name": "Accelgor",
+        "id": 617,
+        "types": [
+            "Bug"
+        ],
+        "evolutions": [
+            "shelmet",
+            "accelgor"
+        ]
+    },
+    "Serperior": {
+        "name": "Serperior",
+        "id": 497,
+        "types": [
+            "Grass"
+        ]
+    },
+    "Archen": {
+        "name": "Archen",
+        "id": 566,
+        "types": [
+            "Rock",
+            "Flying"
+        ],
+        "evolutions": [
+            "archen",
+            "archeops"
+        ]
+    },
+    "Bounsweet": {
+        "name": "Bounsweet",
+        "id": 761,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "bounsweet",
+            "steenee",
+            "tsareena"
+        ]
+    },
+    "Toxel": {
+        "name": "Toxel",
+        "id": 848,
+        "types": [
+            "Electric",
+            "Poison"
+        ]
+    },
+    "Dewott": {
+        "name": "Dewott",
+        "id": 502,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "oshawott",
+            "dewott",
+            "samurott"
+        ]
+    },
+    "Servine": {
+        "name": "Servine",
+        "id": 496,
+        "types": [
+            "Grass"
+        ]
+    },
+    "Tsareena": {
+        "name": "Tsareena",
+        "id": 763,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "bounsweet",
+            "steenee",
+            "tsareena"
+        ]
+    },
+    "Clauncher": {
+        "name": "Clauncher",
+        "id": 692,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "clauncher",
+            "clawitzer"
+        ]
+    },
+    "Karrablast": {
+        "name": "Karrablast",
+        "id": 588,
+        "types": [
+            "Bug"
+        ],
+        "evolutions": [
+            "karrablast",
+            "escavalier"
+        ]
+    },
+    "Krookodile": {
+        "name": "Krookodile",
+        "id": 553,
+        "types": [
+            "Ground",
+            "Dark"
+        ]
+    },
+    "Bewear": {
+        "name": "Bewear",
+        "id": 760,
+        "types": [
+            "Normal",
+            "Fighting"
+        ],
+        "evolutions": [
+            "stufful",
+            "bewear"
+        ]
+    },
+    "Eelektross": {
+        "name": "Eelektross",
+        "id": 604,
+        "types": [
+            "Electric"
+        ],
+        "evolutions": [
+            "tynamo",
+            "eelektrik",
+            "eelektross"
+        ]
+    },
+    "Rookidee": {
+        "name": "Rookidee",
+        "id": 821,
+        "types": [
+            "Flying"
+        ],
+        "evolutions": [
+            "rookidee",
+            "corvisquire",
+            "corviknight"
+        ]
+    },
+    "Rockruff": {
+        "name": "Rockruff",
+        "id": 744,
+        "types": [
+            "Rock"
+        ]
+    },
+    "Scorbunny": {
+        "name": "Scorbunny",
+        "id": 813,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "scorbunny",
+            "raboot",
+            "cinderace"
+        ]
+    },
+    "Palpitoad": {
+        "name": "Palpitoad",
+        "id": 536,
+        "types": [
+            "Water",
+            "Ground"
+        ]
+    },
+    "Decidueye": {
+        "name": "Decidueye",
+        "id": 724,
+        "types": [
+            "Grass",
+            "Ghost"
+        ],
+        "evolutions": [
+            "rowlet",
+            "dartrix",
+            "decidueye"
+        ]
+    },
+    "Amaura": {
+        "name": "Amaura",
+        "id": 698,
+        "types": [
+            "Rock",
+            "Ice"
+        ],
+        "evolutions": [
+            "amaura",
+            "aurorus"
+        ]
+    },
+    "Joltik": {
+        "name": "Joltik",
+        "id": 595,
+        "types": [
+            "Bug",
+            "Electric"
+        ],
+        "evolutions": [
+            "joltik",
+            "galvantula"
+        ]
+    },
+    "Litwick": {
+        "name": "Litwick",
+        "id": 607,
+        "types": [
+            "Ghost",
+            "Fire"
+        ],
+        "evolutions": [
+            "litwick",
+            "lampent",
+            "chandelure"
+        ]
+    },
+    "Noibat": {
+        "name": "Noibat",
+        "id": 714,
+        "types": [
+            "Flying",
+            "Dragon"
+        ]
+    },
+    "Dragalge": {
+        "name": "Dragalge",
+        "id": 691,
+        "types": [
+            "Poison",
+            "Dragon"
+        ],
+        "evolutions": [
+            "skrelp",
+            "dragalge"
+        ]
+    },
+    "Drizzile": {
+        "name": "Drizzile",
+        "id": 817,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "sobble",
+            "drizzile",
+            "inteleon"
+        ]
+    },
+    "Seismitoad": {
+        "name": "Seismitoad",
+        "id": 537,
+        "types": [
+            "Water",
+            "Ground"
+        ]
+    },
+    "Wyrdeer": {
+        "name": "Wyrdeer",
+        "id": 899,
+        "types": [
+            "Normal",
+            "Psychic"
+        ]
+    },
+    "Goomy": {
+        "name": "Goomy",
+        "id": 704,
+        "types": [
+            "Dragon"
+        ],
+        "evolutions": [
+            "goomy",
+            "sliggoo",
+            "goodra"
+        ]
+    },
+    "Pyroar": {
+        "name": "Pyroar",
+        "id": 668,
+        "types": [
+            "Fire",
+            "Normal"
+        ]
+    },
+    "Hatenna": {
+        "name": "Hatenna",
+        "id": 856,
+        "types": [
+            "Psychic"
+        ],
+        "evolutions": [
+            "hatenna",
+            "hattrem",
+            "hatterene"
+        ]
+    },
+    "Sneasler": {
+        "name": "Sneasler",
+        "id": 903,
+        "types": [
+            "Fighting",
+            "Poison"
+        ]
+    },
+    "Sawk": {
+        "name": "Sawk",
+        "id": 539,
+        "types": [
+            "Fighting"
+        ]
+    },
+    "Steenee": {
+        "name": "Steenee",
+        "id": 762,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "bounsweet",
+            "steenee",
+            "tsareena"
+        ]
+    },
+    "Wimpod": {
+        "name": "Wimpod",
+        "id": 767,
+        "types": [
+            "Bug",
+            "Water"
+        ],
+        "evolutions": [
+            "wimpod",
+            "golisopod"
+        ]
+    },
+    "Drilbur": {
+        "name": "Drilbur",
+        "id": 529,
+        "types": [
+            "Ground"
+        ],
+        "evolutions": [
+            "drilbur",
+            "excadrill"
+        ]
+    },
+    "Floette": {
+        "name": "Floette",
+        "id": 670,
+        "types": [
+            "Fairy"
+        ],
+        "evolutions": [
+            "flabebe",
+            "floette",
+            "florges"
+        ]
+    },
+    "Venipede": {
+        "name": "Venipede",
+        "id": 543,
+        "types": [
+            "Bug",
+            "Poison"
+        ]
+    },
+    "Conkeldurr": {
+        "name": "Conkeldurr",
+        "id": 534,
+        "types": [
+            "Fighting"
+        ],
+        "evolutions": [
+            "timburr",
+            "gurdurr",
+            "conkeldurr"
+        ]
+    },
+    "Tyrantrum": {
+        "name": "Tyrantrum",
+        "id": 697,
+        "types": [
+            "Rock",
+            "Dragon"
+        ]
+    },
+    "Florges": {
+        "name": "Florges",
+        "id": 671,
+        "types": [
+            "Fairy"
+        ],
+        "evolutions": [
+            "flabebe",
+            "floette",
+            "florges"
+        ]
+    },
+    "Excadrill": {
+        "name": "Excadrill",
+        "id": 530,
+        "types": [
+            "Ground",
+            "Steel"
+        ],
+        "evolutions": [
+            "drilbur",
+            "excadrill"
+        ]
+    },
+    "Perrserker": {
+        "name": "Perrserker",
+        "id": 863,
+        "types": [
+            "Steel"
+        ]
+    },
+    "Pangoro": {
+        "name": "Pangoro",
+        "id": 675,
+        "types": [
+            "Fighting",
+            "Dark"
+        ]
+    },
+    "Hattrem": {
+        "name": "Hattrem",
+        "id": 857,
+        "types": [
+            "Psychic"
+        ],
+        "evolutions": [
+            "hatenna",
+            "hattrem",
+            "hatterene"
+        ]
+    },
+    "Audino": {
+        "name": "Audino",
+        "id": 531,
+        "types": [
+            "Normal"
+        ],
+        "evolutions": [
+            "audino"
+        ]
+    },
+    "Pancham": {
+        "name": "Pancham",
+        "id": 674,
+        "types": [
+            "Fighting"
+        ]
+    },
+    "Rillaboom": {
+        "name": "Rillaboom",
+        "id": 812,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "grookey",
+            "thwackey",
+            "rillaboom"
+        ]
+    },
+    "Duraludon": {
+        "name": "Duraludon",
+        "id": 884,
+        "types": [
+            "Steel",
+            "Dragon"
+        ],
+        "evolutions": [
+            "duraludon",
+            "archaludon"
+        ]
+    },
+    "Archaludon": {
+        "name": "Archaludon",
+        "id": 1018,
+        "types": [
+            "Steel",
+            "Dragon"
+        ],
+        "evolutions": [
+            "duraludon",
+            "archaludon"
+        ]
+    },
+    "Flabébé": {
+        "name": "Flabébé",
+        "id": 669,
+        "types": [
+            "Fairy"
+        ],
+        "evolutions": [
+            "flabebe",
+            "floette",
+            "florges"
+        ]
+    },
+    "Boltund": {
+        "name": "Boltund",
+        "id": 836,
+        "types": [
+            "Electric"
+        ],
+        "evolutions": [
+            "yamper",
+            "boltund"
+        ]
+    },
+    "Gigalith": {
+        "name": "Gigalith",
+        "id": 526,
+        "types": [
+            "Rock"
+        ],
+        "evolutions": [
+            "roggenrola",
+            "boldore",
+            "gigalith"
+        ]
+    },
+    "Hawlucha": {
+        "name": "Hawlucha",
+        "id": 701,
+        "types": [
+            "Fighting",
+            "Flying"
+        ],
+        "evolutions": [
+            "hawlucha"
+        ]
+    },
+    "Grimmsnarl": {
+        "name": "Grimmsnarl",
+        "id": 861,
+        "types": [
+            "Dark",
+            "Fairy"
+        ],
+        "evolutions": [
+            "impidimp",
+            "morgrem",
+            "grimmsnarl"
+        ]
+    },
+    "Dreepy": {
+        "name": "Dreepy",
+        "id": 885,
+        "types": [
+            "Dragon",
+            "Ghost"
+        ],
+        "evolutions": [
+            "dreepy",
+            "drakloak",
+            "dragapult"
+        ]
+    },
+    "Noivern": {
+        "name": "Noivern",
+        "id": 715,
+        "types": [
+            "Flying",
+            "Dragon"
+        ]
+    },
+    "Trevenant": {
+        "name": "Trevenant",
+        "id": 709,
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    "Morelull": {
+        "name": "Morelull",
+        "id": 755,
+        "types": [
+            "Grass",
+            "Fairy"
+        ]
+    },
+    "Dragapult": {
+        "name": "Dragapult",
+        "id": 887,
+        "types": [
+            "Dragon",
+            "Ghost"
+        ],
+        "evolutions": [
+            "dreepy",
+            "drakloak",
+            "dragapult"
+        ]
+    },
+    "Brionne": {
+        "name": "Brionne",
+        "id": 729,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "popplio",
+            "brionne",
+            "primarina"
+        ]
+    },
+    "Phantump": {
+        "name": "Phantump",
+        "id": 708,
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    "Cutiefly": {
+        "name": "Cutiefly",
+        "id": 742,
+        "types": [
+            "Bug",
+            "Fairy"
+        ],
+        "evolutions": [
+            "cutiefly",
+            "ribombee"
+        ]
+    },
+    "Kubfu": {
+        "name": "Kubfu",
+        "id": 891,
+        "types": [
+            "Fighting"
+        ]
+    },
+    "Litten": {
+        "name": "Litten",
+        "id": 725,
+        "types": [
+            "Fire"
+        ],
+        "evolutions": [
+            "litten",
+            "torracat",
+            "incineroar"
+        ]
+    },
+    "Stoutland": {
+        "name": "Stoutland",
+        "id": 508,
+        "types": [
+            "Normal"
+        ],
+        "evolutions": [
+            "lillipup",
+            "herdier",
+            "stoutland"
+        ]
+    },
+    "Musharna": {
+        "name": "Musharna",
+        "id": 518,
+        "types": [
+            "Psychic"
+        ]
+    },
+    "Throh": {
+        "name": "Throh",
+        "id": 538,
+        "types": [
+            "Fighting"
+        ]
+    },
+    "Incineroar": {
+        "name": "Incineroar",
+        "id": 727,
+        "types": [
+            "Fire",
+            "Dark"
+        ],
+        "evolutions": [
+            "litten",
+            "torracat",
+            "incineroar"
+        ]
+    },
+    "Araquanid": {
+        "name": "Araquanid",
+        "id": 752,
+        "types": [
+            "Water",
+            "Bug"
+        ],
+        "evolutions": [
+            "dewpider",
+            "araquanid"
+        ]
+    },
+    "Blipbug": {
+        "name": "Blipbug",
+        "id": 824,
+        "types": [
+            "Bug"
+        ],
+        "evolutions": [
+            "blipbug",
+            "dottler",
+            "orbeetle"
+        ]
+    },
+    "Obstagoon": {
+        "name": "Obstagoon",
+        "id": 862,
+        "types": [
+            "Dark",
+            "Normal"
+        ]
+    },
+    "Skrelp": {
+        "name": "Skrelp",
+        "id": 690,
+        "types": [
+            "Poison",
+            "Water"
+        ],
+        "evolutions": [
+            "skrelp",
+            "dragalge"
+        ]
+    },
+    "Lillipup": {
+        "name": "Lillipup",
+        "id": 506,
+        "types": [
+            "Normal"
+        ],
+        "evolutions": [
+            "lillipup",
+            "herdier",
+            "stoutland"
+        ]
+    },
+    "Dartrix": {
+        "name": "Dartrix",
+        "id": 723,
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "evolutions": [
+            "rowlet",
+            "dartrix",
+            "decidueye"
+        ]
+    },
+    "Centiskorch": {
+        "name": "Centiskorch",
+        "id": 851,
+        "types": [
+            "Fire",
+            "Bug"
+        ],
+        "evolutions": [
+            "sizzlipede",
+            "centiskorch"
+        ]
+    },
+    "Avalugg": {
+        "name": "Avalugg",
+        "id": 713,
+        "types": [
+            "Ice"
+        ],
+        "evolutions": [
+            "bergmite",
+            "avalugg"
+        ]
+    },
+    "Corviknight": {
+        "name": "Corviknight",
+        "id": 823,
+        "types": [
+            "Flying",
+            "Steel"
+        ],
+        "evolutions": [
+            "rookidee",
+            "corvisquire",
+            "corviknight"
+        ]
+    },
+    "Goodra": {
+        "name": "Goodra",
+        "id": 706,
+        "types": [
+            "Dragon"
+        ],
+        "evolutions": [
+            "goomy",
+            "sliggoo",
+            "goodra"
+        ]
+    },
+    "Goodra-H": {
+        "name": "Goodra-H",
+        "id": 10242,
+        "types": [
+            "Steel",
+            "Dragon"
+        ]
+    },
+    "Primarina": {
+        "name": "Primarina",
+        "id": 730,
+        "types": [
+            "Water",
+            "Fairy"
+        ],
+        "evolutions": [
+            "popplio",
+            "brionne",
+            "primarina"
+        ]
+    },
+    "Shiinotic": {
+        "name": "Shiinotic",
+        "id": 756,
+        "types": [
+            "Grass",
+            "Fairy"
+        ]
+    },
+    "Impidimp": {
+        "name": "Impidimp",
+        "id": 859,
+        "types": [
+            "Dark",
+            "Fairy"
+        ],
+        "evolutions": [
+            "impidimp",
+            "morgrem",
+            "grimmsnarl"
+        ]
+    },
+    "Bergmite": {
+        "name": "Bergmite",
+        "id": 712,
+        "types": [
+            "Ice"
+        ],
+        "evolutions": [
+            "bergmite",
+            "avalugg"
+        ]
+    },
+    "Bruxish": {
+        "name": "Bruxish",
+        "id": 779,
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "evolutions": [
+            "bruxish"
+        ]
+    },
+    "Togedemaru": {
+        "name": "Togedemaru",
+        "id": 777,
+        "types": [
+            "Electric",
+            "Steel"
+        ]
+    },
+    "Hatterene": {
+        "name": "Hatterene",
+        "id": 858,
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "evolutions": [
+            "hatenna",
+            "hattrem",
+            "hatterene"
+        ]
+    },
+    "Rowlet": {
+        "name": "Rowlet",
+        "id": 722,
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "evolutions": [
+            "rowlet",
+            "dartrix",
+            "decidueye"
+        ]
+    },
+    "Roggenrola": {
+        "name": "Roggenrola",
+        "id": 524,
+        "types": [
+            "Rock"
+        ],
+        "evolutions": [
+            "roggenrola",
+            "boldore",
+            "gigalith"
+        ]
+    },
+    "Popplio": {
+        "name": "Popplio",
+        "id": 728,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "popplio",
+            "brionne",
+            "primarina"
+        ]
+    },
+    "Arrokuda": {
+        "name": "Arrokuda",
+        "id": 846,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "arrokuda",
+            "barraskewda"
+        ]
+    },
+    "Drednaw": {
+        "name": "Drednaw",
+        "id": 834,
+        "types": [
+            "Water",
+            "Rock"
+        ],
+        "evolutions": [
+            "chewtle",
+            "drednaw"
+        ]
+    },
+    "Grookey": {
+        "name": "Grookey",
+        "id": 810,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "grookey",
+            "thwackey",
+            "rillaboom"
+        ]
+    },
+    "Mudsdale": {
+        "name": "Mudsdale",
+        "id": 750,
+        "types": [
+            "Ground"
+        ]
+    },
+    "Tyrunt": {
+        "name": "Tyrunt",
+        "id": 696,
+        "types": [
+            "Rock",
+            "Dragon"
+        ]
+    },
+    "Drakloak": {
+        "name": "Drakloak",
+        "id": 886,
+        "types": [
+            "Dragon",
+            "Ghost"
+        ],
+        "evolutions": [
+            "dreepy",
+            "drakloak",
+            "dragapult"
+        ]
+    },
+    "Overqwil": {
+        "name": "Overqwil",
+        "id": 904,
+        "types": [
+            "Dark",
+            "Poison"
+        ]
+    },
+    "Inteleon": {
+        "name": "Inteleon",
+        "id": 818,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "sobble",
+            "drizzile",
+            "inteleon"
+        ]
+    },
+    "Sliggoo": {
+        "name": "Sliggoo",
+        "id": 705,
+        "types": [
+            "Dragon"
+        ],
+        "evolutions": [
+            "goomy",
+            "sliggoo",
+            "goodra"
+        ]
+    },
+    "Sobble": {
+        "name": "Sobble",
+        "id": 816,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "sobble",
+            "drizzile",
+            "inteleon"
+        ]
+    },
+    "Ribombee": {
+        "name": "Ribombee",
+        "id": 743,
+        "types": [
+            "Bug",
+            "Fairy"
+        ],
+        "evolutions": [
+            "cutiefly",
+            "ribombee"
+        ]
+    },
+    "Golisopod": {
+        "name": "Golisopod",
+        "id": 768,
+        "types": [
+            "Bug",
+            "Water"
+        ],
+        "evolutions": [
+            "wimpod",
+            "golisopod"
+        ]
+    },
+    "Clawitzer": {
+        "name": "Clawitzer",
+        "id": 693,
+        "types": [
+            "Water"
+        ],
+        "evolutions": [
+            "clauncher",
+            "clawitzer"
+        ]
+    },
+    "Thwackey": {
+        "name": "Thwackey",
+        "id": 811,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "grookey",
+            "thwackey",
+            "rillaboom"
+        ]
+    },
+    "Gossifleur": {
+        "name": "Gossifleur",
+        "id": 829,
+        "types": [
+            "Grass"
+        ],
+        "evolutions": [
+            "gossifleur",
+            "eldegoss"
+        ]
+    },
+    "Toxtricity": {
+        "name": "Toxtricity",
+        "id": 849,
+        "types": [
+            "Electric",
+            "Poison"
+        ]
+    },
+    "Toxtricity-Low-Key": {
+        "name": "Toxtricity-Low-Key",
+        "id": 10184,
+        "types": [
+            "Electric",
+            "Poison"
+        ]
+    },
+    "Basculegion": {
+        "name": "Basculegion",
+        "id": 902,
+        "types": [
+            "Water",
+            "Ghost"
+        ],
+        "evolutions": [
+            "basculin",
+            "basculegion"
+        ]
+    },
+    "Lycanroc": {
+        "name": "Lycanroc",
+        "id": 745,
+        "types": [
+            "Rock"
+        ]
+    },
+    "Lycanroc-Dusk": {
+        "name": "Lycanroc-Dusk",
+        "id": 10152,
+        "types": [
+            "Rock"
+        ]
+    },
+    "Lycanroc-Midnight": {
+        "name": "Lycanroc-Midnight",
+        "id": 10126,
+        "types": [
+            "Rock"
+        ]
+    },
+    "Jangmo-o": {
+        "name": "Jangmo-o",
+        "id": 782,
+        "types": [
+            "Dragon"
+        ]
+    },
+    "Hakomo-o": {
+        "name": "Hakomo-o",
+        "id": 783,
+        "types": [
+            "Dragon",
+            "Fighting"
         ]
     }
 }
