@@ -35,7 +35,7 @@ const SplitData = {
             "locations": [
                 "Verdanturf Town",
                 "Route 117",
-                // "Game Corner",
+                "Game Corner",
                 "Route 111",
                 "Route 118"
             ]
@@ -49,12 +49,12 @@ const SplitData = {
         {
             "name": "Flannery",
             "locations": [
-                // "Mirage Tower",
+                "Mirage Tower",
                 "Route 113",
                 "Fallarbor Town",
                 "Desert Underpass",
                 "Route 114",
-                // "Meteor Falls",
+                "Meteor Falls",
                 "Route 112",
                 "Fiery Path",
                 "Mt. Chimney",
@@ -66,10 +66,10 @@ const SplitData = {
             "name": "Winona",
             "locations": [
                 "Route 134",
-                // "New Mauvile",
+                "New Mauville",
                 "Route 105",
                 "Route 108",
-                // "Abandoned Ship",
+                "Abandoned Ship",
                 "Route 119",
                 "Route 120",
                 "Fortree City",
@@ -80,12 +80,12 @@ const SplitData = {
             "name": "Tate & Liza",
             "locations": [
                 "Route 121",
-                // "Safari Zone",
+                "Safari Zone",
                 "Lilycove City",
                 "Route 122",
                 "Route 123",
-                // "Mt. Pyre",
-                // "Magma Hideout",
+                "Mt. Pyre",
+                "Magma Hideout",
                 "Aqua Hideout",
                 "Route 124",
                 "Mossdeep City",
@@ -95,29 +95,29 @@ const SplitData = {
         {
             "name": "Juan",
             "locations": [
-                // "Shoal Cave",
+                "Shoal Cave",
                 "Route 127",
                 "Route 126",
                 "Sootopolis City",
                 "Route 128",
                 "Route 129",
                 "Ever Grande City",
-                // "Seafloor Cavern",
+                "Seafloor Cavern",
                 "Cave of Origin",
                 "Route 130",
                 "Route 131",
                 "Pacifidlog Town",
                 "Route 132",
                 "Route 133",
-                // "Sky Pillar"
+                "Sky Pillar"
             ]
         },
-        // {
-        //     "name": "Victory Road",
-        //     "locations": [
-        //         "Victory Road"
-        //     ]
-        // },
+        {
+            "name": "Victory Road",
+            "locations": [
+                "Victory Road"
+            ]
+        },
     ]
 }
 

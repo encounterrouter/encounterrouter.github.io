@@ -1419,6 +1419,117 @@ const EncounterData = {
             ]
         },
         {
+            "name": "Game Corner",
+            "methods": [
+                {
+                    "name": "Knuckle Badge",
+                    "encounters": [
+                        {
+                            "name": "Smoochum",
+                        },
+                        {
+                            "name": "Elekid",
+                        },
+                        {
+                            "name": "Magby"
+                        }
+                    ]
+                },
+                {
+                    "name": "Stone Badge",
+                    "encounters": [
+                        {
+                            "name": "Tauros",
+                        },
+                        {
+                            "name": "Miltank",
+                        }
+                    ]
+                },
+                {
+                    "name": "Dynamo Badge",
+                    "encounters": [
+                        {
+                            "name": "Throh",
+                        },
+                        {
+                            "name": "Sawk",
+                        }
+                    ]
+                },
+                {
+                    "name": "Balance Badge",
+                    "encounters": [
+                        {
+                            "name": "Pinsir",
+                        },
+                        {
+                            "name": "Heracross",
+                        }
+                    ]
+                },
+                {
+                    "name": "Heat Badge",
+                    "encounters": [
+                        {
+                            "name": "Larvitar",
+                        },
+                        {
+                            "name": "Beldum",
+                        }
+                    ]
+                },
+                {
+                    "name": "Feather Badge",
+                    "encounters": [
+                        {
+                            "name": "Dratini",
+                        },
+                        {
+                            "name": "Bagon",
+                        },
+                        {
+                            "name": "Deino"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mind Badge",
+                    "encounters": [
+                        {
+                            "name": "Gible",
+                        },
+                        {
+                            "name": "Goomy",
+                        },
+                        {
+                            "name": "Jangmo-o",
+                        },
+                        {
+                            "name": "Dreepy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rain Badge",
+                    "encounters": [
+                        {
+                            "name": "Mew",
+                        },
+                        {
+                            "name": "Celebi",
+                        },
+                        {
+                            "name": "Jirachi"
+                        },
+                        {
+                            "name": "Victini"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Route 111",
             "methods": [
                 {
@@ -1690,10 +1801,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Mirage Tower 1F",
+            "name": "Mirage Tower",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "1F",
                     "encounters": [
                         {
                             "name": "Drilbur",
@@ -1736,14 +1847,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mirage Tower 2F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "2F",
                     "encounters": [
                         {
                             "name": "Baltoy",
@@ -1794,14 +1900,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mirage Tower 3F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "3F",
                     "encounters": [
                         {
                             "name": "Sigilyph",
@@ -1852,14 +1953,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mirage Tower 4F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "4F",
                     "encounters": [
                         {
                             "name": "Zorua",
@@ -2181,10 +2277,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Meteor Falls 1F1",
+            "name": "Meteor Falls",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "Land (1F1)",
                     "encounters": [
                         {
                             "name": "Rhydon",
@@ -2237,7 +2333,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (1F1)",
                     "encounters": [
                         {
                             "name": "Magikarp",
@@ -2246,7 +2342,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (1F1)",
                     "encounters": [
                         {
                             "name": "Armaldo",
@@ -2257,14 +2353,9 @@ const EncounterData = {
                             "weight": 50
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Meteor Falls 1F2",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (1F2)",
                     "encounters": [
                         {
                             "name": "Ursaluna",
@@ -2297,7 +2388,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (1F2)",
                     "encounters": [
                         {
                             "name": "Anorith",
@@ -2330,7 +2421,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (1F2)",
                     "encounters": [
                         {
                             "name": "Gastrodon",
@@ -2353,14 +2444,9 @@ const EncounterData = {
                             "weight": 10
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Meteor Falls B1F1",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (B1F1)",
                     "encounters": [
                         {
                             "name": "Goodra-H",
@@ -2405,7 +2491,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (B1F1)",
                     "encounters": [
                         {
                             "name": "Gyarados",
@@ -2442,7 +2528,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (B1F1)",
                     "encounters": [
                         {
                             "name": "Noivern",
@@ -2461,14 +2547,9 @@ const EncounterData = {
                             "weight": 20
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Meteor Falls B1F2",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (B1F2)",
                     "encounters": [
                         {
                             "name": "Dragapult",
@@ -2493,7 +2574,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (B1F2)",
                     "encounters": [
                         {
                             "name": "Feebas",
@@ -2506,7 +2587,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (B1F2)",
                     "encounters": [
                         {
                             "name": "Gyarados",
@@ -2803,10 +2884,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "New Mauville (Outside)",
+            "name": "New Mauville",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "Outside",
                     "encounters": [
                         {
                             "name": "Togedemaru",
@@ -2849,14 +2930,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "New Mauville (Inside)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Inside",
                     "encounters": [
                         {
                             "name": "Magneton",
@@ -3078,7 +3154,7 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Abandoned Ship B1F Rooms",
+            "name": "Abandoned Ship",
             "methods": [
                 {
                     "name": "Fishing",
@@ -3121,7 +3197,7 @@ const EncounterData = {
                             "weight": 60
                         },
                         {
-                            "name": "Basculin-BS",
+                            "name": "Basculin",
                             "weight": 20
                         },
                         {
@@ -3535,10 +3611,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Safari Zone (South)",
+            "name": "Safari Zone",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "Land (South)",
                     "encounters": [
                         {
                             "name": "Nuzleaf",
@@ -3546,19 +3622,7 @@ const EncounterData = {
                         },
                         {
                             "name": "Sawsbuck",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Sawsbuck-A",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Sawsbuck-S",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Sawsbuck-W",
-                            "weight": 10
+                            "weight": 40
                         },
                         {
                             "name": "Maractus",
@@ -3581,67 +3645,18 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Safari Zone (Southwest)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Southwest)",
                     "encounters": [
                         {
-                            "name": "Vivillon-Archipelago",
-                            "weight": 20
-                        },
-                        {
-                            "name": "Vivillon-Continental",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-Elegant",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-Fancy",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-Garden",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-High-Plains",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-Jungle",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-Marine",
-                            "weight": 5
-                        },
-                        {
-                            "name": "Vivillon-Meadow",
-                            "weight": 5
-                        },
-                        {
-                            "name": "Vivillon-Modern",
-                            "weight": 5
-                        },
-                        {
-                            "name": "Vivillon-Monsoon",
-                            "weight": 4
-                        },
-                        {
-                            "name": "Vivillon-Ocean",
-                            "weight": 1
+                            "name": "Vivillon",
+                            "weight": 100
                         }
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (Southwest)",
                     "encounters": [
                         {
                             "name": "Golduck",
@@ -3670,37 +3685,16 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (Southwest)",
                     "encounters": [
                         {
-                            "name": "Vivillon-Polar",
-                            "weight": 30
-                        },
-                        {
-                            "name": "Vivillon-River",
-                            "weight": 30
-                        },
-                        {
-                            "name": "Vivillon-Sandstorm",
-                            "weight": 20
-                        },
-                        {
-                            "name": "Vivillon-Savanna",
-                            "weight": 10
-                        },
-                        {
-                            "name": "Vivillon-Sun",
-                            "weight": 10
+                            "name": "Vivillon",
+                            "weight": 100
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Safari Zone (Northwest)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Northwest)",
                     "encounters": [
                         {
                             "name": "Amoonguss",
@@ -3723,7 +3717,7 @@ const EncounterData = {
                             "weight": 10
                         },
                         {
-                            "name": "Rowlett",
+                            "name": "Rowlet",
                             "weight": 10
                         },
                         {
@@ -3745,7 +3739,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (Northwest)",
                     "encounters": [
                         {
                             "name": "Wartortle",
@@ -3770,7 +3764,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (Northwest)",
                     "encounters": [
                         {
                             "name": "Carracosta",
@@ -3789,14 +3783,9 @@ const EncounterData = {
                             "weight": 20
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Safari Zone (North)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (North)",
                     "encounters": [
                         {
                             "name": "Donphan",
@@ -3841,7 +3830,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Rock Smash",
+                    "name": "Rock Smash (North)",
                     "encounters": [
                         {
                             "name": "Crustle",
@@ -4135,10 +4124,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Mt. Pyre 1F-2F",
+            "name": "Mt. Pyre",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "1F-2F",
                     "encounters": [
                         {
                             "name": "Litwick",
@@ -4177,14 +4166,9 @@ const EncounterData = {
                             "weight": 5
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mt. Pyre 3F-4F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "3F-4F",
                     "encounters": [
                         {
                             "name": "Lampent",
@@ -4223,14 +4207,9 @@ const EncounterData = {
                             "weight": 5
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mt. Pyre 5F-6F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "5F-6F",
                     "encounters": [
                         {
                             "name": "Pangoro",
@@ -4265,18 +4244,17 @@ const EncounterData = {
                             "weight": 5
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mt. Pyre (Exterior)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Exterior",
                     "encounters": [
                         {
                             "name": "Phantump",
                             "weight": 20
+                        },
+                        {
+                            "name": "Pumpkaboo",
+                            "weight": 15
                         },
                         {
                             "name": "Drifloon",
@@ -4305,32 +4283,11 @@ const EncounterData = {
                         {
                             "name": "Drakloak",
                             "weight": 5
-                        },
-                        {
-                            "name": "Pumpkaboo-Super",
-                            "weight": 5
-                        },
-                        {
-                            "name": "Pumpkaboo-Small",
-                            "weight": 5
-                        },
-                        {
-                            "name": "Pumpkaboo-Large",
-                            "weight": 4
-                        },
-                        {
-                            "name": "Pumpkaboo",
-                            "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Mt. Pyre (Summit)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Summit",
                     "encounters": [
                         {
                             "name": "Froslass",
@@ -4377,10 +4334,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Magma Hideout Room 1",
+            "name": "Magma Hideout",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "Room 1",
                     "encounters": [
                         {
                             "name": "Granbull",
@@ -4427,14 +4384,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Magma Hideout Room 2-4",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Room 2-4",
                     "encounters": [
                         {
                             "name": "Exeggutor",
@@ -4477,14 +4429,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Magma Hideout Room 5",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Room 5",
                     "encounters": [
                         {
                             "name": "Hydreigon",
@@ -4535,14 +4482,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Magma Hideout Room 6-7",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Room 6-7",
                     "encounters": [
                         {
                             "name": "Houndoom",
@@ -4581,7 +4523,7 @@ const EncounterData = {
                             "weight": 5
                         },
                         {
-                            "name": "Cyndaquill",
+                            "name": "Cyndaquil",
                             "weight": 4
                         },
                         {
@@ -4803,10 +4745,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Shoal Cave (Entrance/Inner)",
+            "name": "Shoal Cave",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "Land (Entrance/Inner)",
                     "encounters": [
                         {
                             "name": "Sneasler",
@@ -4855,7 +4797,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (Entrance/Inner)",
                     "encounters": [
                         {
                             "name": "Starmie",
@@ -4876,7 +4818,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (Entrance/Inner)",
                     "encounters": [
                         {
                             "name": "Cloyster",
@@ -4895,14 +4837,9 @@ const EncounterData = {
                             "weight": 10
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Shoal Cave (Other Rooms)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Other Rooms)",
                     "encounters": [
                         {
                             "name": "Sneasler",
@@ -4953,14 +4890,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Shoal Cave (Ice Room)",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Ice Room)",
                     "encounters": [
                         {
                             "name": "Abomasnow",
@@ -5448,10 +5380,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Seafloor Cavern Entrance",
+            "name": "Seafloor Cavern",
             "methods": [
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (Entrance)",
                     "encounters": [
                         {
                             "name": "Primarina",
@@ -5488,7 +5420,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (Entrance)",
                     "encounters": [
                         {
                             "name": "Muk-A",
@@ -5511,14 +5443,9 @@ const EncounterData = {
                             "weight": 10
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Seafloor Cavern Rooms 1-5",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Rooms 1-5)",
                     "encounters": [
                         {
                             "name": "Absol",
@@ -5563,7 +5490,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Rock Smash",
+                    "name": "Rock Smash (Rooms 1-5)",
                     "encounters": [
                         {
                             "name": "Gigalith",
@@ -5578,14 +5505,9 @@ const EncounterData = {
                             "weight": 10
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Seafloor Cavern Rooms 6-7",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Rooms 6-7)",
                     "encounters": [
                         {
                             "name": "Absol",
@@ -5630,7 +5552,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (Rooms 6-7)",
                     "encounters": [
                         {
                             "name": "Dhelmise",
@@ -5667,7 +5589,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (Rooms 6-7)",
                     "encounters": [
                         {
                             "name": "Slowbro",
@@ -5690,14 +5612,9 @@ const EncounterData = {
                             "weight": 10
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Seafloor Cavern Room 8",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (Room 8)",
                     "encounters": [
                         {
                             "name": "Absol",
@@ -6110,10 +6027,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Sky Pillar 1F and 3F",
+            "name": "Sky Pillar",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "1F and 3F",
                     "encounters": [
                         {
                             "name": "Togekiss",
@@ -6160,14 +6077,9 @@ const EncounterData = {
                             "weight": 1
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Sky Pillar 5F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "5F",
                     "encounters": [
                         {
                             "name": "Altaria",
@@ -6214,10 +6126,10 @@ const EncounterData = {
             ]
         },
         {
-            "name": "Victory Road 1F",
+            "name": "Victory Road",
             "methods": [
                 {
-                    "name": "Land",
+                    "name": "Land (1F)",
                     "encounters": [
                         {
                             "name": "Blastoise",
@@ -6244,14 +6156,9 @@ const EncounterData = {
                             "weight": 10
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Victory Road B1F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (B1F)",
                     "encounters": [
                         {
                             "name": "Gengar",
@@ -6296,7 +6203,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Fishing",
+                    "name": "Fishing (B1F)",
                     "encounters": [
                         {
                             "name": "Sharpedo",
@@ -6325,7 +6232,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Surf",
+                    "name": "Surf (B1F)",
                     "encounters": [
                         {
                             "name": "Greninja",
@@ -6346,7 +6253,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Rock Smash",
+                    "name": "Rock Smash (B1F)",
                     "encounters": [
                         {
                             "name": "Aggron",
@@ -6365,14 +6272,9 @@ const EncounterData = {
                             "weight": 5
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Victory Road B2F",
-            "methods": [
+                },
                 {
-                    "name": "Land",
+                    "name": "Land (B2F)",
                     "encounters": [
                         {
                             "name": "Weavile",
@@ -6413,7 +6315,7 @@ const EncounterData = {
                     ]
                 },
                 {
-                    "name": "Rock Smash",
+                    "name": "Rock Smash (B2F)",
                     "encounters": [
                         {
                             "name": "Avalugg-H",

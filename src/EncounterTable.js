@@ -14,7 +14,7 @@ function EncounterTable(props) {
                 <div style={{ fontSize: "calc(3px + 1.5vw)" }}>Jump to</div>
                 {DataManager.GetSplitData() ?
                     DataManager.GetSplitData().splits.map(split =>
-                        <button key={split.name} style={{ marginTop: '1vh' }} onClick={() => document.querySelector("#" + split.name).scrollIntoView()}>{split.name}</button>
+                        <button key={split.name} style={{ marginTop: '1vh' }} onClick={() => document.querySelector("#" + split.name.replace(/\s/g, "").replace('&', "")).scrollIntoView()}>{split.name}</button>
                     )
                     :
                     ""
@@ -25,7 +25,7 @@ function EncounterTable(props) {
                     ?
                     DataManager.GetSplitData().splits.map(split =>
                         <Fragment key={split.name}>
-                            <div id={split.name} style={{ fontSize: 'calc(10px + 8vh)', paddingTop: '10vh', paddingBottom: '3vh' }}>{split.name} Split</div>
+                            <div id={split.name.replace(/\s/g, "").replace('&', "")} style={{ fontSize: 'calc(10px + 8vh)', paddingTop: '10vh', paddingBottom: '3vh' }}>{split.name} Split</div>
                             {split.locations.map(location =>
                                 <Fragment key={location}>
                                     <EncounterLocation caught={props.caught} setCaught={props.setCaught} key={location} location={locations.find(l => l.name === location)} openDetailView={props.openDetailView} />

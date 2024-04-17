@@ -801,6 +801,14 @@ const Pokedex = {
             "Electric"
         ]
     },
+    "Golem-A": {
+        "name": "Golem-A",
+        "id": 10111,
+        "types": [
+            "Rock",
+            "Electric"
+        ]
+    },
     "Skiploom": {
         "name": "Skiploom",
         "id": 188,
@@ -1496,6 +1504,18 @@ const Pokedex = {
             "pichu",
             "pikachu",
             "raichu"
+        ],
+        "types": [
+            "Electric"
+        ]
+    },
+    "Raichu-A": {
+        "name": "Raichu-A",
+        "id": 10100,
+        "evolutions": [
+            "pichu",
+            "pikachu",
+            "raichu-a"
         ],
         "types": [
             "Electric"
@@ -4043,9 +4063,7 @@ const Pokedex = {
         "name": "Ho-Oh",
         "id": 250,
         "evolutions": [
-            "jangmo-o",
-            "hakamo-o",
-            "kommo-o"
+            "ho-oh"
         ],
         "types": [
             "Fire",
@@ -6404,6 +6422,14 @@ const Pokedex = {
             "Grass"
         ]
     },
+    "Lilligant-H": {
+        "name": "Lilligant-H",
+        "id": 10237,
+        "types": [
+            "Grass",
+            "Fighting"
+        ]
+    },
     "Tirtouga": {
         "name": "Tirtouga",
         "id": 564,
@@ -7935,6 +7961,17 @@ const Pokedex = {
             "avalugg"
         ]
     },
+    "Avalugg-H": {
+        "name": "Avalugg-H",
+        "id": 10243,
+        "types": [
+            "Ice"
+        ],
+        "evolutions": [
+            "bergmite",
+            "avalugg-h"
+        ]
+    },
     "Corviknight": {
         "name": "Corviknight",
         "id": 823,
@@ -8177,6 +8214,18 @@ const Pokedex = {
             "goodra"
         ]
     },
+    "Sliggoo-H": {
+        "name": "Sliggoo-H",
+        "id": 10241,
+        "types": [
+            "Dragon"
+        ],
+        "evolutions": [
+            "goomy",
+            "sliggoo-h",
+            "goodra-h"
+        ]
+    },
     "Sobble": {
         "name": "Sobble",
         "id": 816,
@@ -8301,6 +8350,11 @@ const Pokedex = {
         "id": 782,
         "types": [
             "Dragon"
+        ],
+        "evolutions": [
+            "jangmo-o",
+            "hakamo-o",
+            "kommo-o"
         ]
     },
     "Hakomo-o": {
@@ -8309,6 +8363,36 @@ const Pokedex = {
         "types": [
             "Dragon",
             "Fighting"
+        ],
+        "evolutions": [
+            "jangmo-o",
+            "hakamo-o",
+            "kommo-o"
+        ]
+    },
+    "Kommo-o": {
+        "name": "Kommo-o",
+        "id": 784,
+        "types": [
+            "Dragon",
+            "Fighting"
+        ],
+        "evolutions": [
+            "jangmo-o",
+            "hakamo-o",
+            "kommo-o"
+        ]
+    },
+    "Pumpkaboo": {
+        "name": "Pumpkaboo",
+        "id": 710,
+        "types": [
+            "Ghost",
+            "Grass"
+        ],
+        "evolutions": [
+            "pumpkaboo",
+            "gourgeist"
         ]
     }
 }
