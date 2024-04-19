@@ -11,6 +11,8 @@
 }
 
 .caughtEncounter img {
-    height:100px;
+    height:75px;
     width:auto;
+    margin-top:10px;
+    margin-bottom:10px;
 }

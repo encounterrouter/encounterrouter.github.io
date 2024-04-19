@@ -1,6 +1,7 @@
 import './EncounterPopup.css'
 import { useContext, useRef, useEffect, useState } from 'react';
 import { UserContext } from './App'
+import DataManager from './data/DataManager';
 
 function EncounterPopup(props) {
     const { setEncounterFilter } = useContext(UserContext);
@@ -54,8 +55,16 @@ function EncounterPopup(props) {
                         Unfilter
                     </button>
                     <button onClick={() =>
-                        props.openDetailView(props.location, encounterName)
-                        //window.open("https://www.dex.runandbun.com/pokemon/" + encounterName.toLowerCase(), '_blank').focus()
+                    {
+                        switch (DataManager.game) {
+                            case DataManager.GAMES.RUNANDBUN:
+                                window.open("https://dex.runandbun.com/pokemon/" + encounterName)
+                                break;
+                            case DataManager.GAMES.STERLINGSILVER:
+                                props.openDetailView(props.location, encounterName)
+                                break;
+                        }
+                    }
                     }>
                         Open
                     </button>

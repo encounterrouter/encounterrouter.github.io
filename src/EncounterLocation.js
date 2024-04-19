@@ -75,7 +75,10 @@ function EncounterLocation(props) {
                 {methods.map(method =>
                     <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.name} method={method} location={location} openDetailView={props.openDetailView} ability={radioVal} />
                 )}
-                <button onClick={() => props.openDetailView(location)}>View Details</button>
+                {DataManager.game === DataManager.GAMES.STERLINGSILVER ? 
+                <button onClick={() => props.openDetailView(location)}>View Details</button> :
+                ""}
+                
             </div>
             <div style={{ minHeight: "20px" }}></div>
         </div>
