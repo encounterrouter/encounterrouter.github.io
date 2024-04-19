@@ -7220,6 +7220,10 @@ const Pokedex = {
         "types": [
             "Electric",
             "Poison"
+        ],
+        "evolutions": [
+            "toxel",
+            "toxtricity"
         ]
     },
     "Dewott": {
@@ -8302,6 +8306,10 @@ const Pokedex = {
         "types": [
             "Electric",
             "Poison"
+        ],
+        "evolutions": [
+            "toxel",
+            "toxtricity"
         ]
     },
     "Toxtricity-Low-Key": {
@@ -8310,6 +8318,10 @@ const Pokedex = {
         "types": [
             "Electric",
             "Poison"
+        ],
+        "evolutions": [
+            "toxel",
+            "toxtricity"
         ]
     },
     "Basculegion": {
