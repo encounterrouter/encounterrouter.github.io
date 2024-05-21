@@ -4571,7 +4571,8 @@ const Pokedex = {
         "name": "Sandshrew-A",
         "id": 10101,
         "evolutions": [
-            "sandshrew"
+            "sandshrew-a",
+            "sandslash-a"
         ],
         "types": [
             "Ice",
@@ -6098,6 +6099,10 @@ const Pokedex = {
         "id": 749,
         "types": [
             "Ground"
+        ],
+        "evolutions": [
+            "mudbray",
+            "mudsdale"
         ]
     },
     "Jellicent": {
@@ -6290,6 +6295,10 @@ const Pokedex = {
         "id": 517,
         "types": [
             "Psychic"
+        ],
+        "evolutions": [
+            "munna",
+            "musharna"
         ]
     },
     "Samurott": {
@@ -6788,6 +6797,11 @@ const Pokedex = {
         "types": [
             "Bug",
             "Poison"
+        ],
+        "evolutions": [
+            "venipede",
+            "whirlipede",
+            "scolipede"
         ]
     },
     "Cryogonal": {
@@ -7138,6 +7152,10 @@ const Pokedex = {
         "types": [
             "Fire",
             "Normal"
+        ],
+        "evolutions": [
+            "litleo",
+            "pyroar"
         ]
     },
     "Dewpider": {
@@ -7158,6 +7176,11 @@ const Pokedex = {
         "types": [
             "Bug",
             "Poison"
+        ],
+        "evolutions": [
+            "venipede",
+            "whirlipede",
+            "scolipede"
         ]
     },
     "Solosis": {
@@ -7466,6 +7489,10 @@ const Pokedex = {
         "types": [
             "Fire",
             "Normal"
+        ],
+        "evolutions": [
+            "litleo",
+            "pyroar"
         ]
     },
     "Hatenna": {
@@ -7548,6 +7575,11 @@ const Pokedex = {
         "types": [
             "Bug",
             "Poison"
+        ],
+        "evolutions": [
+            "venipede",
+            "whirlipede",
+            "scolipede"
         ]
     },
     "Conkeldurr": {
@@ -7851,6 +7883,10 @@ const Pokedex = {
         "id": 518,
         "types": [
             "Psychic"
+        ],
+        "evolutions": [
+            "munna",
+            "musharna"
         ]
     },
     "Throh": {
@@ -8071,6 +8107,9 @@ const Pokedex = {
         "types": [
             "Electric",
             "Steel"
+        ],
+        "evolutions": [
+            "togedemaru"
         ]
     },
     "Hatterene": {
@@ -8163,6 +8202,10 @@ const Pokedex = {
         "id": 750,
         "types": [
             "Ground"
+        ],
+        "evolutions": [
+            "mudbray",
+            "mudsdale"
         ]
     },
     "Tyrunt": {
