@@ -64,9 +64,20 @@ function App() {
           <button>Submit</button>
         </form> */}
       </header>
+
       <div className="App-content">
         <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup, openNotificationPopup: openNotificationPopup }}>
           <Toolbar caught={caught} setCaught={setCaught} openDetailView={openDetailView} setIsBoxViewOpen={setIsBoxViewOpen} />
+          <div className="splits">
+            <div style={{ fontSize: "calc(3px + 1.5vw)" }}>Jump to</div>
+            {DataManager.GetSplitData() ?
+              DataManager.GetSplitData().splits.map(split =>
+                <button key={split.name} style={{ marginTop: '1vh' }} onClick={() => document.querySelector("#" + split.name.replace(/\s/g, "").replace('&', "")).scrollIntoView()}>{split.name}</button>
+              )
+              :
+              ""
+            }
+          </div>
           <EncounterTable caught={caught} setCaught={setCaught} openDetailView={openDetailView} />
           {isDetailViewOpen ? <DetailView setIsDetailViewOpen={setIsDetailViewOpen} location={detailViewLocation} encounter={detailViewEncounter} /> : ""}
           {isBoxViewOpen ? <BoxView setIsBoxViewOpen={setIsBoxViewOpen} caught={caught} setCaught={setCaught} /> : ""}

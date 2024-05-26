@@ -9,26 +9,35 @@ body {
 
 .App-header {
   background-color: var(--color3);
-  width:100%;
-  height:5vh;
+  width: 100%;
+  height: 5vh;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-bottom:2vh;
+  padding-bottom: 2vh;
   position: fixed;
   z-index: 1;
 }
 
 .App-content {
-  padding-top:5vh;
-  margin-right:5vw;
-  padding-bottom:1vh;
-  display:flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.splits {
+  grid-area: 1 / 4 / 2 / 5;
+  position: sticky;
+  top: 10vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
   padding-top: 20px;
-  color:#0a0908
+  color: #0a0908
 }
 
 .App-link {
@@ -37,7 +46,7 @@ body {
 
 button {
   font-family: 'Kubasta';
-  font-size:calc(5px + 1.5vw);
+  font-size: calc(5px + 1.5vw);
   border-radius: 10px;
 }
 
@@ -56,14 +65,28 @@ button {
   src: local("CelticTime"), url(./fonts/CelticTime.ttf) format('truetype');
 }
 
-img { 
-    image-rendering: pixelated;
+img {
+  image-rendering: pixelated;
 }
 
 :root {
   --darkest: black;
-  --color1:rgb(71, 71, 71);
-  --color2:rgb(83, 83, 83);
-  --color3:rgb(241, 241, 241);
-  --color4:hwb(0 100% 80%);
+  --color1: rgb(71, 71, 71);
+  --color2: rgb(83, 83, 83);
+  --color3: rgb(241, 241, 241);
+  --color4: hwb(0 100% 80%);
+}
+
+@media only screen and (max-width: 600px) {
+  .App-content {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+  }
+
+  .splits {
+    grid-area: 1 / 1 / 4 / 2;
+  }
 }
