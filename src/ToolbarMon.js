@@ -42,7 +42,7 @@ function ToolbarMon(props) {
             }}
             alt={name}
             src={'/sprites/' + DataManager.GetId(name) + '.png'}
-            style={{ cursor: "pointer" }}>
+            style={{ cursor: "pointer", maxWidth: "80%" }}>
         </img>
     )
 }

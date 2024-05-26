@@ -16,7 +16,7 @@ function EncounterTable(props) {
                         ?
                         DataManager.GetSplitData().splits.map(split =>
                             <Fragment key={split.name}>
-                                <div id={split.name.replace(/\s/g, "").replace('&', "")} style={{ fontSize: 'calc(10px + 8vh)', paddingTop: '10vh', paddingBottom: '3vh' }}>{split.name} Split</div>
+                                <div id={split.name.replace(/\s/g, "").replace('&', "")} style={{ fontSize: 'calc(10px + 3vh + 3vw)', paddingTop: '10vh', paddingBottom: '3vh' }}>{split.name} Split</div>
                                 {split.locations.map(location =>
                                     <Fragment key={location}>
                                         <EncounterLocation caught={props.caught} setCaught={props.setCaught} key={location} location={locations.find(l => l.name === location)} openDetailView={props.openDetailView} />

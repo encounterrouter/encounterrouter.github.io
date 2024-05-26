@@ -71,7 +71,7 @@ function EncounterLocation(props) {
         <div style={{ display: show ? "flex" : "none" }} className="encounterLocation" >
             <div className="encounterLocationPanel">
                 <div className="locationName">{location.name}</div>
-                { locationHasSteel || locationHasElectric ? <Radio /> : ""}
+                {/* { locationHasSteel || locationHasElectric ? <Radio /> : ""} */}
                 {methods.map(method =>
                     <EncounterMethod caught={props.caught} setCaught={props.setCaught} key={method.name} method={method} location={location} openDetailView={props.openDetailView} ability={radioVal} />
                 )}
