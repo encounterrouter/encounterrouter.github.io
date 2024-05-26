@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f28d88f.css",
-    "main.js": "/static/js/main.41fc9cee.js",
+    "main.css": "/static/css/main.65f0111d.css",
+    "main.js": "/static/js/main.f0c5d462.js",
     "static/js/453.18583f23.chunk.js": "/static/js/453.18583f23.chunk.js",
-    "static/media/PokeInfo.txt": "/static/media/PokeInfo.b667d41614413c8130ab.txt",
+    "static/media/PokeInfo.txt": "/static/media/PokeInfo.bf3c203ba1c79a329f95.txt",
     "static/media/Kubasta.ttf": "/static/media/Kubasta.f3acd4d1b86b6f88e883.ttf",
     "static/media/RnbEncounters.csv": "/static/media/RnbEncounters.80c6841975a1887eb045.csv",
     "static/media/KarenFat.ttf": "/static/media/KarenFat.88d4afa2c106f625e65b.ttf",
     "static/media/CelticTime.ttf": "/static/media/CelticTime.0ca2fde59ad8166b8599.ttf",
     "index.html": "/index.html",
-    "main.5f28d88f.css.map": "/static/css/main.5f28d88f.css.map",
-    "main.41fc9cee.js.map": "/static/js/main.41fc9cee.js.map",
+    "main.65f0111d.css.map": "/static/css/main.65f0111d.css.map",
+    "main.f0c5d462.js.map": "/static/js/main.f0c5d462.js.map",
     "453.18583f23.chunk.js.map": "/static/js/453.18583f23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f28d88f.css",
-    "static/js/main.41fc9cee.js"
+    "static/css/main.65f0111d.css",
+    "static/js/main.f0c5d462.js"
   ]
 }
