@@ -6149,6 +6149,11 @@ const Pokedex = {
         "types": [
             "Bug",
             "Flying"
+        ],
+        "evolutions": [
+            "scatterbug",
+            "spewpa",
+            "vivillon"
         ]
     },
     "Spewpa": {
@@ -6156,6 +6161,11 @@ const Pokedex = {
         "id": 665,
         "types": [
             "Bug"
+        ],
+        "evolutions": [
+            "scatterbug",
+            "spewpa",
+            "vivillon"
         ]
     },
     "Dottler": {
@@ -6625,6 +6635,11 @@ const Pokedex = {
         "id": 664,
         "types": [
             "Bug"
+        ],
+        "evolutions": [
+            "scatterbug",
+            "spewpa",
+            "vivillon"
         ]
     },
     "Amoonguss": {
