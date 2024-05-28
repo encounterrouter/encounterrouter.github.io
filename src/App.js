@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="title">Sterling Silver Encounter Router</div>
+        <div className="title">{DataManager.GetGameName()} Encounter Router</div>
         {/* <form onSubmit={handleSubmit}>
           <textarea name="data"></textarea>
           <button>Submit</button>

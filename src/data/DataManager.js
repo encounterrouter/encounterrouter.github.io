@@ -19,6 +19,15 @@ class DataManager {
 
     static game = this.GAMES.STERLINGSILVER;
 
+    static GetGameName() {
+        switch (DataManager.game) {
+            case this.GAMES.RUNANDBUN:
+                return "Run and Bun";
+            case this.GAMES.STERLINGSILVER:
+                return "Sterling Silver";
+        }
+    }
+
     static GetEncounterData() {
         switch (DataManager.game) {
             case this.GAMES.RUNANDBUN:
