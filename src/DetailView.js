@@ -63,7 +63,7 @@ function DetailView(props) {
                         )}
                     </div>
                 </div>
-                {SsMon?.bp ?
+                {SsMon?.bs ?
                     <div className="midPanel">
                         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                             <div>HP:</div>
