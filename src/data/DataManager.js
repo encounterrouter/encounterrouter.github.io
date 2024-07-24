@@ -74,7 +74,7 @@ class DataManager {
     }
 
     static GetId(name) {
-        return Pokedex[name].id;
+        return Pokedex[name]?.id;
     }
 
     static GetEvolutions(name) {

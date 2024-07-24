@@ -1441,8 +1441,7 @@ const Pokedex = {
         "id": 57,
         "evolutions": [
             "mankey",
-            "primeape",
-            "annihilape"
+            "primeape"
         ],
         "types": [
             "Fighting"
@@ -1733,8 +1732,7 @@ const Pokedex = {
         "id": 56,
         "evolutions": [
             "mankey",
-            "primeape",
-            "annihilape"
+            "primeape"
         ],
         "types": [
             "Fighting"
