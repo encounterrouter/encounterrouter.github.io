@@ -37,20 +37,20 @@ function Encounter(props) {
     }, [encounterObject.current]);
 
     return (
-        <div className="encounter" >
-            <div style={{ color: 'transparent', position: 'relative', height: '0px', fontSize: 'calc(5px + 1vw)' }}>{name}</div>
+        <div className="encounter" onClick={() => {
+            if (visiblePopup !== encounterId + "Popup")
+                setVisiblePopup(encounterId + "Popup");
+            else
+                setVisiblePopup(null);
+        }} >
+            <div style={{ pointerEvents: "none", color: 'transparent', position: 'relative', height: '0px', fontSize: 'calc(5px + 1vw)' }}>{name}</div>
             <div  className="encounterInner" ref={encounterObject} style={{
                 backgroundColor: filtered ? 'green' : (props.abilityFilter ? 'orange' : 'var(--color3)'),
                 borderRadius: '10px',
                 border: isCaught ? "2px solid red" : "2px solid black",
             }}>
                 <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} filtered={filtered} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} openDetailView={props.openDetailView} />
-                <button className="encounterButton" onClick={() => {
-                    if (visiblePopup !== encounterId + "Popup")
-                        setVisiblePopup(encounterId + "Popup");
-                    else
-                        setVisiblePopup(null);
-                }}>
+                <button className="encounterButton" >
                     <img alt={name} src={'/sprites/' + DataManager.GetId(name) + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
                     <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
                         {isCaught ? "Dupe" : encounterRate}
