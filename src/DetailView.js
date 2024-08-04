@@ -51,6 +51,7 @@ function DetailView(props) {
                     </div>
                     <div className="evoDisplay">
                         {DataManager.GetEvolutions(selectedMon).map(evo =>
+                        DataManager.GetMon(evo.charAt(0).toUpperCase() + evo.slice(1))  != null ? 
                             <div key={"evo" + evo} style={{ fontSize: "calc(3px + .85vw)", display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center' }}>
                                 <div>{DataManager.GetEvoData()[evo.charAt(0).toUpperCase() + evo.slice(1)]?.required}</div>
                                 <img
@@ -60,6 +61,8 @@ function DetailView(props) {
                                     onClick={() => setSelectedMon(evo.charAt(0).toUpperCase() + evo.slice(1))}
                                     style={{ outline: selectedMon === (evo.charAt(0).toUpperCase() + evo.slice(1)) ? "2px solid white" : "", display: 'block', maxWidth: '10vw', height: 'auto', width: 'auto' }} />
                             </div>
+                            :
+                            ""
                         )}
                     </div>
                 </div>
