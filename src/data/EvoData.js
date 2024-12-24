@@ -701,7 +701,7 @@ const EvoData = {
     },
     "Chimecho": {
         "method": "level",
-        "required": "2"
+        "required": "20"
     },
     "Skuntank": {
         "method": "level",
