@@ -43,7 +43,7 @@ function Encounter(props) {
             else
                 setVisiblePopup(null);
         }} >
-            <div style={{ pointerEvents: "none", color: 'transparent', position: 'relative', height: '0px', fontSize: 'calc(5px + 1vw)' }}>{name}</div>
+            <div style={{ pointerEvents: "none", color: 'transparent', position: 'relative', height: '0px', fontSize: '0' }}>{name}</div>
             <div  className="encounterInner" ref={encounterObject} style={{
                 backgroundColor: filtered ? 'green' : (props.abilityFilter ? 'orange' : 'var(--color3)'),
                 borderRadius: '10px',

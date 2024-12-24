@@ -30,6 +30,7 @@ const SplitData = {
             "name": "Whitney",
             "locations": [
                 "Route 34",
+                "Goldenrod City",
                 "Route 35",
                 "National Park",
                 "Route 36"
@@ -69,6 +70,7 @@ const SplitData = {
         {
             "name": "Pryce",
             "locations": [
+                "Mahogany Town",
                 "Route 43",
                 "Lake of Rage"
             ]
@@ -90,7 +92,18 @@ const SplitData = {
                 "Route 27",
                 "Tohjo Falls",
                 "Route 26",
-                "Victory Road"
+                "Victory Road",
+                "Indigo Plateau"
+            ]
+        },
+        {
+            "name": "Postgame",
+            "locations": [
+                "Route 28",
+                "Mt. Silver",
+                "Mt. Silver Cave",
+                "Bellchime Trail",
+                "Bell Tower"
             ]
         }
     ]

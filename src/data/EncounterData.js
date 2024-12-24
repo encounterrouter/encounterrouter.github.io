@@ -514,7 +514,11 @@ const EncounterData = {
                   },
                   {
                      "name": "Exeggcute",
-                     "weight": "20"
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Paras",
+                     "weight": "10"
                   },
                   {
                      "name": "Oddish",
@@ -836,7 +840,7 @@ const EncounterData = {
                      "weight": "20"
                   },
                   {
-                     "name": "Magikarp",
+                     "name": "Turtwig",
                      "weight": "10"
                   },
                   {
@@ -1129,6 +1133,60 @@ const EncounterData = {
                   }
                ]
             }
+         ]
+      },
+      {
+         "name": "Goldenrod City",
+         "methods": [
+            {
+               "name": "Grass",
+               "encounters": [
+                  {
+                     "name": "Electrike",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Burmy",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Mime-Jr",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Flaaffy",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Bonsly",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Pichu",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Cleffa",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Buizel",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Rhyhorn",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Onix",
+                     "weight": "4"
+                  },
+                  {
+                     "name": "Yanma",
+                     "weight": "1"
+                  }
+               ]
+            },
          ]
       },
       {
@@ -1527,7 +1585,7 @@ const EncounterData = {
                      "weight": "5"
                   },
                   {
-                     "name": "Magnemite",
+                     "name": "Pachirisu",
                      "weight": "5"
                   },
                   {
@@ -2004,7 +2062,7 @@ const EncounterData = {
                      "weight": "10"
                   },
                   {
-                     "name": "Torkoal",
+                     "name": "Rhyhorn",
                      "weight": "10"
                   },
                   {
@@ -2012,7 +2070,7 @@ const EncounterData = {
                      "weight": "10"
                   },
                   {
-                     "name": "Phanpy",
+                     "name": "Torkoal",
                      "weight": "10"
                   },
                   {
@@ -2036,7 +2094,7 @@ const EncounterData = {
                      "weight": "1"
                   },
                   {
-                     "name": "Voltorb",
+                     "name": "Diglett",
                      "weight": "1"
                   }
                ]
@@ -2222,6 +2280,56 @@ const EncounterData = {
                   {
                      "name": "Machoke",
                      "weight": "5"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Mahogany Town",
+         "methods": [
+            {
+               "name": "Grass",
+               "encounters": [
+                  {
+                     "name": "Seel",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Shellder",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Psyduck",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Spheal",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Swinub",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Snorunt",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Snover",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Smoochum",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Castform",
+                     "weight": "4"
+                  },
+                  {
+                     "name": "Sneasel",
+                     "weight": "1"
                   }
                ]
             }
@@ -3055,6 +3163,360 @@ const EncounterData = {
                   },
                   {
                      "name": "Magneton",
+                     "weight": "5"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Indigo Plateau",
+         "methods": [
+            {
+               "name": "Cave",
+               "encounters": [
+                  {
+                     "name": "Torterra",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Charizard",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Feraligatr",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Eevee",
+                     "weight": "15"
+                  },
+                  {
+                     "name": "Meganium",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Blaziken",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Blastoise",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Sceptile",
+                     "weight": "4"
+                  },
+                  {
+                     "name": "Typhlosion",
+                     "weight": "1"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Route 28",
+         "methods": [
+            {
+               "name": "Grass",
+               "encounters": [
+                  {
+                     "name": "Ninjask",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Magnezone",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Wobbuffet",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Banette",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Tauros",
+                     "weight": "20"
+                  }
+               ]
+            },
+            {
+               "name": "Surf",
+               "encounters": [
+                  {
+                     "name": "Starmie",
+                     "weight": "60"
+                  },
+                  {
+                     "name": "Floatzel",
+                     "weight": "30"
+                  },
+                  {
+                     "name": "Slowbro",
+                     "weight": "10"
+                  }
+               ]
+            },
+            {
+               "name": "Old Rod",
+               "encounters": [
+                  {
+                     "name": "Crawdaunt",
+                     "weight": "60"
+                  },
+                  {
+                     "name": "Whiscash",
+                     "weight": "30"
+                  },
+                  {
+                     "name": "Slowking",
+                     "weight": "10"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Mt. Silver",
+         "methods": [
+            {
+               "name": "Grass",
+               "encounters": [
+                  {
+                     "name": "Pupitar",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Gabite",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Shelgon",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Metang",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Dragonair",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Absol",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Tyranitar",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Garchomp",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Salamence",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Metagross",
+                     "weight": "5"
+                  }
+               ]
+            },
+            {
+               "name": "Surf",
+               "encounters": [
+                  {
+                     "name": "Relicanth",
+                     "weight": "60"
+                  },
+                  {
+                     "name": "Dragonair",
+                     "weight": "30"
+                  },
+                  {
+                     "name": "Shaymin",
+                     "weight": "10"
+                  }
+               ]
+            },
+            {
+               "name": "Old Rod",
+               "encounters": [
+                  {
+                     "name": "Kingler",
+                     "weight": "60"
+                  },
+                  {
+                     "name": "Lapras",
+                     "weight": "40"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Mt. Silver Cave",
+         "methods": [
+            {
+               "name": "Grass",
+               "encounters": [
+                  {
+                     "name": "Pupitar",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Gabite",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Shelgon",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Metang",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Dragonair",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Absol",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Tyranitar",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Garchomp",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Salamence",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Metagross",
+                     "weight": "5"
+                  }
+               ]
+            },
+            {
+               "name": "Surf",
+               "encounters": [
+                  {
+                     "name": "Relicanth",
+                     "weight": "60"
+                  },
+                  {
+                     "name": "Dragonair",
+                     "weight": "30"
+                  },
+                  {
+                     "name": "Shaymin",
+                     "weight": "10"
+                  }
+               ]
+            },
+            {
+               "name": "Old Rod",
+               "encounters": [
+                  {
+                     "name": "Kingler",
+                     "weight": "60"
+                  },
+                  {
+                     "name": "Lapras",
+                     "weight": "40"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Bellchime Trail",
+         "methods": [
+            {
+               "name": "Grass",
+               "encounters": [
+                  {
+                     "name": "Blaziken",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Charizard",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Sceptile",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Eevee",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Pidgeot",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Muk",
+                     "weight": "10"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Bell Tower",
+         "methods": [
+            {
+               "name": "Floor",
+               "encounters": [
+                  {
+                     "name": "Absol",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Scyther",
+                     "weight": "20"
+                  },
+                  {
+                     "name": "Probopass",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Banette",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Gengar",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Mismagius",
+                     "weight": "10"
+                  },
+                  {
+                     "name": "Medicham",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Lapras",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Crobat",
+                     "weight": "5"
+                  },
+                  {
+                     "name": "Murkrow",
                      "weight": "5"
                   }
                ]
