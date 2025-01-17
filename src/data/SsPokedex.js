@@ -3443,7 +3443,7 @@ const SsPokedex = {
         ],
         tms: ["Hidden Power", "Protect", ""],
       },
-      abilities: ["Shed Skin", "Shed Skin"],
+      abilities: ["Shed Skin"],
     },
     Butterfree: {
       types: ["Bug", "Flying"],
@@ -3543,7 +3543,7 @@ const SsPokedex = {
         ],
         tms: ["Hidden Power", "Protect", ""],
       },
-      abilities: ["Shed Skin", "Shed Skin"],
+      abilities: ["Shed Skin"],
     },
     Beedrill: {
       types: ["Bug", "Poison"],
@@ -14233,7 +14233,7 @@ const SsPokedex = {
           "Strength",
         ],
       },
-      abilities: ["Water Absorb", "Water Absorb"],
+      abilities: ["Water Absorb"],
     },
     Hoppip: {
       types: ["Grass", "Flying"],
@@ -19220,7 +19220,7 @@ const SsPokedex = {
         learnset: [[1, "String Shot"]],
         tms: ["Hidden Power", "Protect"],
       },
-      abilities: ["Shed Skin", "Shed Skin"],
+      abilities: ["Shed Skin"],
     },
     Beautifly: {
       types: ["Bug", "Flying"],
@@ -19296,7 +19296,7 @@ const SsPokedex = {
         learnset: [[1, "String Shot"]],
         tms: ["Hidden Power", "Protect"],
       },
-      abilities: ["Shed Skin", "Shed Skin"],
+      abilities: ["Shed Skin"],
     },
     Dustox: {
       types: ["Bug", "Poison"],
@@ -23161,7 +23161,7 @@ const SsPokedex = {
           "Surf",
         ],
       },
-      abilities: ["Levitate", "Levitate"],
+      abilities: ["Levitate"],
     },
     Flygon: {
       types: ["Ground", "Dragon"],
@@ -23233,7 +23233,7 @@ const SsPokedex = {
           "Surf",
         ],
       },
-      abilities: ["Levitate", "Levitate"],
+      abilities: ["Levitate"],
     },
     Cacnea: {
       types: ["Grass", "Dark"],
@@ -25523,7 +25523,7 @@ const SsPokedex = {
           "Strength",
         ],
       },
-      abilities: ["Shell Armor", "Shell Armor"],
+      abilities: ["Shell Armor"],
     },
     Huntail: {
       types: ["Water", "Dark"],
@@ -32908,7 +32908,7 @@ const SsPokedex = {
           "Surf",
         ],
       },
-      abilities: ["Magic Guard", "Magic Guard"],
+      abilities: ["Magic Guard"],
     },
     Palkia: {
       types: ["Ghost"],
