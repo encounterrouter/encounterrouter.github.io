@@ -4,6 +4,7 @@ import EncounterPopup from './EncounterPopup'
 import './Encounter.css'
 import Utility from './Utility';
 import DataManager from './data/DataManager';
+import Trashlocke from './data/Trashlocke';
 
 function Encounter(props) {
     const { encounterFilter } = useContext(UserContext);
@@ -18,6 +19,8 @@ function Encounter(props) {
     const isCaught = props.caught.some(c => Utility.SameSpecies(c.name, name))
     const encounterRate = Math.round(props.encounter.customWeight * 100) / 100 + "%";
     const encounterId = name + props.methodName + props.location.name;
+    const { trashlocke } = useContext(UserContext);
+    const isBanned = trashlocke && Trashlocke.banlist.some((mon) => Utility.SameSpecies(mon.name, name));
 
     useEffect(() => {
         let encounterRef = encounterObject.current;
@@ -47,13 +50,13 @@ function Encounter(props) {
             <div  className="encounterInner" ref={encounterObject} style={{
                 backgroundColor: filtered ? 'green' : (props.abilityFilter ? 'orange' : 'var(--color3)'),
                 borderRadius: '10px',
-                border: isCaught ? "2px solid red" : "2px solid black",
+                border: isCaught || isBanned ? "2px solid red" : "2px solid black",
             }}>
                 <EncounterPopup id={encounterId + "Popup"} encounterHeight={height} encounterWidth={width} filtered={filtered} encounterName={name} caught={props.caught} setCaught={props.setCaught} location={props.location} openDetailView={props.openDetailView} />
                 <button className="encounterButton" >
-                    <img alt={name} src={'/sprites/' + DataManager.GetId(name) + '.png'} style={{ opacity: isCaught ? "0.25" : "1" }} />
+                    <img alt={name} src={'/sprites/' + DataManager.GetId(name) + '.png'} style={{ opacity: isCaught || isBanned ? "0.25" : "1" }} />
                     <div className="percent" style={{ display: isWeighted ? "block" : "none" }}>
-                        {isCaught ? "Dupe" : encounterRate}
+                        {isCaught ? "Dupe" : (isBanned ? "Banned" : encounterRate)}
                     </div>
                 </button>
             </div>

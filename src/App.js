@@ -29,8 +29,9 @@ function App() {
   const [copy, setCopy] = useState("Test copy");
   const [detailViewLocation, setDetailViewLocation] = useState(null);
   const [detailViewEncounter, setDetailViewEncounter] = useState(null);
-  const queryParameters = new URLSearchParams(window.location.search)
-
+  const queryParameters = new URLSearchParams(window.location.search);
+  var trashlocke = false;
+  
   function openDetailView(location, encounter) {
     setDetailViewLocation(location);
     setDetailViewEncounter(encounter);
@@ -54,6 +55,10 @@ function App() {
         break;
     }
   }
+  if (window.location.href.includes("trashlocke"))
+  {
+    trashlocke = true;
+  }
 
   return (
     <div className="App">
@@ -66,7 +71,7 @@ function App() {
       </header>
 
       <div className="App-content">
-        <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup, openNotificationPopup: openNotificationPopup }}>
+        <UserContext.Provider value={{ encounterFilter: encounterFilter, setEncounterFilter: setEncounterFilter, visiblePopup: visiblePopup, setVisiblePopup: setVisiblePopup, openNotificationPopup: openNotificationPopup, trashlocke: trashlocke}}>
           <Toolbar caught={caught} setCaught={setCaught} openDetailView={openDetailView} setIsBoxViewOpen={setIsBoxViewOpen} />
           <div className="splits">
             <div style={{ fontSize: "calc(3px + 1.5vw)" }}>Jump to</div>

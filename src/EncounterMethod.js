@@ -2,11 +2,15 @@ import Encounter from './Encounter'
 import './EncounterMethod.css'
 import Utility from './Utility';
 import DataManager from './data/DataManager';
+import Trashlocke from './data/Trashlocke';
+import { UserContext } from './App'
+import { useContext } from 'react';
 
 function EncounterMethod(props) {
     const method = props.method;
     const encounters = method.encounters;
     const isWeighted = encounters.some(e => e.hasOwnProperty("weight"));
+    const { trashlocke } = useContext(UserContext);
 
     function calcOdds(encounter, sums, hasSteel, hasElectric) {
         const normalWeight = (encounter.weight / sums.all) * 100;
@@ -41,6 +45,8 @@ function EncounterMethod(props) {
 
     if (isWeighted) {
         var filteredEncounters = encounters.filter(e => !props.caught.some(c => Utility.SameSpecies(c.name, e.name)));
+        if (trashlocke)
+            filteredEncounters = encounters.filter(e => !Trashlocke.banlist.some(c => Utility.SameSpecies(c.name, e.name)));
         const hasSteel = filteredEncounters.some(e => DataManager.GetTypes(e.name)?.includes("Steel"));
         const hasElectric = filteredEncounters.some(e => DataManager.GetTypes(e.name)?.includes("Electric"));
 
